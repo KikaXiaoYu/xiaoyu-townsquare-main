@@ -1,28 +1,28 @@
 [
   {
     "id": "tb",
-    "name": "Trouble Brewing",
+    "name": "暗流涌动",
     "author": "The Pandemonium Institute",
-    "description": "Clouds roll in over Ravenswood Bluff, engulfing this sleepy town and its superstitious inhabitants in foreboding shadow. Freshly-washed clothes dance eerily on lines strung between cottages. Chimneys cough plumes of smoke into the air. Exotic scents waft through cracks in windows and under doors, as hidden cauldrons lay bubbling. An unusually warm Autumn breeze wraps around vine-covered walls and whispers ominously to those brave enough to walk the cobbled streets.\n\nAnxious mothers call their children home from play, as thunder begins to clap on the horizon. If you listen more closely, however, noises stranger still can be heard echoing from the neighbouring forest. Under the watchful eye of a looming monastery, silhouetted figures skip from doorway to doorway. Those who can read the signs know there is... Trouble Brewing.",
-    "level": "Beginner",
+    "description": "乌云在雷文斯伍德悬崖上空翻滚，笼罩着这座沉睡的小镇和迷信的居民，笼罩在阴暗的阴影中。刚洗好的衣服在小屋之间的绳子上诡异地舞动。烟囱向空中喷出一缕缕烟雾。异国情调的气味从窗户的缝隙和门缝中飘出，隐藏的大锅在沸腾。一股异常温暖的秋风缠绕着藤蔓覆盖的墙壁，向那些勇敢地走在鹅卵石街道上的人发出不祥的低语。\n\n焦虑的母亲们把孩子们从玩耍中叫回家，这时雷声开始在地平线上响起。然而，如果你仔细听，可以听到更奇怪的声音从附近的森林中回荡。在一座隐约可见的修道院的注视下，剪影人影在门口间跳跃。那些能读懂这些迹象的人知道……麻烦正在酝酿。",
+    "level": "新手",
     "roles": [],
     "isOfficial": true
   },
   {
     "id": "bmr",
-    "name": "Bad Moon Rising",
+    "name": "血月初升",
     "author": "The Pandemonium Institute",
-    "description": "The sun is swallowed by a jagged horizon as another winter's day surrenders to the night. Flecks of orange and red decay into deeper browns, the forest transforming in silent anticipation of the coming snow.\n\nRavenous wolves howl from the bowels of a rocky crevasse beyond the town borders, sending birds scattering from their cozy rooks. Travelers hurry into the inn, seeking shelter from the gathering chill. They warm themselves with hot tea, sweet strains of music and hearty ale, unaware that strange and nefarious eyes stalk them from the ruins of this once great city.\n\nTonight, even the livestock know there is a... Bad Moon Rising.",
-    "level": "Intermediate",
+    "description": "太阳被锯齿状的地平线吞没，又一个冬日向黑夜投降。橙色和红色的斑点逐渐褪成深棕色，森林默默地变化着，等待着即将到来的雪。\n\n饥饿的狼在城镇边界外的岩石裂缝深处嚎叫，鸟儿从舒适的巢穴中四散而逃。旅行者匆忙进入旅馆，寻找躲避渐浓寒气的庇护所。他们用热茶、甜美的音乐和浓郁的啤酒取暖，却没有意识到，一双奇怪而邪恶的眼睛正从这座曾经伟大的城市的废墟中跟踪他们。\n\n今晚，就连牲畜都知道有……恶月升起。",
+    "level": "进阶",
     "roles": [],
     "isOfficial": true
   },
   {
     "id": "snv",
-    "name": "Sects & Violets",
+    "name": "紫罗兰教派",
     "author": "The Pandemonium Institute",
-    "description": "Vibrant spring gives way to a warm and inviting summer. Flowers of every description blossom as far as the eye can see, tenderly nurtured in public gardens and window boxes overlooking the lavish promenade. Birds sing, artists paint and philosophers ponder life's greatest mysteries inside a bustling tavern as a circus pitches its endearingly ragged tent on the edge of town.\n\nAs the townsfolk bask in frivolity and mischief, indulging themselves in fine entertainment and even finer wine, dark and clandestine forces are assembling. Witches and cults lurk in majestic ruins on the fringes of the community, hosting secret meetings in underground caves and malevolently plotting the downfall of Ravenswood Bluff and its revelers.\n\nThe time is ripe for... Sects & Violets.",
-    "level": "Intermediate",
+    "description": "生机勃勃的春天让位于温暖宜人的夏天。各种各样的鲜花盛开，一眼望不到边，在公共花园和俯瞰奢华长廊的窗台上，它们被精心培育着。鸟儿歌唱，艺术家作画，哲学家们在熙熙攘攘的酒馆里思考着生命中最伟大的奥秘，而马戏团在城镇边缘搭起了它那可爱的破烂帐篷。\n\n当镇民们沉浸在轻浮和恶作剧中，沉溺于精致的娱乐和更精致的葡萄酒时，黑暗和隐秘的力量正在集结。女巫和邪教潜伏在社区边缘雄伟的废墟中，在地下洞穴中举行秘密会议，恶意策划推翻 Ravenswood Bluff 及其狂欢者。\n\n现在是时候了……教派和紫罗兰。",
+    "level": "进阶",
     "roles": [],
     "isOfficial": true
   },

@@ -366,6 +366,7 @@ export default {
 /***** Player token *****/
 .circle .player {
   margin-bottom: 10px;
+  font-family: "Microsoft YaHei";
 
   &:before {
     content: " ";
@@ -382,6 +383,7 @@ export default {
     cursor: pointer;
     transform: rotateX(0deg);
     transform-origin: top center;
+    font-family: "Microsoft YaHei";
     transition: transform 200ms ease-in-out;
     z-index: 2;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.8));
@@ -506,10 +508,13 @@ export default {
   width: 100%;
   transition: transform 200ms ease-in-out;
   transform: perspective(400px) rotateY(0deg);
+  font-family: "Microsoft YaHei";
+  
   backface-visibility: hidden;
 }
 
 #townsquare.public .circle .token {
+    font-family: "Microsoft YaHei";
   transform: perspective(400px) rotateY(-180deg);
 }
 
@@ -521,6 +526,7 @@ export default {
   top: 0;
   display: flex;
   align-items: center;
+  font-family: "Microsoft YaHei";
   justify-content: center;
   &:after {
     content: " ";
@@ -652,7 +658,9 @@ li.move:not(.from) .player .overlay svg.move {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Microsoft YaHei";
   transition: opacity 250ms;
+  
   opacity: 0;
   &:before {
     content: " ";
@@ -680,6 +688,7 @@ li.move:not(.from) .player .overlay svg.move {
   left: 2px;
   margin-top: -15%;
   color: #fff;
+  font-family: "Microsoft YaHei";
   filter: drop-shadow(0 0 3px black);
   cursor: default;
   z-index: 2;
@@ -719,6 +728,7 @@ li.move:not(.from) .player .overlay svg.move {
   top: 5px;
   box-shadow: 0 0 5px black;
   padding: 0 4px;
+  font-family: "Microsoft YaHei";
 
   svg {
     top: 3px;
@@ -789,6 +799,7 @@ li.move:not(.from) .player .overlay svg.move {
   border-radius: 10px;
   border: 3px solid #000;
   margin-left: 15px;
+  font-family: "Microsoft YaHei";
   cursor: pointer;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
@@ -824,6 +835,7 @@ li.move:not(.from) .player .overlay svg.move {
 /***** Ability text *****/
 #townsquare.public .circle .ability {
   display: none;
+  font-family: "Microsoft YaHei";
 }
 .circle .player .shroud:hover ~ .token .ability,
 .circle .player .token:hover .ability {
