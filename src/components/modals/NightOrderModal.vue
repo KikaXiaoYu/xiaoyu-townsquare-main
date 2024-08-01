@@ -17,7 +17,7 @@
     </h3>
     <div class="night">
       <ul class="first">
-        <li class="headline">First Night</li>
+        <li class="headline">首夜行动</li>
         <li
           v-for="role in rolesFirstNight"
           :key="role.name"
@@ -56,7 +56,7 @@
         </li>
       </ul>
       <ul class="other">
-        <li class="headline">Other Nights</li>
+        <li class="headline">其他夜</li>
         <li
           v-for="role in rolesOtherNight"
           :key="role.name"
@@ -114,7 +114,7 @@ export default {
         rolesFirstNight.push(
           {
             id: "evil",
-            name: "Minion info",
+            name: "邪恶阵营信息",
             firstNight: 5,
             team: "minion",
             players: this.players.filter(p => p.role.team === "minion"),
@@ -124,7 +124,7 @@ export default {
           },
           {
             id: "evil",
-            name: "Demon info & bluffs",
+            name: "恶魔伪装信息",
             firstNight: 8,
             team: "demon",
             players: this.players.filter(p => p.role.team === "demon"),
