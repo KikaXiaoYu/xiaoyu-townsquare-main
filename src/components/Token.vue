@@ -164,14 +164,16 @@ export default {
     height: 100%;
     font-size: 24px; // svg fonts are relative to document font size
     .label {
-      fill: black;
-      stroke: white;
-      stroke-width: 2px;
+      stroke: rgb(255, 255, 255);
+      fill: rgb(0, 0, 0);
+      stroke-width: 4px;
       paint-order: stroke;
       font-family: "Papyrus", serif;
+      font-family: "Microsoft Yahei";
+      font-family: "Arial";
       font-weight: bold;
       text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-      letter-spacing: 1px;
+      letter-spacing: 5px;
 
       @-moz-document url-prefix() {
         &.mozilla {
