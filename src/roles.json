@@ -1,6 +1,6 @@
 [
     {
-        "id": "washerwoman",
+        "id": "洗衣妇",
         "name": "洗衣妇",
         "edition": "tb",
         "team": "townsfolk",
@@ -15,7 +15,7 @@
         "ability": "首夜，得知两名玩家中有一位村民（会得知具体角色！）。"
     },
     {
-        "id": "librarian",
+        "id": "图书管理员",
         "name": "图书管理员",
         "edition": "tb",
         "team": "townsfolk",

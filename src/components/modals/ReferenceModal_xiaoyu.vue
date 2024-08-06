@@ -1,98 +1,93 @@
 <template>
-    <div>
-      <Modal
-        class="characters"
-        @close="toggleModal('reference')"
-        v-if="modals.reference && roles.size"
+    <Modal
+      class="characters"
+      @close="toggleModal('reference')"
+      v-if="modals.reference && roles.size"
+    >
+      <font-awesome-icon
+        @click="toggleModal('nightOrder')"
+        icon="cloud-moon"
+        class="toggle"
+        title="显示夜间顺序"
+      />
+      <h3>
+        板子角色信息
+        <font-awesome-icon icon="address-card" />
+        {{ edition.name || "Custom Script" }}
+      </h3>
+      <div
+        v-for="(teamRoles, team) in rolesGrouped"
+        :key="team"
+        :class="['team', team]"
       >
-        <font-awesome-icon
-          @click="toggleModal('nightOrder')"
-          icon="cloud-moon"
-          class="toggle"
-          title="显示夜间顺序"
-        />
-        <h3>
-          板子角色信息
-          <font-awesome-icon icon="address-card" />
-          {{ edition.name || "Custom Script" }}
-        </h3>
-        <div
-          ref="contentToCapture"
-          v-for="(teamRoles, team) in rolesGrouped"
-          :key="team"
-          :class="['team', team]"
-        >
-          <aside>
-            <h4>{{ team }}</h4>
-          </aside>
-          <ul>
-            <li v-for="role in teamRoles" :class="[team]" :key="role.id">
-              <span
-                class="icon"
-                v-if="role.id"
-                :style="{
-                  backgroundImage: `url(${
-                    role.image && grimoire.isImageOptIn
-                      ? role.image
-                      : require('../../assets/icons/' +
-                          (role.imageAlt || role.id) +
-                          '.png')
-                  })`
-                }"
-              ></span>
-              <div class="role">
-                <span class="player" v-if="Object.keys(playersByRole).length">{{
-                  playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
-                }}</span>
-                <span class="name">{{ role.name }}</span>
-                <span class="ability">{{ role.ability }}</span>
-              </div>
-            </li>
-            <li :class="[team]"></li>
-            <li :class="[team]"></li>
-          </ul>
-        </div>
-    
-        <div class="team jinxed" v-if="jinxed.length">
-          <aside>
-            <h4>Jinxed</h4>
-          </aside>
-          <ul>
-            <li v-for="(jinx, index) in jinxed" :key="index">
-              <span
-                class="icon"
-                :style="{
-                  backgroundImage: `url(${require('../../assets/icons/' +
-                    jinx.first.id +
-                    '.png')})`
-                }"
-              ></span>
-              <span
-                class="icon"
-                :style="{
-                  backgroundImage: `url(${require('../../assets/icons/' +
-                    jinx.second.id +
-                    '.png')})`
-                }"
-              ></span>
-              <div class="role">
-                <span class="name"
-                  >{{ jinx.first.name }} & {{ jinx.second.name }}</span
-                >
-                <span class="ability">{{ jinx.reason }}</span>
-              </div>
-            </li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </Modal>
-      <button @click="captureContent">Capture as Image</button>
-    </div>
+        <aside>
+          <h4>{{ team }}</h4>
+        </aside>
+        <ul>
+          <li v-for="role in teamRoles" :class="[team]" :key="role.id">
+            <span
+              class="icon"
+              v-if="role.id"
+              :style="{
+                backgroundImage: `url(${
+                  role.image && grimoire.isImageOptIn
+                    ? role.image
+                    : require('../../assets/icons/' +
+                        (role.imageAlt || role.id) +
+                        '.png')
+                })`
+              }"
+            ></span>
+            <div class="role">
+              <span class="player" v-if="Object.keys(playersByRole).length">{{
+                playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
+              }}</span>
+              <span class="name">{{ role.name }}</span>
+              <span class="ability">{{ role.ability }}</span>
+            </div>
+          </li>
+          <li :class="[team]"></li>
+          <li :class="[team]"></li>
+        </ul>
+      </div>
+  
+      <div class="team jinxed" v-if="jinxed.length">
+        <aside>
+          <h4>Jinxed</h4>
+        </aside>
+        <ul>
+          <li v-for="(jinx, index) in jinxed" :key="index">
+            <span
+              class="icon"
+              :style="{
+                backgroundImage: `url(${require('../../assets/icons/' +
+                  jinx.first.id +
+                  '.png')})`
+              }"
+            ></span>
+            <span
+              class="icon"
+              :style="{
+                backgroundImage: `url(${require('../../assets/icons/' +
+                  jinx.second.id +
+                  '.png')})`
+              }"
+            ></span>
+            <div class="role">
+              <span class="name"
+                >{{ jinx.first.name }} & {{ jinx.second.name }}</span
+              >
+              <span class="ability">{{ jinx.reason }}</span>
+            </div>
+          </li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </Modal>
   </template>
   
   <script>
-  import html2canvas from 'html2canvas';
   import Modal from "./Modal";
   import { mapMutations, mapState } from "vuex";
   
@@ -101,6 +96,10 @@
       Modal
     },
     computed: {
+      /**
+       * Return a list of jinxes in the form of role IDs and a reason
+       * @returns {*[]} [{first, second, reason}]
+       */
       jinxed: function() {
         const jinxed = [];
         this.roles.forEach(role => {
@@ -145,21 +144,9 @@
       ...mapState("players", ["players"])
     },
     methods: {
-      ...mapMutations(["toggleModal"]),
-      captureContent() {
-        const element = this.$refs.contentToCapture;
-        html2canvas(element).then((canvas) => {
-          const imgData = canvas.toDataURL('image/png');
-          const link = document.createElement('a');
-          link.href = imgData;
-          link.download = 'captured-image.png';
-          link.click();
-        }).catch(error => {
-          console.error('Error capturing the content:', error);
-        });
-      }
+      ...mapMutations(["toggleModal"])
     }
-  }
+  };
   </script>
   
   <style lang="scss" scoped>
@@ -169,6 +156,7 @@
     color: black; // 设置全局文字颜色为黑色
   }
   
+
   .toggle {
     position: absolute;
     left: 20px;
@@ -313,14 +301,14 @@
     .name {
       color: black; // 设置 jinxed 名字文字颜色为黑色
     }
-  
+
   }
   
   /** break into 1 column below 1200px **/
   @media screen and (max-width: 1199.98px) {
     .modal {
       max-width: 40%;
-  
+
     }
     ul {
       li {
