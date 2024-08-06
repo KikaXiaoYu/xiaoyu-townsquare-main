@@ -5,91 +5,93 @@
         @close="toggleModal('reference')"
         v-if="modals.reference && roles.size"
       >
-        <font-awesome-icon
-          @click="toggleModal('nightOrder')"
-          icon="cloud-moon"
-          class="toggle"
-          title="显示夜间顺序"
-        />
-        <div class="title-container">
-          <h3>
-            板子角色信息
-            <font-awesome-icon icon="address-card" />
-            {{ edition.name || "Custom Script" }}
-          </h3>
-          <button class="capture-button" @click="captureContent">Capture as Image</button>
-        </div>
-        <div ref="contentToCapture"> <!-- 父级容器 -->
-          <div
-            v-for="(teamRoles, team) in rolesGrouped"
-            :key="team"
-            :class="['team', team]"
-          >
-            <aside>
-              <h4>{{ team }}</h4>
-            </aside>
-            <ul>
-              <li v-for="role in teamRoles" :class="[team]" :key="role.id">
-                <span
-                  class="icon"
-                  v-if="role.id"
-                  :style="{
-                    backgroundImage: `url(${
-                      role.image && grimoire.isImageOptIn
-                        ? role.image
-                        : require('../../assets/icons/' +
-                            (role.imageAlt || role.id) +
-                            '.png')
-                    })`
-                  }"
-                ></span>
-                <div class="role">
-                  <span class="player" v-if="Object.keys(playersByRole).length">{{
-                    playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
-                  }}</span>
-                  <span class="name">{{ role.name }}</span>
-                  <span class="ability">{{ role.ability }}</span>
-                </div>
-              </li>
-              <li :class="[team]"></li>
-              <li :class="[team]"></li>
-            </ul>
+        <div ref="contentToCapture" class="modal-content"> <!-- 父级容器 -->
+          <font-awesome-icon
+            @click="toggleModal('nightOrder')"
+            icon="cloud-moon"
+            class="toggle"
+            title="显示夜间顺序"
+          />
+          <div class="title-container">
+            <h3>
+              板子角色信息
+              <font-awesome-icon icon="address-card" />
+              {{ edition.name || "Custom Script" }}
+            </h3>
+            <button class="capture-button" @click="captureContent">Capture as Image</button>
           </div>
+          <div>
+            <div
+              v-for="(teamRoles, team) in rolesGrouped"
+              :key="team"
+              :class="['team', team]"
+            >
+              <aside>
+                <h4>{{ team }}</h4>
+              </aside>
+              <ul>
+                <li v-for="role in teamRoles" :class="[team]" :key="role.id">
+                  <span
+                    class="icon"
+                    v-if="role.id"
+                    :style="{
+                      backgroundImage: `url(${
+                        role.image && grimoire.isImageOptIn
+                          ? role.image
+                          : require('../../assets/icons/' +
+                              (role.imageAlt || role.id) +
+                              '.png')
+                      })`
+                    }"
+                  ></span>
+                  <div class="role">
+                    <span class="player" v-if="Object.keys(playersByRole).length">{{
+                      playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
+                    }}</span>
+                    <span class="name">{{ role.name }}</span>
+                    <span class="ability">{{ role.ability }}</span>
+                  </div>
+                </li>
+                <li :class="[team]"></li>
+                <li :class="[team]"></li>
+              </ul>
+            </div>
   
-          <div class="team jinxed" v-if="jinxed.length">
-            <aside>
-              <h4>Jinxed</h4>
-            </aside>
-            <ul>
-              <li v-for="(jinx, index) in jinxed" :key="index">
-                <span
-                  class="icon"
-                  :style="{
-                    backgroundImage: `url(${require('../../assets/icons/' +
-                      jinx.first.id +
-                      '.png')})}`
-                  }"
-                ></span>
-                <span
-                  class="icon"
-                  :style="{
-                    backgroundImage: `url(${require('../../assets/icons/' +
-                      jinx.second.id +
-                      '.png')})}`
-                  }"
-                ></span>
-                <div class="role">
-                  <span class="name"
-                    >{{ jinx.first.name }} & {{ jinx.second.name }}</span
-                  >
-                  <span class="ability">{{ jinx.reason }}</span>
-                </div>
-              </li>
-              <li></li>
-              <li></li>
-            </ul>
-          </div>
-        </div> <!-- 父级容器结束 -->
+            <div class="team jinxed" v-if="jinxed.length">
+              <aside>
+                <h4>Jinxed</h4>
+              </aside>
+              <ul>
+                <li v-for="(jinx, index) in jinxed" :key="index">
+                  <span
+                    class="icon"
+                    :style="{
+                      backgroundImage: `url(${require('../../assets/icons/' +
+                        (jinx.first.imageAlt || jinx.first.id) +
+                        '.png')})`
+                    }"
+                  ></span>
+                  <span
+                    class="icon"
+                    :style="{
+                      backgroundImage: `url(${require('../../assets/icons/' +
+                        (jinx.second.imageAlt || jinx.second.id) +
+                        '.png')})`
+                    }"
+                  ></span>
+                  <div class="role">
+                    <span class="name"
+                      >{{ jinx.first.name }} & {{ jinx.second.name }}</span
+                    >
+                    <span class="ability">{{ jinx.reason }}</span>
+                  </div>
+                </li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div> <!-- 父级容器结束 -->
+        </div>
       </Modal>
     </div>
   </template>
@@ -181,12 +183,15 @@
   
           console.log('Element found, capturing...');
   
-          html2canvas(element).then(canvas => {
+          html2canvas(element, {
+            scale: 2, // 将 scale 设置为 2，以提高分辨率
+            useCORS: true // 如果有跨域图片，确保它们被正确处理
+          }).then(canvas => {
             console.log('Capture successful');
             const imgData = canvas.toDataURL('image/png');
             const link = document.createElement('a');
             link.href = imgData;
-            link.download = 'captured-image.png';
+            link.download = `${this.edition.name}_角色信息.png`;
             link.click();
           }).catch(error => {
             console.error('Error capturing the content:', error);
@@ -228,9 +233,15 @@
     font-size: 14px;
   }
   
+  .modal-content {
+    background-color: black; /* 设置背景颜色为黑色 */
+    padding: 20px; /* 添加一些内边距 */
+  }
+  
   h3 {
     margin: 0;
     display: inline-block; /* 使标题在 flex 容器内居中 */
+    color: white; /* 确保标题文字颜色为白色 */
     svg {
       vertical-align: middle;
     }
