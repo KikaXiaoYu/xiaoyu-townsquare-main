@@ -11,96 +11,103 @@
           class="toggle"
           title="显示夜间顺序"
         />
-        <h3>
-          板子角色信息
-          <font-awesome-icon icon="address-card" />
-          {{ edition.name || "Custom Script" }}
-        </h3>
-        <div
-          ref="contentToCapture"
-          v-for="(teamRoles, team) in rolesGrouped"
-          :key="team"
-          :class="['team', team]"
-        >
-          <aside>
-            <h4>{{ team }}</h4>
-          </aside>
-          <ul>
-            <li v-for="role in teamRoles" :class="[team]" :key="role.id">
-              <span
-                class="icon"
-                v-if="role.id"
-                :style="{
-                  backgroundImage: `url(${
-                    role.image && grimoire.isImageOptIn
-                      ? role.image
-                      : require('../../assets/icons/' +
-                          (role.imageAlt || role.id) +
-                          '.png')
-                  })`
-                }"
-              ></span>
-              <div class="role">
-                <span class="player" v-if="Object.keys(playersByRole).length">{{
-                  playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
-                }}</span>
-                <span class="name">{{ role.name }}</span>
-                <span class="ability">{{ role.ability }}</span>
-              </div>
-            </li>
-            <li :class="[team]"></li>
-            <li :class="[team]"></li>
-          </ul>
+        <div class="title-container">
+          <h3>
+            板子角色信息
+            <font-awesome-icon icon="address-card" />
+            {{ edition.name || "Custom Script" }}
+          </h3>
+          <button class="capture-button" @click="captureContent">Capture as Image</button>
         </div>
-    
-        <div class="team jinxed" v-if="jinxed.length">
-          <aside>
-            <h4>Jinxed</h4>
-          </aside>
-          <ul>
-            <li v-for="(jinx, index) in jinxed" :key="index">
-              <span
-                class="icon"
-                :style="{
-                  backgroundImage: `url(${require('../../assets/icons/' +
-                    jinx.first.id +
-                    '.png')})`
-                }"
-              ></span>
-              <span
-                class="icon"
-                :style="{
-                  backgroundImage: `url(${require('../../assets/icons/' +
-                    jinx.second.id +
-                    '.png')})`
-                }"
-              ></span>
-              <div class="role">
-                <span class="name"
-                  >{{ jinx.first.name }} & {{ jinx.second.name }}</span
-                >
-                <span class="ability">{{ jinx.reason }}</span>
-              </div>
-            </li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
+        <div ref="contentToCapture"> <!-- 父级容器 -->
+          <div
+            v-for="(teamRoles, team) in rolesGrouped"
+            :key="team"
+            :class="['team', team]"
+          >
+            <aside>
+              <h4>{{ team }}</h4>
+            </aside>
+            <ul>
+              <li v-for="role in teamRoles" :class="[team]" :key="role.id">
+                <span
+                  class="icon"
+                  v-if="role.id"
+                  :style="{
+                    backgroundImage: `url(${
+                      role.image && grimoire.isImageOptIn
+                        ? role.image
+                        : require('../../assets/icons/' +
+                            (role.imageAlt || role.id) +
+                            '.png')
+                    })`
+                  }"
+                ></span>
+                <div class="role">
+                  <span class="player" v-if="Object.keys(playersByRole).length">{{
+                    playersByRole[role.id] ? playersByRole[role.id].join(", ") : ""
+                  }}</span>
+                  <span class="name">{{ role.name }}</span>
+                  <span class="ability">{{ role.ability }}</span>
+                </div>
+              </li>
+              <li :class="[team]"></li>
+              <li :class="[team]"></li>
+            </ul>
+          </div>
+  
+          <div class="team jinxed" v-if="jinxed.length">
+            <aside>
+              <h4>Jinxed</h4>
+            </aside>
+            <ul>
+              <li v-for="(jinx, index) in jinxed" :key="index">
+                <span
+                  class="icon"
+                  :style="{
+                    backgroundImage: `url(${require('../../assets/icons/' +
+                      jinx.first.id +
+                      '.png')})}`
+                  }"
+                ></span>
+                <span
+                  class="icon"
+                  :style="{
+                    backgroundImage: `url(${require('../../assets/icons/' +
+                      jinx.second.id +
+                      '.png')})}`
+                  }"
+                ></span>
+                <div class="role">
+                  <span class="name"
+                    >{{ jinx.first.name }} & {{ jinx.second.name }}</span
+                  >
+                  <span class="ability">{{ jinx.reason }}</span>
+                </div>
+              </li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div> <!-- 父级容器结束 -->
       </Modal>
-      <button @click="captureContent">Capture as Image</button>
     </div>
   </template>
   
   <script>
   import html2canvas from 'html2canvas';
-  import Modal from "./Modal";
   import { mapMutations, mapState } from "vuex";
+  import Modal from "./Modal";
   
   export default {
     components: {
       Modal
     },
     computed: {
+      /**
+       * Return a list of jinxes in the form of role IDs and a reason
+       * @returns {*[]} [{first, second, reason}]
+       */
       jinxed: function() {
         const jinxed = [];
         this.roles.forEach(role => {
@@ -147,19 +154,47 @@
     methods: {
       ...mapMutations(["toggleModal"]),
       captureContent() {
-        const element = this.$refs.contentToCapture;
-        html2canvas(element).then((canvas) => {
-          const imgData = canvas.toDataURL('image/png');
-          const link = document.createElement('a');
-          link.href = imgData;
-          link.download = 'captured-image.png';
-          link.click();
-        }).catch(error => {
-          console.error('Error capturing the content:', error);
-        });
+        console.log('Capture button clicked');
+  
+        // 增加延迟，确保元素完全渲染
+        setTimeout(() => {
+          const element = this.$refs.contentToCapture; // 捕获父级容器
+          console.log('Element:', element);
+  
+          if (!element) {
+            console.error('Element to capture not found');
+            return;
+          }
+  
+          if (!(element instanceof HTMLElement)) {
+            console.error('Element to capture is not a valid DOM element');
+            console.log('Element type:', typeof element);
+            console.log('Element:', element);
+            return;
+          }
+  
+          // 检查元素是否在文档中
+          if (!document.body.contains(element)) {
+            console.error('Element not attached to document');
+            return;
+          }
+  
+          console.log('Element found, capturing...');
+  
+          html2canvas(element).then(canvas => {
+            console.log('Capture successful');
+            const imgData = canvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = imgData;
+            link.download = 'captured-image.png';
+            link.click();
+          }).catch(error => {
+            console.error('Error capturing the content:', error);
+          });
+        }, 500); // 延迟 0.5 秒（根据需要调整）
       }
     }
-  }
+  };
   </script>
   
   <style lang="scss" scoped>
@@ -173,15 +208,29 @@
     position: absolute;
     left: 20px;
     top: 15px;
-    color:white;
+    color: white;
     cursor: pointer;
     &:hover {
       color: red;
     }
   }
   
+  .title-container {
+    display: flex;
+    justify-content: center; /* 确保标题容器居中 */
+    align-items: center; /* 确保按钮与标题在垂直方向上对齐 */
+    margin-bottom: 10px; /* 调整标题与内容区之间的间距 */
+  }
+  
+  .capture-button {
+    margin-left: 10px; /* 调整按钮与标题之间的间距 */
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
   h3 {
-    margin: 0 40px;
+    margin: 0;
+    display: inline-block; /* 使标题在 flex 容器内居中 */
     svg {
       vertical-align: middle;
     }
@@ -313,14 +362,12 @@
     .name {
       color: black; // 设置 jinxed 名字文字颜色为黑色
     }
-  
   }
   
   /** break into 1 column below 1200px **/
   @media screen and (max-width: 1199.98px) {
     .modal {
       max-width: 40%;
-  
     }
     ul {
       li {
