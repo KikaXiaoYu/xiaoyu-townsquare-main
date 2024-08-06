@@ -37,11 +37,11 @@
   },
   {
     "id": "luf",
-    "name": "虚妄自由(正在路上)",
+    "name": "虚妄自由",
     "author": "The Pandemonium Institute",
     "description": "",
     "level": "融合",
-    "roles": ["investigator","chef","grandmother","balloonist", "dreamer","fortuneteller", "snakecharmer", "gambler", "savant", "philosopher", "ravenkeeper", "amnesiac", "cannibal","drunk","recluse","sweetheart", "mutant", "lunatic", "godfather","cerenovus", "pithag", "widow","imp","vigormortis","fanggu"],
+    "roles": ["savant","artist", "balloonist", "amnesiac", "fisherman", "cannibal", "lunatic", "mutant","widow","goblin", "leviathan"],
     "isOfficial": true
   },
   {
@@ -51,6 +51,15 @@
     "description": "",
     "level": "融合",
     "roles": ["甄嬛","槿汐姑姑","果郡王","温太医", "祺贵人","玉娆", "浣碧", "敬妃", "三阿哥", "年羹尧", "纯元皇后", "太后", "叶澜依","","齐妃","敦亲王", "胧月", "孙答应", "狂徒","苏培盛", "安陵容", "华妃","皇后","皇上","回魂太上皇"],
+    "isOfficial": true
+  },
+  {
+    "id": "ybkh",
+    "name": "夜半狂欢",
+    "author": "The Pandemonium Institute",
+    "description": "",
+    "level": "融合",
+    "roles": ["noble", "snakecharmer","balloonist", "huntsman","engineer","fisherman","professor","savant","amnesiac","farmer","poppygrower","atheist","cannibal","drunk","barber", "damsel","golem","poisoner","psychopath","mephit", "pithag","alhadikhia","vigormortis"],
     "isOfficial": true
   }
 ]

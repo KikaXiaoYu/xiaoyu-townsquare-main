@@ -11,7 +11,7 @@
         title="显示夜间顺序"
       />
       <h3>
-        Character Reference
+        板子角色信息
         <font-awesome-icon icon="address-card" />
         {{ edition.name || "Custom Script" }}
       </h3>
