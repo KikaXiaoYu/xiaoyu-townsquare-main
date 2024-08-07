@@ -1,99 +1,99 @@
 [
   {
-    "id": "Chambermaid",
+    "id": "侍女",
     "hatred": [
       {
-        "id": "Mathematician",
+        "id": "数学家",
         "reason": "The Chambermaid learns if the Mathematician wakes tonight or not, even though the Chambermaid wakes first."
       }
     ]
   },
   {
-    "id": "Butler",
+    "id": "管家",
     "hatred": [
       {
-        "id": "Cannibal",
+        "id": "食人族",
         "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this."
       }
     ]
   },
   {
-    "id": "Lunatic",
+    "id": "疯子",
     "hatred": [
       {
-        "id": "Mathematician",
+        "id": "数学家",
         "reason": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Demon attacked."
       }
     ]
   },
   {
-    "id": "Pit-Hag",
+    "id": "pit hag",
     "hatred": [
       {
         "id": "Heretic",
         "reason": "A Pit-Hag can not create a Heretic. "
       },
       {
-        "id": "Damsel",
+        "id": "sologirl",
         "reason": "如果熬药巫婆创造了一个落难少女，说书人来决定哪位玩家成为了落难少女。"
       },
       {
-        "id": "Politician",
+        "id": "政客",
         "reason": "A Pit-hag can not create an evil Politician."
       }
     ]
   },
   {
-    "id": "Cerenovus",
+    "id": "洗脑师",
     "hatred": [
       {
-        "id": "Goblin",
+        "id": "哥布林",
         "reason": "The Cerenovus may choose to make a player mad that they are the Goblin."
       }
     ]
   },
   {
-    "id": "Leviathan",
+    "id": "利维坦",
     "hatred": [
       {
-        "id": "Soldier",
+        "id": "士兵",
         "reason": "If Leviathan nominates and executes the Soldier, the Soldier does not die."
       },
       {
-        "id": "Monk",
+        "id": "僧侣",
         "reason": "If Leviathan nominates and executes the player the Monk chose, that player does not die."
       },
       {
-        "id": "Innkeeper",
+        "id": "旅店老板",
         "reason": "If Leviathan nominates and executes a player the Innkeeper chose, that player does not die."
       },
       {
-        "id": "Ravenkeeper",
+        "id": "养鸦人",
         "reason": "If Leviathan is in play & the Ravenkeeper dies by execution, they wake that night to use their ability."
       },
       {
-        "id": "Sage",
+        "id": "贤者",
         "reason": "If Leviathan is in play & the Sage dies by execution, they wake that night to use their ability."
       },
       {
-        "id": "Farmer",
+        "id": "农夫",
         "reason": "If Leviathan is in play & a Farmer dies by execution, a good player becomes a Farmer that night."
       },
       {
-        "id": "Mayor",
+        "id": "市长",
         "reason": "If Leviathan is in play & no execution occurs on day 5, good wins."
       }
     ]
   },
   {
-    "id": "Al-Hadikhia",
+    "id": "哈迪寂亚",
     "hatred": [
       {
         "id": "Scarlet Woman",
         "reason": "If there are two living Al-Hadikhias, the Scarlet Woman Al-Hadikhia becomes the Scarlet Woman again."
       },
       {
-        "id": "Mastermind",
+        "id": "幕后主使",
         "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player and character it is."
       }
     ]
@@ -106,7 +106,7 @@
         "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken one by one, until one of them chooses to take the Lil' Monsta token."
       },
       {
-        "id": "Magician",
+        "id": "魔术师",
         "reason": "Only 1 jinxed character can be in play. "
       },
       {
@@ -116,10 +116,10 @@
     ]
   },
   {
-    "id": "Lycanthrope",
+    "id": "半兽人",
     "hatred": [
       {
-        "id": "Gambler",
+        "id": "赌徒",
         "reason": "If the Lycanthrope is alive and the Gambler kills themself at night, no other players can die tonight."
       }
     ]
@@ -128,7 +128,7 @@
     "id": "Legion",
     "hatred": [
       {
-        "id": "Engineer",
+        "id": "工程师",
         "reason": "Legion and the Engineer can not both be in play at the start of the game. If the Engineer creates Legion, most players (including all evil players) become evil Legion."
       },
       {
@@ -147,10 +147,10 @@
     ]
   },
   {
-    "id": "Spy",
+    "id": "间谍",
     "hatred": [
       {
-        "id": "Magician",
+        "id": "魔术师",
         "reason": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed."
       },
       {
@@ -162,7 +162,7 @@
         "reason": "If the Poppy Grower is in play, the Spy does not see the Grimoire until the Poppy Grower dies."
       },
       {
-        "id": "Damsel",
+        "id": "sologirl",
         "reason": "Only 1 jinxed character can be in play. "
       },
       {
@@ -172,10 +172,10 @@
     ]
   },
   {
-    "id": "Widow",
+    "id": "寡妇",
     "hatred": [
       {
-        "id": "Magician",
+        "id": "魔术师",
         "reason": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed."
       },
       {
@@ -187,7 +187,7 @@
         "reason": "The Alchemist can not have the Widow ability."
       },
       {
-        "id": "Damsel",
+        "id": "sologirl",
         "reason": "Only 1 jinxed character can be in play."
       },
       {
@@ -197,7 +197,7 @@
     ]
   },
   {
-    "id": "Godfather",
+    "id": "教父",
     "hatred": [
       {
         "id": "Heretic",
@@ -206,7 +206,7 @@
     ]
   },
   {
-    "id": "Baron",
+    "id": "男爵",
     "hatred": [
       {
         "id": "Heretic",
@@ -230,15 +230,15 @@
         "reason": "The Marionette does not learn 3 not in-play characters. The Demon learns an extra 3 instead."
       },
       {
-        "id": "Balloonist",
+        "id": "气球驾驶员",
         "reason": "If the Marionette thinks that they are the Balloonist, +1 Outsider was added."
       },
       {
-        "id": "Damsel",
+        "id": "sologirl",
         "reason": "The Marionette does not learn that a Damsel is in play."
       },
       {
-        "id": "Huntsman",
+        "id": "巡山人",
         "reason": "If the Marionette thinks that they are the Huntsman, the Damsel was added."
       }
     ]
@@ -247,11 +247,11 @@
     "id": "Riot",
     "hatred": [
       {
-        "id": "Engineer",
+        "id": "工程师",
         "reason": "Riot and the Engineer can not both be in play at the start of the game. \nIf the Engineer creates Riot, the evil players become Riot."
       },
       {
-        "id": "Golem",
+        "id": "魔像",
         "reason": "If The Golem nominates Riot, the Riot player does not die."
       },
       {
@@ -259,11 +259,11 @@
         "reason": "If the Snitch is in play, each Riot player gets an extra 3 bluffs."
       },
       {
-        "id": "Saint",
+        "id": "圣徒",
         "reason": "If a good player nominates and kills the Saint, the Saint's team loses."
       },
       {
-        "id": "Butler",
+        "id": "管家",
         "reason": "The Butler can not nominate their master."
       },
       {
@@ -271,35 +271,35 @@
         "reason": "If the Pit-Hag creates Riot, all evil players become Riot. \nIf the Pit-Hag creates Riot after day 3, the game continues for one more day."
       },
       {
-        "id": "Mayor",
+        "id": "市长",
         "reason": "If the 3rd day begins with just three players alive, the players may choose (as a group) not to nominate at all. If so (and a Mayor is alive) then the Mayor's team wins."
       },
       {
-        "id": "Monk",
+        "id": "僧侣",
         "reason": "If a Riot player nominates and kills the Monk-protected-player, the Monk-protected-player does not die."
       },
       {
-        "id": "Farmer",
+        "id": "农夫",
         "reason": "If a Riot player nominates and kills a Farmer, the Farmer uses their ability tonight."
       },
       {
-        "id": "Innkeeper",
+        "id": "旅店老板",
         "reason": "If a Riot player nominates an Innkeeper-protected-player, the Innkeeper-protected-player does not die."
       },
       {
-        "id": "Sage",
+        "id": "贤者",
         "reason": "If a Riot player nominates and kills a Sage, the Sage uses their ability tonight."
       },
       {
-        "id": "Ravenkeeper",
+        "id": "养鸦人",
         "reason": "If a Riot player nominates and kills the Ravenkeeper, the Ravenkeeper uses their ability tonight."
       },
       {
-        "id": "Soldier",
+        "id": "士兵",
         "reason": "If a Riot player nominates the Soldier, the Soldier does not die."
       },
       {
-        "id": "Grandmother",
+        "id": "祖母",
         "reason": "If a Riot player nominates and kills the Grandchild, the Grandmother dies too."
       },
       {
@@ -307,27 +307,27 @@
         "reason": "If a Riot player nominates and kills the King and the Choirboy is alive, the Choirboy uses their ability tonight."
       },
       {
-        "id": "Exorcist",
+        "id": "驱魔师",
         "reason": "Only 1 jinxed character can be in play."
       },
       {
-        "id": "Minstrel",
+        "id": "吟游诗人",
         "reason": "Only 1 jinxed character can be in play."
       },
       {
-        "id": "Flowergirl",
+        "id": "卖花女",
         "reason": "Only 1 jinxed character can be in play."
       },
       {
-        "id": "Undertaker",
+        "id": "送葬者",
         "reason": "Players that die by nomination register as being executed to the Undertaker."
       },
       {
-        "id": "Cannibal",
+        "id": "食人族",
         "reason": "Players that die by nomination register as being executed to the Cannibal."
       },
       {
-        "id": "Pacifist",
+        "id": "和平鸽",
         "reason": "Players that die by nomination register as being executed to the Pacifist."
       },
       {
@@ -335,11 +335,11 @@
         "reason": "Players that die by nomination register as being executed to the Devil's Advocate."
       },
       {
-        "id": "Investigator",
+        "id": "调查者",
         "reason": "Riot registers as a Minion to the Investigator."
       },
       {
-        "id": "Clockmaker",
+        "id": "钟表匠",
         "reason": "Riot registers as a Minion to the Clockmaker."
       },
       {
@@ -347,7 +347,7 @@
         "reason": "Riot registers as a Minion to the Town Crier."
       },
       {
-        "id": "Damsel",
+        "id": "sologirl",
         "reason": "Riot registers as a Minion to the Damsel."
       },
       {
@@ -360,11 +360,11 @@
     "id": "Lleech",
     "hatred": [
       {
-        "id": "Mastermind",
+        "id": "幕后主使",
         "reason": "If the Mastermind is alive and the Lleech's host dies by execution, the Lleech lives but loses their ability. "
       },
       {
-        "id": "Slayer",
+        "id": "杀手",
         "reason": "If the Slayer slays the Lleech's host, the host dies. "
       },
       {

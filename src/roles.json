@@ -30,7 +30,7 @@
         "ability": "首夜，得知两名玩家中有一位外来者（会得知具体角色！），或者本局无外来者。"
     },
     {
-        "id": "investigator",
+        "id": "调查者",
         "name": "调查者",
         "edition": "tb",
         "team": "townsfolk",
@@ -45,7 +45,7 @@
         "ability": "首夜，得知两名玩家中有一位爪牙（会得知具体角色！）。"
     },
     {
-        "id": "chef",
+        "id": "厨师",
         "name": "厨师",
         "edition": "tb",
         "team": "townsfolk",
@@ -58,7 +58,7 @@
         "ability": "首夜，得知有多少对邪恶玩家为邻座。"
     },
     {
-        "id": "empath",
+        "id": "共情者",
         "name": "共情者",
         "edition": "tb",
         "team": "townsfolk",
@@ -71,7 +71,7 @@
         "ability": "每个夜晚，得知与你邻座的存活玩家有几个是邪恶的。"
     },
     {
-        "id": "fortuneteller",
+        "id": "占星师",
         "name": "占星师",
         "edition": "tb",
         "team": "townsfolk",
@@ -86,7 +86,7 @@
         "ability": "每个夜晚，选择两名玩家：得知其中是否有恶魔（只会告知有或者无）。有一位非恶魔玩家也会在游戏开始被注册为会被你视为恶魔的状态。"
     },
     {
-        "id": "undertaker",
+        "id": "送葬者",
         "name": "送葬者",
         "edition": "tb",
         "team": "townsfolk",
@@ -101,7 +101,7 @@
         "ability": "每个夜晚，得知今天因处决而死去的玩家的具体角色（会告知具体角色！）。"
     },
     {
-        "id": "monk",
+        "id": "僧侣",
         "name": "僧侣",
         "edition": "tb",
         "team": "townsfolk",
@@ -116,7 +116,7 @@
         "ability": "每个夜晚，选择一名玩家（除了自己）：恶魔的能力在今晚不会对那名玩家生效。"
     },
     {
-        "id": "ravenkeeper",
+        "id": "养鸦人",
         "name": "养鸦人",
         "edition": "tb",
         "team": "townsfolk",
@@ -129,7 +129,7 @@
         "ability": "如果你在夜晚死去，你会被唤醒并选择一名玩家：你会得知那名玩家的具体角色。"
     },
     {
-        "id": "virgin",
+        "id": "处女",
         "name": "处女",
         "edition": "tb",
         "team": "townsfolk",
@@ -142,7 +142,7 @@
         "ability": "当你第一次被提名时，如果提名者属于村民，那么那名玩家立刻被处决。"
     },
     {
-        "id": "slayer",
+        "id": "杀手",
         "name": "杀手",
         "edition": "tb",
         "team": "townsfolk",
@@ -155,7 +155,7 @@
         "ability": "每局游戏限一次。在白天时，你可以公开选择一名玩家：如果那名玩家是恶魔，那么该玩家会死去。【所有人都可以公开选择玩家，说书人会予以配合】"
     },
     {
-        "id": "soldier",
+        "id": "士兵",
         "name": "士兵",
         "edition": "tb",
         "team": "townsfolk",
@@ -168,7 +168,7 @@
         "ability": "恶魔的能力对你无效。【中毒则技能失效】"
     },
     {
-        "id": "mayor",
+        "id": "市长",
         "name": "市长",
         "edition": "tb",
         "team": "townsfolk",
@@ -181,7 +181,7 @@
         "ability": "如果在白天只有三名玩家存活且没有执行处决，你的阵营获胜。如果你在夜晚死去，另一位玩家可能会代替你死去。【市长的所有技能免疫中毒】"
     },
     {
-        "id": "butler",
+        "id": "管家",
         "name": "管家",
         "edition": "tb",
         "team": "outsider",
@@ -196,7 +196,7 @@
         "ability": "每个夜晚，选择一名玩家（除了自己）作为自己的主人：明天你只能在那名玩家参与投票的处决中投票。【如果违规操作，说书人会指定一些惩罚】"
     },
     {
-        "id": "drunk",
+        "id": "酒鬼",
         "name": "酒鬼",
         "edition": "tb",
         "team": "outsider",
@@ -212,7 +212,7 @@
         "ability": "你喝醉了。你以为你是个村民角色，其实你不是。【说书人会告知你一个村民角色，并且会配合你表演】"
     },
     {
-        "id": "recluse",
+        "id": "隐士",
         "name": "隐士",
         "edition": "tb",
         "team": "outsider",
@@ -225,7 +225,7 @@
         "ability": "你可能会被注册为一名邪恶玩家（爪牙或恶魔），即使死亡。【被注册为一个具体的角色，并且会在游戏中一直会被其他玩家技能视为这个角色】"
     },
     {
-        "id": "saint",
+        "id": "圣徒",
         "name": "圣徒",
         "edition": "tb",
         "team": "outsider",
@@ -238,7 +238,7 @@
         "ability": "如果你因为处决而死亡，你的阵营落败。【中毒则技能失效】"
     },
     {
-        "id": "poisoner",
+        "id": "投毒者",
         "name": "投毒者",
         "edition": "tb",
         "team": "minion",
@@ -253,7 +253,7 @@
         "ability": "每个夜晚，选择一名玩家：那名玩家今晚和明天白天会中毒。【中毒会使技能失效，如果是可以获取信息的技能，则可能出错】"
     },
     {
-        "id": "spy",
+        "id": "间谍",
         "name": "间谍",
         "edition": "tb",
         "team": "minion",
@@ -266,7 +266,7 @@
         "ability": "每个夜晚，你可以查看说书人的魔法书。你可能会被注册为一名善良玩家（村民或外来者），即使你已经死亡。【被注册为一个具体的角色，并且会在游戏中一直会被其他玩家技能视为这个角色】"
     },
     {
-        "id": "scarletwoman",
+        "id": "猩红女郎",
         "name": "猩红女郎",
         "edition": "tb",
         "team": "minion",
@@ -281,7 +281,7 @@
         "ability": "如果有五名及以上玩家存活且恶魔死去时，你会成为恶魔。原来的和新的恶魔的角色都是小恶魔。"
     },
     {
-        "id": "baron",
+        "id": "男爵",
         "name": "男爵",
         "edition": "tb",
         "team": "minion",
@@ -294,7 +294,7 @@
         "ability": "存在时，游戏板子配置发生变化：游戏中有额外的外来者。【男爵在场时，外来者数量增加2位】"
     },
     {
-        "id": "imp",
+        "id": "小恶魔",
         "name": "小恶魔",
         "edition": "tb",
         "team": "demon",
@@ -309,7 +309,7 @@
         "ability": "每个夜晚（除首夜），杀死一名玩家。如果自杀，则一位随机的爪牙会变成新的小恶魔。"
     },
     {
-        "id": "bureaucrat",
+        "id": "官员",
         "name": "官员",
         "edition": "tb",
         "team": "traveler",
@@ -324,7 +324,7 @@
         "ability": "每个夜晚，选择一名其他玩家，明天他的一票视为三票。"
     },
     {
-        "id": "thief",
+        "id": "盗贼",
         "name": "盗贼",
         "edition": "tb",
         "team": "traveler",
@@ -339,7 +339,7 @@
         "ability": "每个夜晚，选择一名其他玩家，明天他的票视为负数。"
     },
     {
-        "id": "gunslinger",
+        "id": "枪手",
         "name": "枪手",
         "edition": "tb",
         "team": "traveler",
@@ -352,7 +352,7 @@
         "ability": "每个白天，当第一次投票结束后，你可以选择一名投票的玩家，那名玩家死亡。"
     },
     {
-        "id": "scapegoat",
+        "id": "替罪羊",
         "name": "替罪羊",
         "edition": "tb",
         "team": "traveler",
@@ -365,7 +365,7 @@
         "ability": "如果一名阵营与你相同的玩家将要被处决，你可能代替他被处决。"
     },
     {
-        "id": "beggar",
+        "id": "乞丐",
         "name": "乞丐",
         "edition": "tb",
         "team": "traveler",
@@ -378,7 +378,7 @@
         "ability": "你必须使用投票标记才能投票。死亡的玩家可以将自己的投票标记交给你，你得知他的阵营。你不会中毒或醉酒。"
     },
     {
-        "id": "grandmother",
+        "id": "祖母",
         "name": "祖母",
         "edition": "bmr",
         "team": "townsfolk",
@@ -393,7 +393,7 @@
         "ability": "首夜，得知一名善良阵营的玩家和他的具体角色。如果恶魔杀死了该玩家，你会一同死去。【中毒或醉酒可能导致1.得知错误角色2.不会一同死去】"
     },
     {
-        "id": "sailor",
+        "id": "水手",
         "name": "水手",
         "edition": "bmr",
         "team": "townsfolk",
@@ -408,7 +408,7 @@
         "ability": "每个夜晚，选择一名存活玩家：你或该玩家之一会醉酒到第二天黄昏。你一直不会死亡。（中毒和醉酒会使得免死能力失效）"
     },
     {
-        "id": "chambermaid",
+        "id": "侍女",
         "name": "侍女",
         "edition": "bmr",
         "team": "townsfolk",
@@ -421,7 +421,7 @@
         "ability": "每个夜晚，选择除自己以外两名存活玩家：得知两名玩家中因自身能力在今夜醒来的玩家数（直接取决于夜间行动顺序）【不计算的情况：1.邪恶阵营互认2.恶魔伪装身份3.恶魔被驱魔师按住4.玩家因死亡无法发动技能】"
     },
     {
-        "id": "exorcist",
+        "id": "驱魔师",
         "name": "驱魔师",
         "edition": "bmr",
         "team": "townsfolk",
@@ -436,7 +436,7 @@
         "ability": "每个夜晚（除首夜），选择一名玩家（与前一夜不同）：如果你选择了恶魔，则恶魔会得知你是驱魔师，但他今晚不会因自己的能力而醒来。【你不会得知是否选中了恶魔】"
     },
     {
-        "id": "innkeeper",
+        "id": "旅店老板",
         "name": "旅店老板",
         "edition": "bmr",
         "team": "townsfolk",
@@ -452,7 +452,7 @@
         "ability": "每个夜晚（除首夜），选择两名玩家：这两名玩家今晚不会死去，但其中一名会醉酒直到第二天白天结束。如果自己醉酒，则免死技能失效。"
     },
     {
-        "id": "gambler",
+        "id": "赌徒",
         "name": "赌徒",
         "edition": "bmr",
         "team": "townsfolk",
@@ -467,7 +467,7 @@
         "ability": "每个夜晚（除首夜），选择一名玩家并猜测那名玩家的角色，如果猜错了，那么你会死亡。（可以猜测自己）"
     },
     {
-        "id": "gossip",
+        "id": "造谣者",
         "name": "造谣者",
         "edition": "bmr",
         "team": "townsfolk",
@@ -482,7 +482,7 @@
         "ability": "每个白天，你可以做出一项公开声明。在当晚，如果该声明正确，则会有一位玩家死亡。（在夜晚时，中毒和醉酒才会影响技能结果。死亡玩家必须不受免死保护）"
     },
     {
-        "id": "courtier",
+        "id": "侍臣",
         "name": "侍臣",
         "edition": "bmr",
         "team": "townsfolk",
@@ -500,7 +500,7 @@
         "ability": "每局游戏限一次。在夜晚，从角色列表中选择一个角色。如果那个角色在场，其对应玩家会从今夜开始醉三夜三天。（恶魔的醉酒并非随机刀，而是直接空刀！）"
     },
     {
-        "id": "professor",
+        "id": "教授",
         "name": "教授",
         "edition": "bmr",
         "team": "townsfolk",
@@ -516,7 +516,7 @@
         "ability": "每局游戏限一次，在夜晚时（除首夜），选择一名当前处于死亡状态的玩家，如果那名玩家是村民，则被复活。"
     },
     {
-        "id": "minstrel",
+        "id": "吟游诗人",
         "name": "吟游诗人",
         "edition": "bmr",
         "team": "townsfolk",
@@ -531,7 +531,7 @@
         "ability": "当一名爪牙因为被处决而死去时，所有玩家（除自己）会醉酒到第二天白天结束。"
     },
     {
-        "id": "tealady",
+        "id": "茶女郎",
         "name": "茶女郎",
         "edition": "bmr",
         "team": "townsfolk",
@@ -546,7 +546,7 @@
         "ability": "如果你的左右两侧邻近的存活玩家均为善良阵营，那么这两名玩家不会死亡。"
     },
     {
-        "id": "pacifist",
+        "id": "和平鸽",
         "name": "和平鸽",
         "edition": "bmr",
         "team": "townsfolk",
@@ -559,7 +559,7 @@
         "ability": "被处决的善良玩家也许不会死亡。"
     },
     {
-        "id": "fool",
+        "id": "弄臣",
         "name": "弄臣",
         "edition": "bmr",
         "team": "townsfolk",
@@ -574,7 +574,7 @@
         "ability": "当你第一次将要死去时，你不会死亡。（注意跟“侍臣”区分角色名）"
     },
     {
-        "id": "tinker",
+        "id": "修补匠",
         "name": "修补匠",
         "edition": "bmr",
         "team": "outsider",
@@ -589,7 +589,7 @@
         "ability": "你随时都有可能死亡。（被保护的夜晚不会死亡）"
     },
     {
-        "id": "moonchild",
+        "id": "月之子",
         "name": "月之子",
         "edition": "bmr",
         "team": "outsider",
@@ -604,7 +604,7 @@
         "ability": "当说书人告知你死亡时，公开选择一名存活玩家。当晚如果那名玩家是善良的，那么该玩家死亡。（在夜晚时，中毒和醉酒才会影响技能结果）"
     },
     {
-        "id": "goon",
+        "id": "打手",
         "name": "打手",
         "edition": "bmr",
         "team": "outsider",
@@ -619,7 +619,7 @@
         "ability": "每个夜晚，首个使用其技能选择了你的玩家，会在该技能生效前立即醉酒至第二天白天结束。如果那位玩家选择你时，该玩家与你不为同一阵营，你会被说书人唤醒并告知你的阵营发生了转变。"
     },
     {
-        "id": "lunatic",
+        "id": "疯子",
         "name": "疯子",
         "edition": "bmr",
         "team": "outsider",
@@ -636,7 +636,7 @@
         "ability": "你会抽取到一个恶魔角色，且会如同恶魔一样被告知三名不在场善良角色和你的爪牙，但这些信息完全是编造的。恶魔玩家会在首个夜晚得知你是疯子，且会在每个夜晚醒来时行动前得知你当晚用恶魔技能选择了哪些玩家。"
     },
     {
-        "id": "godfather",
+        "id": "教父",
         "name": "教父",
         "edition": "bmr",
         "team": "minion",
@@ -652,8 +652,8 @@
         "ability": "在你的首个夜晚，会得知本局游戏里有哪些外来者在场。如果在白天有外来者死去了，当晚你会选择一名玩家：杀死那名玩家。【如果场上有教父，则外来者增加或减少1位】"
     },
     {
-        "id": "devilsadvocate",
-        "name": "拥护者",
+        "id": "魔鬼拥护者",
+        "name": "魔鬼拥护者",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 22,
@@ -667,7 +667,7 @@
         "ability": "每个夜晚，选择一名存活玩家（与前一夜不同）：如果这名玩家明天被处决，则该玩家不会因此死亡。"
     },
     {
-        "id": "assassin",
+        "id": "刺客",
         "name": "刺客",
         "edition": "bmr",
         "team": "minion",
@@ -683,7 +683,7 @@
         "ability": "每局游戏限一次，在夜晚（除首夜），选择一名玩家，无视任何不死效果，杀死该玩家。"
     },
     {
-        "id": "mastermind",
+        "id": "幕后主使",
         "name": "幕后主使",
         "edition": "bmr",
         "team": "minion",
@@ -696,7 +696,7 @@
         "ability": "如果恶魔因为处决而死亡且游戏会因此结束时，额外进行一个夜晚和一个白天：新的夜晚和白天里如果有玩家被处决，无论他是否死去，被处决的玩家所属阵营失败。"
     },
     {
-        "id": "zombuul",
+        "id": "丧尸",
         "name": "丧尸",
         "edition": "bmr",
         "team": "demon",
@@ -712,7 +712,7 @@
         "ability": "每个夜晚（除首夜），如果白天时没有任何人死亡，则醒来选择一名玩家：那名玩家死亡（可以空刀）。当你第一次死亡时，你并不会真正死去，只是表现得像死了，好人必须再次处决一次丧尸才能获胜。【只剩一次投票机会，且判断存活玩家时你不计算在内。如果你在白天被处决，当晚你无法杀人。如果醉酒或中毒，则无法发动假死效果】"
     },
     {
-        "id": "pukka",
+        "id": "布卡",
         "name": "布卡",
         "edition": "bmr",
         "team": "demon",
@@ -728,7 +728,7 @@
         "ability": "每个夜晚，选择一名玩家：那名玩家中毒，上次你选择的玩家会死亡并解除中毒（可以不放技能）。【即使当晚没醒来，前一晚的技能后半部分也会生效。如果失去能力，则在能力恢复后的下一个夜晚执行后半部分效果】"
     },
     {
-        "id": "shabaloth",
+        "id": "暴食者",
         "name": "暴食者",
         "edition": "bmr",
         "team": "demon",
@@ -744,7 +744,7 @@
         "ability": "每个夜晚（除首夜），选择两名玩家：这些玩家死亡，被你上一次选择的玩家之一可能因为你的反刍而复活（可以不放技能，但一旦释放必须双刀）。【即使当晚没醒来，前一晚的技能后半部分也会生效。如果攻击了已死亡的玩家，这些玩家也仍有可能被复活。】"
     },
     {
-        "id": "po",
+        "id": "恶之花",
         "name": "恶之花",
         "edition": "bmr",
         "team": "demon",
@@ -760,7 +760,7 @@
         "ability": "每个夜晚（除首夜），选择一名玩家：杀死那名玩家。如果上一次未选择玩家，则当晚改为选择三名玩家。【空刀与三刀为一次完整的发动技能，三刀夜必须出三刀】【被驱魔师按住时，三刀效果延至下一晚。如果醉酒或中毒，则无法发动三杀效果】"
     },
     {
-        "id": "apprentice",
+        "id": "学徒",
         "name": "学徒",
         "edition": "bmr",
         "team": "traveler",
@@ -775,7 +775,7 @@
         "ability": "在你的第一个夜晚，如果你属于善良阵营，获得一个村民身份的技能。如果你属于邪恶阵营，获得一个爪牙身份的技能。"
     },
     {
-        "id": "matron",
+        "id": "宿管",
         "name": "宿管",
         "edition": "bmr",
         "team": "traveler",
@@ -788,7 +788,7 @@
         "ability": "每个白天限三次，令两名玩家交换位置。玩家们不允许私聊。"
     },
     {
-        "id": "judge",
+        "id": "法官",
         "name": "法官",
         "edition": "bmr",
         "team": "traveler",
@@ -803,7 +803,7 @@
         "ability": "整局游戏限一次，在一次其他玩家发起的提名投票结束后，你可以强制执行处决或否决已经通过的投票。"
     },
     {
-        "id": "bishop",
+        "id": "主教",
         "name": "主教",
         "edition": "bmr",
         "team": "traveler",
@@ -819,7 +819,7 @@
         "ability": "只有说书人可以发起提名。每天，都会有至少一名与你阵营不同的玩家被提名。"
     },
     {
-        "id": "voudon",
+        "id": "巫毒师",
         "name": "巫毒师",
         "edition": "bmr",
         "team": "traveler",
@@ -832,7 +832,7 @@
         "ability": "只有你和死亡的玩家可以在提名中投票，这不会消耗投票标记。取消投票达半数才能处决的限制。"
     },
     {
-        "id": "clockmaker",
+        "id": "钟表匠",
         "name": "钟表匠",
         "edition": "snv",
         "team": "townsfolk",
@@ -845,7 +845,7 @@
         "ability": "首个夜晚，得知恶魔与离恶魔最近的爪牙之间的距离。例如1号与3号玩家距离为2。【相邻玩家之间的距离为1】"
     },
     {
-        "id": "dreamer",
+        "id": "筑梦师",
         "name": "筑梦师",
         "edition": "snv",
         "team": "townsfolk",
@@ -858,7 +858,7 @@
         "ability": "每个夜晚，选择一名玩家（除你），得知一个善良角色和一个邪恶角色，其中一个角色是属于该玩家的。"
     },
     {
-        "id": "snakecharmer",
+        "id": "舞蛇人",
         "name": "舞蛇人",
         "edition": "snv",
         "team": "townsfolk",
@@ -873,7 +873,7 @@
         "ability": "每个夜晚，选择一名存活玩家，如果选中恶魔，则与其调换角色和阵营，之后那名玩家会中毒。"
     },
     {
-        "id": "mathematician",
+        "id": "数学家",
         "name": "数学家",
         "edition": "snv",
         "team": "townsfolk",
@@ -888,7 +888,7 @@
         "ability": "每个夜晚，你会得知当晚多少玩家的能力受其他玩家影响而得到了预料之外的结果。【中毒或醉酒如果获得正确信息则不计算】"
     },
     {
-        "id": "flowergirl",
+        "id": "卖花女",
         "name": "卖花女",
         "edition": "snv",
         "team": "townsfolk",
@@ -904,7 +904,7 @@
         "ability": "每个夜晚（除首夜），得知今天白天恶魔是否参与投票。【只关注白天投票时是否为恶魔】"
     },
     {
-        "id": "towncrier",
+        "id": "公告员",
         "name": "公告员",
         "edition": "snv",
         "team": "townsfolk",
@@ -920,7 +920,7 @@
         "ability": "每个夜晚（除首夜），得知是否有爪牙今天进行了提名。【只会得知是或否，只关注白天投票时是否为爪牙】"
     },
     {
-        "id": "oracle",
+        "id": "神谕者",
         "name": "神谕者",
         "edition": "snv",
         "team": "townsfolk",
@@ -933,20 +933,20 @@
         "ability": "每个夜晚（除首夜），得知死去的玩家有多少是邪恶阵营。【只判断技能发动时的阵营情况】"
     },
     {
-        "id": "savant",
+        "id": "博学者",
         "name": "博学者",
         "edition": "snv",
         "team": "townsfolk",
-        "firstNight": 0,
+        "firstNight": 10,
         "firstNightReminder": "注意准备给博学者的信息。",
-        "otherNight": 0,
+        "otherNight": 10,
         "otherNightReminder": "注意准备给博学者的信息。",
         "reminders": [],
         "setup": false,
         "ability": "每个白天，私聊说书人并得知两个信息，一真一假。【中毒或醉酒可能收到双对/双错/一对一错】"
     },
     {
-        "id": "seamstress",
+        "id": "裁缝",
         "name": "裁缝",
         "edition": "snv",
         "team": "townsfolk",
@@ -961,7 +961,7 @@
         "ability": "每局游戏限一次，夜晚选择除自己之外的两位玩家，得知是否为同一阵营。【只判断当时阵营】"
     },
     {
-        "id": "philosopher",
+        "id": "哲学家",
         "name": "哲学家",
         "edition": "snv",
         "team": "townsfolk",
@@ -977,7 +977,7 @@
         "ability": "每局游戏限一次，夜晚选择一个善良阵营的角色，获得该角色能力，如果该角色已在场，那名对应玩家会醉酒直至你死亡。【你的角色不发生改变，只是获得技能】"
     },
     {
-        "id": "artist",
+        "id": "艺术家",
         "name": "艺术家",
         "edition": "snv",
         "team": "townsfolk",
@@ -992,7 +992,7 @@
         "ability": "每局游戏限一次，白天私聊询问说书人一个是非问题。【如果说书人无法判断，则会回答无法判断】"
     },
     {
-        "id": "juggler",
+        "id": "杂耍艺人",
         "name": "杂耍艺人",
         "edition": "snv",
         "team": "townsfolk",
@@ -1007,7 +1007,7 @@
         "ability": "第一个白天公开猜测五名玩家角色（可以重复），在当晚，得知猜对数量。【当晚可能受到中毒或醉酒影响。如果某个原因变成了杂耍艺人，那么变身后的第一个白天使用这个能力。】"
     },
     {
-        "id": "sage",
+        "id": "贤者",
         "name": "贤者",
         "edition": "snv",
         "team": "townsfolk",
@@ -1020,7 +1020,7 @@
         "ability": "如果恶魔杀死了你，你会得知两名玩家，其中一名是恶魔。"
     },
     {
-        "id": "mutant",
+        "id": "变种人",
         "name": "变种人",
         "edition": "snv",
         "team": "outsider",
@@ -1033,7 +1033,7 @@
         "ability": "如果表现得像外来者，可能被立刻处决。【如果大部分人都认为你是外来者，你会被认定为表现得像外来者】"
     },
     {
-        "id": "sweetheart",
+        "id": "心上人",
         "name": "心上人",
         "edition": "snv",
         "team": "outsider",
@@ -1048,7 +1048,7 @@
         "ability": "如果你死亡，一名玩家心碎，开始陷入醉酒。"
     },
     {
-        "id": "barber",
+        "id": "理发师",
         "name": "理发师",
         "edition": "snv",
         "team": "outsider",
@@ -1063,7 +1063,7 @@
         "ability": "如果你死亡，恶魔可以在当晚交换任意两名玩家的角色。【不会交换阵营；恶魔可以选择自己；可以交换已死亡玩家角色；不能双恶魔交换】"
     },
     {
-        "id": "klutz",
+        "id": "傻瓜",
         "name": "傻瓜",
         "edition": "snv",
         "team": "outsider",
@@ -1076,7 +1076,7 @@
         "ability": "当说书人告知你死亡时，公开选择一名存活玩家，如果那名玩家是邪恶阵营，那么你的阵营失败。"
     },
     {
-        "id": "eviltwin",
+        "id": "邪恶双子",
         "name": "邪恶双子",
         "edition": "snv",
         "team": "minion",
@@ -1091,7 +1091,7 @@
         "ability": "游戏开始时，有一位对立阵营玩家成为你的双胞胎，你们会互相得知对方的角色，如果双胞胎中的善良玩家被决，邪恶阵营获胜。如果两名双胞胎都存活，善良阵营无法获胜。【如果中途有新的邪恶双子出现或者双胞胎任意一方阵营切换，那么邪恶双子会在当晚重新获得一个对立阵营的双胞胎，且双方会立刻得知对方角色】"
     },
     {
-        "id": "witch",
+        "id": "女巫",
         "name": "女巫",
         "edition": "snv",
         "team": "minion",
@@ -1106,7 +1106,7 @@
         "ability": "每个夜晚，选择一名玩家，如果那名玩家明天发起了提名，则该玩家会死亡（并非处决）。如果只有三名玩家存活，失去该能力。"
     },
     {
-        "id": "cerenovus",
+        "id": "洗脑师",
         "name": "洗脑师",
         "edition": "snv",
         "team": "minion",
@@ -1134,7 +1134,7 @@
         "ability": "每个夜晚（除首夜），选择一名玩家及一个角色。如果那个角色未在场，该玩家会成那个角色。如果有玩家因此变成了恶魔, 那么将会随机决定今晚恶魔杀死的人。【未在场指的是当时未在场（包括所有存活和死亡玩家的当时角色）】"
     },
     {
-        "id": "fanggu",
+        "id": "蚀梦游魂",
         "name": "蚀梦游魂",
         "edition": "snv",
         "team": "demon",
@@ -1150,7 +1150,7 @@
         "ability": "每个夜晚（除首夜），杀死一名玩家。第一个杀死的外来者会变成邪恶的蚀梦游魂，你会代替那名玩家死亡。【蚀梦游魂修改板子配置，外来者增加1位】"
     },
     {
-        "id": "vigormortis",
+        "id": "死灵法师",
         "name": "死灵法师",
         "edition": "snv",
         "team": "demon",
@@ -1167,7 +1167,7 @@
         "ability": "每个夜晚（除首夜），杀死一名玩家。被你杀死的爪牙会保留他们的能力，且会让一个在该爪牙左右两侧最邻近的村民之一中毒。【只检查玩家死亡的那一刻是否为爪牙，只保留玩家死亡的那一刻所具有的能力。】【死灵法师修改板子配置，外来者减少1位】"
     },
     {
-        "id": "nodashii",
+        "id": "腐肢",
         "name": "腐肢",
         "edition": "snv",
         "team": "demon",
@@ -1183,7 +1183,7 @@
         "ability": "每个夜晚（除首夜），杀死一名玩家。游戏开始时，左右两侧最邻近的村民会中毒。【如果中毒的村民变成其他角色类型，则中毒效果会顺延到下一个邻近的村民】"
     },
     {
-        "id": "vortox",
+        "id": "混乱风暴",
         "name": "混乱风暴",
         "edition": "snv",
         "team": "demon",
@@ -1198,7 +1198,7 @@
         "ability": "每个夜晚（除首夜），杀死一名玩家。村民的能力始终会获得错误的信息。在每个白天，如果没有玩家被决，邪恶阵营获胜。【即使玩家醉酒或中毒，此时也必定会获得错误信息】"
     },
     {
-        "id": "barista",
+        "id": "咖啡师",
         "name": "咖啡师",
         "edition": "snv",
         "team": "traveler",
@@ -1214,7 +1214,7 @@
         "ability": "每个夜晚，选择一名玩家与一项效果，持续到下个黄昏：1.必定获取正确信息 2.技能生效两次。他知道你选择了什么。"
     },
     {
-        "id": "harlot",
+        "id": "舞女",
         "name": "舞女",
         "edition": "snv",
         "team": "traveler",
@@ -1229,7 +1229,7 @@
         "ability": "每个夜晚（除首夜），选择一名存活玩家，如果他同意，你得知他的身份，但是你们可能一同死亡。"
     },
     {
-        "id": "butcher",
+        "id": "刽子手",
         "name": "刽子手",
         "edition": "snv",
         "team": "traveler",
@@ -1242,7 +1242,7 @@
         "ability": "每个白天，在第一次处决后，你可以再次发起提名。"
     },
     {
-        "id": "bonecollector",
+        "id": "寻骨者",
         "name": "寻骨者",
         "edition": "snv",
         "team": "traveler",
@@ -1258,7 +1258,7 @@
         "ability": "整局游戏限一次，夜晚（除首夜），选择一名死亡的玩家，他恢复他的技能直到下一个黄昏。"
     },
     {
-        "id": "deviant",
+        "id": "怪咖",
         "name": "怪咖",
         "edition": "snv",
         "team": "traveler",
@@ -1271,7 +1271,7 @@
         "ability": "如果你在白天表现得很搞笑，你在当天不能被流放。"
     },
     {
-        "id": "noble",
+        "id": "贵族",
         "name": "贵族",
         "edition": "",
         "team": "townsfolk",
@@ -1358,7 +1358,7 @@
         "ability": "Each night, if the dead outnumber the living, you learn 1 alive character. The Demon knows who you are."
     },
     {
-        "id": "balloonist",
+        "id": "气球驾驶员",
         "name": "气球驾驶员",
         "edition": "",
         "team": "townsfolk",
@@ -1390,7 +1390,7 @@
         "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins."
     },
     {
-        "id": "lycanthrope",
+        "id": "半兽人",
         "name": "半兽人",
         "edition": "",
         "team": "townsfolk",
@@ -1405,7 +1405,7 @@
         "ability": "每个夜晚（除首夜），你要选择一名存活的玩家，如果他是善良的。他死亡，并且当晚不会再有其他玩家死亡。"
     },
     {
-        "id": "amnesiac",
+        "id": "追忆者",
         "name": "追忆者",
         "edition": "",
         "team": "townsfolk",
@@ -1435,7 +1435,7 @@
         "ability": "Once per game, at night, choose a player: they learn who you are."
     },
     {
-        "id": "engineer",
+        "id": "工程师",
         "name": "工程师",
         "edition": "",
         "team": "townsfolk",
@@ -1450,7 +1450,7 @@
         "ability": "每局游戏限一次，在夜晚时，你可以选择让恶魔变成你选择的恶魔角色，或让所有爪牙变成你选择的爪牙角色。"
     },
     {
-        "id": "fisherman",
+        "id": "渔夫",
         "name": "渔夫",
         "edition": "",
         "team": "townsfolk",
@@ -1465,7 +1465,7 @@
         "ability": "每局游戏限一次，在白天，私聊说书人获取一些帮助你获胜的提示。"
     },
     {
-        "id": "huntsman",
+        "id": "巡山人",
         "name": "巡山人",
         "edition": "",
         "team": "townsfolk",
@@ -1480,23 +1480,23 @@
         "ability": "每局游戏限一次，在夜晚时，你可以选择一名存活的玩家：如果你选中了落难少女，她会变成一个不在场的村民角色。【场上必定存在落难少女】"
     },
     {
-        "id": "alchemist",
-        "name": "Alchemist",
+        "id": "炼金术士",
+        "name": "炼金术士",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 3,
-        "firstNightReminder": "Show the Alchemist a not-in-play Minion token",
+        "firstNightReminder": "你获得一个不在场的爪牙的能力。",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "remindersGlobal": [
-            "Is the Alchemist"
+            "是炼金术士"
         ],
         "setup": false,
-        "ability": "You have a not-in-play Minion ability."
+        "ability": "你获得一个不在场的爪牙的能力。"
     },
     {
-        "id": "farmer",
+        "id": "农夫",
         "name": "农夫",
         "edition": "",
         "team": "townsfolk",
@@ -1509,7 +1509,7 @@
         "ability": "如果你在夜晚死亡，一名存活的善良玩家会变成农夫。"
     },
     {
-        "id": "magician",
+        "id": "魔术师",
         "name": "魔术师",
         "edition": "",
         "team": "townsfolk",
@@ -1535,7 +1535,7 @@
         "ability": "If the Demon kills the King, you learn which player is the Demon. [+ the King]"
     },
     {
-        "id": "poppygrower",
+        "id": "罂粟种植者",
         "name": "罂粟种植者",
         "edition": "",
         "team": "townsfolk",
@@ -1550,7 +1550,7 @@
         "ability": "爪牙和恶魔互相不认识。如果你死亡，当晚他们会互相认识。"
     },
     {
-        "id": "atheist",
+        "id": "无神论者",
         "name": "无神论者",
         "edition": "",
         "team": "townsfolk",
@@ -1560,10 +1560,10 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你死亡。\n\n【无邪恶角色在场】【如果场上没有无神论者或者无神论者醉酒和中毒，且说书人被处决，善良阵营失败】"
+        "ability": "说书人可以打破游戏规则。如果说书人被处决，善良阵营获胜，即使你死亡。【无邪恶角色在场】【如果场上没有无神论者或者无神论者醉酒和中毒，且说书人被处决，善良阵营失败】"
     },
     {
-        "id": "cannibal",
+        "id": "食人族",
         "name": "食人族",
         "edition": "",
         "team": "townsfolk",
@@ -1616,8 +1616,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Drunk",
-            "Guess used"
+            "醉酒",
+            "猜测已用"
         ],
         "setup": false,
         "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info."
@@ -1636,7 +1636,7 @@
         "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead."
     },
     {
-        "id": "damsel",
+        "id": "sologirl",
         "name": "落难少女",
         "edition": "",
         "team": "outsider",
@@ -1651,7 +1651,7 @@
         "ability": "所有爪牙都知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。"
     },
     {
-        "id": "golem",
+        "id": "魔像",
         "name": "魔像",
         "edition": "",
         "team": "outsider",
@@ -1666,7 +1666,7 @@
         "ability": "每局游戏你只能发起提名一次。当你发起提名时，如果被你提名的玩家不是恶魔，他死亡。"
     },
     {
-        "id": "politician",
+        "id": "政客",
         "name": "政客",
         "edition": "",
         "team": "outsider",
@@ -1679,7 +1679,7 @@
         "ability": "如果你是对你的团队失败负有最大责任的玩家，你会改变阵营并获胜，即使你已经死了。"
     },
     {
-        "id": "widow",
+        "id": "寡妇",
         "name": "寡妇",
         "edition": "",
         "team": "minion",
@@ -1712,7 +1712,7 @@
         "ability": "Each night, choose a player. If you nominate & execute them, their team loses. All players know if you choose a new player."
     },
     {
-        "id": "psychopath",
+        "id": "精神病患者",
         "name": "精神病患者",
         "edition": "",
         "team": "minion",
@@ -1725,7 +1725,7 @@
         "ability": "每个白天，在提名开始前，你可以公开选择一名玩家：他死亡。如果你被处决，提名你的玩家需要和你猜拳，只有你输了你才会死亡。"
     },
     {
-        "id": "goblin",
+        "id": "哥布林",
         "name": "哥布林",
         "edition": "",
         "team": "minion",
@@ -1740,7 +1740,7 @@
         "ability": "白天，你可以公开声称自己是哥布林，如果你在当天因为提名而被处决，你的阵营获胜。"
     },
     {
-        "id": "mephit",
+        "id": "灵言师",
         "name": "灵言师",
         "edition": "",
         "team": "minion",
@@ -1834,7 +1834,7 @@
         "ability": "Each night*, choose a player: they die. You start by choosing an alive player: they are poisoned - you die if & only if they die."
     },
     {
-        "id": "alhadikhia",
+        "id": "哈迪寂亚",
         "name": "哈迪寂亚",
         "edition": "",
         "team": "demon",
@@ -1869,7 +1869,7 @@
         "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]"
     },
     {
-        "id": "leviathan",
+        "id": "利维坦",
         "name": "利维坦",
         "edition": "",
         "team": "demon",

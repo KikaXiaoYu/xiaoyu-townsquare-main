@@ -1,113 +1,121 @@
 <template>
-    <Modal
-      class="night-reference"
-      @close="toggleModal('nightOrder')"
-      v-if="modals.nightOrder && roles.size"
-    >
-      <font-awesome-icon
-        @click="toggleModal('reference')"
-        icon="address-card"
-        class="toggle"
-        title="展示角色信息"
-      />
-      <h3>
-        Night Order
-        <font-awesome-icon icon="cloud-moon" />
-        {{ edition.name || "Custom Script" }}
-      </h3>
-      <div class="night">
-        <ul class="first">
-          <li class="headline">首夜行动</li>
-          <li
-            v-for="role in rolesFirstNight"
-            :key="role.name"
-            :class="[role.team]"
-          >
-            <span class="name">
-              {{ role.name }}
-              <span class="player" v-if="role.players.length">
-                <br />
-                <small
-                  v-for="(player, index) in role.players"
-                  :class="{ dead: player.isDead }"
-                  :key="index"
-                  >{{
-                    player.name + (role.players.length > index + 1 ? "," : "")
-                  }}</small
-                >
-              </span>
-            </span>
-            <span
-              class="icon"
-              v-if="role.id"
-              :style="{
-                backgroundImage: `url(${
-                  role.image && grimoire.isImageOptIn
-                    ? role.image
-                    : require('../../assets/icons/' +
-                        (role.imageAlt || role.id) +
-                        '.png')
-                })`
-              }"
-            ></span>
-            <span class="reminder" v-if="role.firstNightReminder">
-              {{ role.firstNightReminder }}
-            </span>
-          </li>
-        </ul>
-        <ul class="other">
-          <li class="headline">其他夜行动</li>
-          <li
-            v-for="role in rolesOtherNight"
-            :key="role.name"
-            :class="[role.team]"
-          >
-            <span
-              class="icon"
-              v-if="role.id"
-              :style="{
-                backgroundImage: `url(${
-                  role.image && grimoire.isImageOptIn
-                    ? role.image
-                    : require('../../assets/icons/' +
-                        (role.imageAlt || role.id) +
-                        '.png')
-                })`
-              }"
-            ></span>
-            <span class="name">
-              {{ role.name }}
-              <span class="player" v-if="role.players.length">
-                <br />
-                <small
-                  v-for="(player, index) in role.players"
-                  :class="{ dead: player.isDead }"
-                  :key="index"
-                  >{{
-                    player.name + (role.players.length > index + 1 ? "," : "")
-                  }}</small
-                >
-              </span>
-            </span>
-            <span class="reminder" v-if="role.otherNightReminder">
-              {{ role.otherNightReminder }}
-            </span>
-          </li>
-        </ul>
-      </div>
-    </Modal>
+    <div>
+      <Modal
+        class="night-reference"
+        @close="toggleModal('nightOrder')"
+        v-if="modals.nightOrder && roles.size"
+      >
+        <div ref="contentToCapture" class="modal-content"> <!-- 捕获区域开始 -->
+          <div class="header">
+            <font-awesome-icon
+              @click="toggleModal('reference')"
+              icon="address-card"
+              class="toggle"
+              title="展示角色信息"
+            />
+            <h3>
+              <!-- Night Order -->
+              <font-awesome-icon icon="cloud-moon" />
+              {{ edition.name || "Custom Script" }}
+            </h3>
+            <button class="capture-button" @click="captureContent">SAVE</button>
+          </div>
+          <div class="night">
+            <ul class="first">
+              <li class="headline">首夜行动</li>
+              <li
+                v-for="role in rolesFirstNight"
+                :key="role.name"
+                :class="[role.team]"
+              >
+                <span class="name">
+                  {{ role.name }}
+                  <span class="player" v-if="role.players.length">
+                    <br />
+                    <small
+                      v-for="(player, index) in role.players"
+                      :class="{ dead: player.isDead }"
+                      :key="index"
+                      >{{
+                        player.name + (role.players.length > index + 1 ? "," : "")
+                      }}</small
+                    >
+                  </span>
+                </span>
+                <span
+                  class="icon"
+                  v-if="role.id"
+                  :style="{
+                    backgroundImage: `url(${
+                      role.image && grimoire.isImageOptIn
+                        ? role.image
+                        : require('../../assets/icons/' +
+                            (role.imageAlt || role.id) +
+                            '.png')
+                    })`
+                  }"
+                ></span>
+                <span class="reminder" v-if="role.firstNightReminder">
+                  {{ role.firstNightReminder }}
+                </span>
+              </li>
+            </ul>
+            <ul class="other">
+              <li class="headline">其他夜行动</li>
+              <li
+                v-for="role in rolesOtherNight"
+                :key="role.name"
+                :class="[role.team]"
+              >
+                <span
+                  class="icon"
+                  v-if="role.id"
+                  :style="{
+                    backgroundImage: `url(${
+                      role.image && grimoire.isImageOptIn
+                        ? role.image
+                        : require('../../assets/icons/' +
+                            (role.imageAlt || role.id) +
+                            '.png')
+                    })`
+                  }"
+                ></span>
+                <span class="name">
+                  {{ role.name }}
+                  <span class="player" v-if="role.players.length">
+                    <br />
+                    <small
+                      v-for="(player, index) in role.players"
+                      :class="{ dead: player.isDead }"
+                      :key="index"
+                      >{{
+                        player.name + (role.players.length > index + 1 ? "," : "")
+                      }}</small
+                    >
+                  </span>
+                </span>
+                <span class="reminder" v-if="role.otherNightReminder">
+                  {{ role.otherNightReminder }}
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div> <!-- 捕获区域结束 -->
+      </Modal>
+    </div>
   </template>
   
   <script>
   import Modal from "./Modal";
   import { mapMutations, mapState } from "vuex";
+  import html2canvas from 'html2canvas';
   
   export default {
     components: {
       Modal
     },
     computed: {
-      rolesFirstNight: function() {
+      rolesFirstNight() {
         const rolesFirstNight = [];
         // add minion / demon infos to night order sheet
         if (this.players.length > 6) {
@@ -146,7 +154,7 @@
         rolesFirstNight.sort((a, b) => a.firstNight - b.firstNight);
         return rolesFirstNight;
       },
-      rolesOtherNight: function() {
+      rolesOtherNight() {
         const rolesOtherNight = [];
         this.roles.forEach(role => {
           const players = this.players.filter(p => p.role.id === role.id);
@@ -166,7 +174,60 @@
       ...mapState("players", ["players", "fabled"])
     },
     methods: {
-      ...mapMutations(["toggleModal"])
+      ...mapMutations(["toggleModal"]),
+      captureContent() {
+        console.log('Capture button clicked');
+  
+        // 增加延迟，确保元素完全渲染
+        setTimeout(() => {
+          const element = this.$refs.contentToCapture; // 捕获父级容器
+          console.log('Element:', element);
+  
+          if (!element) {
+            console.error('Element to capture not found');
+            return;
+          }
+  
+          if (!(element instanceof HTMLElement)) {
+            console.error('Element to capture is not a valid DOM element');
+            console.log('Element type:', typeof element);
+            console.log('Element:', element);
+            return;
+          }
+  
+          // 检查元素是否在文档中
+          if (!document.body.contains(element)) {
+            console.error('Element not attached to document');
+            return;
+          }
+  
+          console.log('Element found, capturing...');
+  
+          html2canvas(element, {
+            scale: 2, // 将 scale 设置为 2，以提高分辨率
+            useCORS: true, // 如果有跨域图片，确保它们被正确处理
+            backgroundColor: null // 确保背景透明，以保留原始颜色
+          }).then(canvas => {
+            console.log('Capture successful');
+            
+            // 创建一个新的canvas，调整其亮度
+            const brightCanvas = document.createElement('canvas');
+            brightCanvas.width = canvas.width;
+            brightCanvas.height = canvas.height;
+            const ctx = brightCanvas.getContext('2d');
+            ctx.filter = 'brightness(1.2)'; // 调整亮度
+            ctx.drawImage(canvas, 0, 0);
+  
+            const imgData = brightCanvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = imgData;
+            link.download = `${this.edition.name}_夜间顺序.png`;
+            link.click();
+          }).catch(error => {
+            console.error('Error capturing the content:', error);
+          });
+        }, 500); // 延迟 0.5 秒（根据需要调整）
+      }
     }
   };
   </script>
@@ -174,10 +235,20 @@
   <style lang="scss" scoped>
   @import "../../vars.scss";
   
+  .modal-content {
+    background-color: black; /* 设置背景颜色 */
+    padding: 20px;
+    color: white; /* 确保文字颜色为白色 */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
   .toggle {
-    position: absolute;
-    left: 20px;
-    top: 15px;
     cursor: pointer;
     &:hover {
       color: red;
@@ -185,10 +256,16 @@
   }
   
   h3 {
-    margin: 0 40px;
+    margin: 0;
     svg {
       vertical-align: middle;
     }
+  }
+  
+  .capture-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
   }
   
   h4 {
@@ -231,7 +308,7 @@
   }
   .outsider {
     .name {
-      background: linear-gradient-(180deg, $outsider, transparent 35%);
+      background: linear-gradient(180deg, $outsider, transparent 35%);
       .night .other & {
         background: linear-gradient(180deg, $outsider, transparent 35%);
       }
@@ -335,7 +412,6 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background-color: rgb(255, 254, 250); // 设置 team 背景为白色
     background-color: rgb(0, 0, 0); // 设置 team 背景为白色
     color: black; // 设置 night 字体颜色为黑色
     > *:first-child {

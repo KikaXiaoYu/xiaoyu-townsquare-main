@@ -19,7 +19,7 @@
   },
   {
     "id": "snv",
-    "name": "紫罗兰教派(中等)",
+    "name": "紫罗兰教派(进阶)",
     "author": "The Pandemonium Institute",
     "description": "生机勃勃的春天让位于温暖宜人的夏天。各种各样的鲜花盛开，一眼望不到边，在公共花园和俯瞰奢华长廊的窗台上，它们被精心培育着。鸟儿歌唱，艺术家作画，哲学家们在熙熙攘攘的酒馆里思考着生命中最伟大的奥秘，而马戏团在城镇边缘搭起了它那可爱的破烂帐篷。\n\n当镇民们沉浸在轻浮和恶作剧中，沉溺于精致的娱乐和更精致的葡萄酒时，黑暗和隐秘的力量正在集结。女巫和邪教潜伏在社区边缘雄伟的废墟中，在地下洞穴中举行秘密会议，恶意策划推翻 Ravenswood Bluff 及其狂欢者。\n\n现在是时候了……教派和紫罗兰。",
     "level": "进阶",
@@ -32,7 +32,7 @@
     "author": "The Pandemonium Institute",
     "description": "",
     "level": "融合",
-    "roles": ["investigator","chef","grandmother","balloonist", "dreamer","fortuneteller", "snakecharmer", "gambler", "savant", "philosopher", "ravenkeeper", "amnesiac", "cannibal","drunk","recluse","sweetheart", "mutant", "lunatic", "godfather","cerenovus", "pithag", "widow","imp","vigormortis","fanggu"],
+    "roles": ["调查者","厨师","祖母","气球驾驶员", "筑梦师","占星师", "舞蛇人", "赌徒", "博学者", "哲学家", "养鸦人", "追忆者", "食人族","酒鬼","隐士","心上人", "变种人", "疯子", "教父","洗脑师", "pithag", "寡妇","小恶魔","死灵法师","蚀梦游魂"],
     "isOfficial": true
   },
   {
@@ -41,7 +41,7 @@
     "author": "The Pandemonium Institute",
     "description": "",
     "level": "融合",
-    "roles": ["savant","artist", "balloonist", "amnesiac", "fisherman", "cannibal", "lunatic", "mutant","widow","goblin", "leviathan"],
+    "roles": ["博学者","艺术家", "气球驾驶员", "追忆者", "渔夫", "食人族", "疯子", "变种人","寡妇","哥布林", "利维坦"],
     "isOfficial": true
   },
   {
@@ -56,10 +56,19 @@
   {
     "id": "ybkh",
     "name": "夜半狂欢(大师)",
-    "author": "The Pandemonium Institute",
+    "author": "Zets",
     "description": "",
     "level": "融合",
-    "roles": ["noble", "snakecharmer","balloonist", "huntsman","engineer","fisherman","professor","savant","amnesiac","farmer","poppygrower","atheist","cannibal","drunk","barber", "damsel","golem","poisoner","psychopath","mephit", "pithag","alhadikhia","vigormortis"],
-    "isOfficial": true
+    "roles": ["贵族", "舞蛇人","气球驾驶员", "巡山人","工程师","渔夫","教授","博学者","追忆者","农夫","罂粟种植者","无神论者","食人族","酒鬼","理发师", "sologirl","魔像","投毒者","精神病患者","灵言师", "pithag","哈迪寂亚","死灵法师"],
+    "isOfficial": false
+  },
+  {
+    "id": "tb1",
+    "name": "无神暗流(大师)",
+    "author": "筱钰",
+    "description": "乌云在雷文斯伍德悬崖上空翻滚，笼罩着这座沉睡的小镇和迷信的居民，笼罩在阴暗的阴影中。刚洗好的衣服在小屋之间的绳子上诡异地舞动。烟囱向空中喷出一缕缕烟雾。异国情调的气味从窗户的缝隙和门缝中飘出，隐藏的大锅在沸腾。一股异常温暖的秋风缠绕着藤蔓覆盖的墙壁，向那些勇敢地走在鹅卵石街道上的人发出不祥的低语。\n\n焦虑的母亲们把孩子们从玩耍中叫回家，这时雷声开始在地平线上响起。然而，如果你仔细听，可以听到更奇怪的声音从附近的森林中回荡。在一座隐约可见的修道院的注视下，剪影人影在门口间跳跃。那些能读懂这些迹象的人知道……麻烦正在酝酿。",
+    "level": "新手",
+    "roles": ["洗衣妇", "图书管理员","调查者", "厨师", "共情者", "送葬者","养鸦人","处女","士兵","市长","僧侣","杀手", "占星师","投毒者", "间谍","猩红女郎","男爵","小恶魔", "无神论者","酒鬼","圣徒","隐士","管家"],
+    "isOfficial": false
   }
 ]

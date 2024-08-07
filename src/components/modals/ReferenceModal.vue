@@ -14,11 +14,11 @@
           />
           <div class="title-container">
             <h3>
-              板子角色信息
+              Character Reference
               <font-awesome-icon icon="address-card" />
               {{ edition.name || "Custom Script" }}
             </h3>
-            <button class="capture-button" @click="captureContent">Capture as Image</button>
+            <button class="capture-button" @click="captureContent">SAVE</button>
           </div>
           <div>
             <div
@@ -118,8 +118,7 @@
               if (this.roles.get(second)) {
                 jinxed.push({
                   first: role,
-                  second: this.roles.get(second),
-                  reason
+                  second: this.roles.get(second), reason
                 });
               }
             });
