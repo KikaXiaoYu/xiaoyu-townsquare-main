@@ -1,136 +1,164 @@
 [
-  {
-    "id": "doomsayer",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "name": "Doomsayer",
-    "team": "fabled",
-    "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies."
-  },
-  {
-    "id": "angel",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": ["Protect", "Something Bad"],
-    "setup": false,
-    "name": "Angel",
-    "team": "fabled",
-    "ability": "Something bad might happen to whoever is most responsible for the death of a new player."
-  },
-  {
-    "id": "buddhist",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "name": "Buddhist",
-    "team": "fabled",
-    "ability": "For the first 2 minutes of each day, veteran players may not talk."
-  },
-  {
-    "id": "hellslibrarian",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": ["Something Bad"],
-    "setup": false,
-    "name": "Hell's Librarian",
-    "team": "fabled",
-    "ability": "Something bad might happen to whoever talks when the Storyteller has asked for silence."
-  },
-  {
-    "id": "revolutionary",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": ["Used"],
-    "setup": false,
-    "name": "Revolutionary",
-    "team": "fabled",
-    "ability": "2 neighboring players are known to be the same alignment. Once per game, one of them registers falsely."
-  },
-  {
-    "id": "fiddler",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "name": "Fiddler",
-    "team": "fabled",
-    "ability": "Once per game, the Demon secretly chooses an opposing player: all players choose which of these 2 players win."
-  },
-  {
-    "id": "toymaker",
-    "firstNightReminder": "",
-    "otherNight": 1,
-    "otherNightReminder": "If it is a night when a Demon attack could end the game, and the Demon is marked “Final night: No Attack,” then the Demon does not act tonight. (Do not wake them.)",
-    "reminders": ["Final Night: No Attack"],
-    "setup": false,
-    "name": "Toymaker",
-    "team": "fabled",
-    "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
-  },
-  {
-    "id": "fibbin",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": ["Used"],
-    "setup": false,
-    "name": "Fibbin",
-    "team": "fabled",
-    "ability": "Once per game, 1 good player might get false information."
-  },
-  {
-    "id": "duchess",
-    "firstNightReminder": "",
-    "otherNight": 1,
-    "otherNightReminder": "Wake each player marked “Visitor” or “False Info” one at a time. Show them the Duchess token, then fingers (1, 2, 3) equaling the number of evil players marked “Visitor” or, if you are waking the player marked “False Info,” show them any number of fingers except the number of evil players marked “Visitor.”",
-    "reminders": ["Visitor", "False Info"],
-    "setup": false,
-    "name": "Duchess",
-    "team": "fabled",
-    "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info."
-  },
-  {
-    "id": "sentinel",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": true,
-    "name": "Sentinel",
-    "team": "fabled",
-    "ability": "There might be 1 extra or 1 fewer Outsider in play."
-  },
-  {
-    "id": "spiritofivory",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": ["No extra evil"],
-    "setup": false,
-    "name": "Spirit of Ivory",
-    "team": "fabled",
-    "ability": "There can't be more than 1 extra evil player."
-  },
-  {
-    "id": "djinn",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "name": "Djinn",
-    "team": "fabled",
-    "ability": "Use the Djinn's special rule. All players know what it is."
-  },
-  {
-    "id": "stormcatcher",
-    "firstNight": 1,
-    "firstNightReminder": "Mark a good player as \"Safe\". Wake each evil player and show them the marked player.",
-    "otherNightReminder": "",
-    "reminders": ["Safe"],
-    "setup": false,
-    "name": "Storm Catcher",
-    "team": "fabled",
-    "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is."
-  }
+    {
+        "id": "loser",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "失败的上帝",
+        "team": "fabled",
+        "ability": "当“失败的上帝”被启用之后，说书人会公开承认他之前犯了一个错误并改正它。例如，在天亮时，说书人发现他在前一晚给的一个信息是不应该给的，于是说书人启用“失败的上帝”，让所有玩家再次闭眼，唤醒他给错信息的那名玩家并重新给信息。"
+    },
+    {
+        "id": "doomsayer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "末日预言者",
+        "team": "fabled",
+        "ability": "“末日预言者”被启用之后，如果有4名以上玩家存活，每名玩家限一次，公开要求说书人杀死一名与他阵营相同的玩家。 当一名玩家公开要求使用末日预言者的能力时，说书人选择一名与他相同阵营的玩家，然后宣布他死亡。之后该玩家不能再使用此能力。一旦剩下 3 名玩家存活，末日预言者的能力就不能再被使用，因为这会导致游戏直接结束。"
+    },
+    {
+        "id": "angel",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "保护",
+            "可能的坏事"
+        ],
+        "setup": false,
+        "name": "天使",
+        "team": "fabled",
+        "ability": "“天使”被启用之后，新玩家会受到天使的保护，对他们的死亡负有最大责任的人可能会遭遇一些不好的事情。这个“不好的事情”取决于说书人。它可以是禁言一段时间、死亡、被处决、失去能力一天、不能投票一天等等。"
+    },
+    {
+        "id": "buddhist",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "禅师",
+        "team": "fabled",
+        "ability": "“禅师”被启用之后，在每一个白天的前几分钟（说书人指定），老玩家禁止发言。"
+    },
+    {
+        "id": "hellslibrarian",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "可能的坏事"
+        ],
+        "setup": false,
+        "name": "地狱藏书员",
+        "team": "fabled",
+        "ability": "地狱藏书员”被启用之后，当说书人要求安静时，还在说话的玩家可能会遭遇一些不好的事情。这个“不好的事情”取决于说书人。它可以是禁言一段时间、死亡、被处决、失去能力一天、不能投票一天等等。"
+    },
+    {
+        "id": "revolutionary",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "已使用"
+        ],
+        "setup": false,
+        "name": "革命家",
+        "team": "fabled",
+        "ability": "“革命家”被启用之后，指定两名彼此相邻的玩家。他们的阵营相同。整局游戏限一次，他们可能被视为其他身份/阵营。受“革命家”影响的玩家属于同一个阵营，并且始终被允许私聊。一名玩家可以以任何需要的方式帮助另一名玩家，代表他说话，或建议他做什么。"
+    },
+    {
+        "id": "fiddler",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "提琴手",
+        "team": "fabled",
+        "ability": "“提琴手”被启用之后，它可以随时被激活，它被激活后，所有玩家都会闭上眼睛，而恶魔会选择一名存活的对立阵营的玩家。然后说书人公布恶魔和那名玩家。在一两分钟后，所有玩家将对这两个玩家进行投票。得票高的玩家所属的阵营获胜。"
+    },
+    {
+        "id": "toymaker",
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "但是恶魔有着“至少放弃一次杀害”的限制，如果恶魔一直不这样做，并且恶魔的下一次攻击将要结束游戏，那么不要唤醒恶魔——他今晚被迫放弃攻击。",
+        "reminders": [
+            "Final Night: No Attack"
+        ],
+        "setup": false,
+        "name": "戏命师",
+        "team": "fabled",
+        "ability": "“戏命师”被启用之后，恶魔可以选择在夜晚放弃杀害，并且整局游戏至少要放弃一次。恶魔和爪牙正常获取开局信息。"
+    },
+    {
+        "id": "fibbin",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "已使用"
+        ],
+        "setup": false,
+        "name": "捣蛋鬼",
+        "team": "fabled",
+        "ability": "”捣蛋鬼“被启用之后，整局游戏限一次，使一名善良阵营的玩家可能获取错误信息。"
+    },
+    {
+        "id": "duchess",
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "”女爵“被启用之后，每个白天，3名玩家可以来拜访你说书人。当晚（除首夜），说书人告知这些玩家他们之中有几名玩家属于邪恶阵营，一名玩家获取错误信息。",
+        "reminders": [
+            "拜访者",
+            "错误信息"
+        ],
+        "setup": false,
+        "name": "女爵",
+        "team": "fabled",
+        "ability": "”女爵“被启用之后，每个白天，3名玩家可以来拜访你说书人。当晚（除首夜），说书人告知这些玩家他们之中有几名玩家属于邪恶阵营，一名玩家获取错误信息。"
+    },
+    {
+        "id": "sentinel",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "name": "哨兵",
+        "team": "fabled",
+        "ability": "“哨兵”被启用之后，本局游戏可能增加或者减少1位外来者。"
+    },
+    {
+        "id": "spiritofivory",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "没有额外邪恶"
+        ],
+        "setup": false,
+        "name": "圣洁之魂",
+        "team": "fabled",
+        "ability": "“圣洁之魂”被启用之后，整局游戏不会出现超过1名的额外邪恶玩家。"
+    },
+    {
+        "id": "djinn",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "神灵",
+        "team": "fabled",
+        "ability": "“神灵”被启用之后，采用神灵特殊规则，所有玩家都知道这条规则是什么。如果剧本中有落难少女，而场上有炼药师，那么邪恶阵营可以轻松取得胜利;如果场上有暴乱，送葬者的技能就无法触发。“神灵”这个传奇身份可以解决这些问题，当你在剧本中加入这些角色时，你可以创造像“如果炼药师想要创造少女，由说书人决定谁来变为少女”“暴乱在场时，因提名而死亡的玩家对于送葬者而言是被处决的”这样的神灵特殊规则。"
+    },
+    {
+        "id": "stormcatcher",
+        "firstNight": 1,
+        "firstNightReminder": "“风暴主宰”被启用之后，游戏开始时，选择一个善良身份，如果该身份在游戏中，对应玩家只能因为处决而死亡，但是邪恶阵营知道这个身份。",
+        "otherNightReminder": "",
+        "reminders": [
+            "安全"
+        ],
+        "setup": false,
+        "name": "风暴主宰",
+        "team": "fabled",
+        "ability": "“风暴主宰”被启用之后，游戏开始时，选择一个善良身份，如果该身份在游戏中，对应玩家只能因为处决而死亡，但是邪恶阵营知道这个身份。"
+    }
 ]
