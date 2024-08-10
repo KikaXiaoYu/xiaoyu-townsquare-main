@@ -334,7 +334,14 @@
       }
     }
   }
-  
+  .ustate {
+    .name {
+      color: $state;
+    }
+    aside {
+      background: linear-gradient(-90deg, $state, transparent);
+    }
+  }
   .townsfolk {
     .name {
       color: $townsfolk;

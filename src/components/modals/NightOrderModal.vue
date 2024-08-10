@@ -292,9 +292,9 @@
   
   .fabled {
     .name {
-      background: linear-gradient(-90deg, $fabled, transparent 35%);
+      background: linear-gradient(180deg, $fabled, transparent 35%);
       .night .other & {
-        background: linear-gradient(90deg, $fabled, transparent 35%);
+        background: linear-gradient(180deg, $fabled, transparent 35%);
       }
     }
   }
