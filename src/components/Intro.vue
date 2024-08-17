@@ -2,7 +2,7 @@
   <div class="intro">
     <img src="static/apple-icon.png" alt="" class="logo" />
     <div>
-      欢迎来到小钰的半汉化版血染钟楼软件喵~ 以下是原作者的英文介绍，我没有作任何修改。起因是官方汉化的版本闭源而且缺斤少两，于是就想着干脆自己汉化得了（我又不是做不到hhh）。注意这个在线软件必须使用Chrome浏览器，不然用不起来喵~
+      欢迎来到小钰的半汉化版血染钟楼软件喵~ 以下是原作者的英文介绍，我没有作任何修改。起因是官方汉化的版本闭源而且缺斤少两，于是就想着干脆自己汉化得了（我又不是做不到hhh）。注意这个在线软件必须使用Chrome浏览器，不然用不起来喵~ 遇到一切问题欢迎私信shinoxiaoyu@outlook.com
       Welcome to the (unofficial)
       <b>Virtual Town Square and Grimoire</b> for Blood on the Clocktower!
       Please add more players through the
