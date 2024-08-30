@@ -91,7 +91,16 @@
   },
   {
     "id": "xrmj",
-    "name": "钟楼麻将 (原创欢乐,Lv2)",
+    "name": "钟楼麻将 (小钰原创,Lv4, Beta Ver.)",
+    "author": "小钰",
+    "description": "",
+    "level": "新手",
+    "roles": [],
+    "isOfficial": false
+  },
+  {
+    "id": "xiaoyu",
+    "name": "筱钰不眠于雪花纷飞之夜",
     "author": "小钰",
     "description": "",
     "level": "新手",

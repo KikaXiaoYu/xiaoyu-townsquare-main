@@ -1,0 +1,92 @@
+{
+    "bluffs": [],
+    "edition": {
+        "id": "ava"
+    },
+    "roles": "",
+    "fabled": [],
+    "players": [
+
+        {
+            "name": "1_黄zm",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "2_窦yx",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "3_邓yz",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "4_祝yh",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "5_吕ch",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "6_田ny",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "7_胡君杰",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "8_顾yf",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "9_陶yy",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        }
+    ]
+}
