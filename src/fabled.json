@@ -160,5 +160,19 @@
         "name": "风暴主宰",
         "team": "fabled",
         "ability": "“风暴主宰”被启用之后，游戏开始时，选择一个善良身份，如果该身份在游戏中，对应玩家只能因为处决而死亡，但是邪恶阵营知道这个身份。"
+    },
+    {
+        "id": "shuoshurenzhinu_dengshen",
+        "name": "灯神",
+        "edition": "shuoshurenzhinu",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "使用灯神的相克规则。所有玩家都会知道其内容。"
     }
 ]

@@ -106,5 +106,14 @@
     "level": "新手",
     "roles": [],
     "isOfficial": false
-  }
+  },
+  {
+    "id": "shuoshurenzhinu",
+    "name": "说书人之怒",
+    "author": "Richard Black",
+    "description": "",
+    "level": "新手",
+    "roles": [],
+    "isOfficial": false
+}
 ]

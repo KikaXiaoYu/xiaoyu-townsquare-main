@@ -7,7 +7,7 @@
     "fabled": [],
     "players": [
         {
-            "name": "1吕ch",
+            "name": "1顾yf",
             "id": "",
             "role": {},
             "reminders": [],
@@ -16,7 +16,7 @@
             "pronouns": ""
         },
         {
-            "name": "2练wh",
+            "name": "2邓yz",
             "id": "",
             "role": {},
             "reminders": [],
@@ -25,7 +25,7 @@
             "pronouns": ""
         },
         {
-            "name": "3祝yh",
+            "name": "3陶yy",
             "id": "",
             "role": {},
             "reminders": [],
@@ -34,7 +34,7 @@
             "pronouns": ""
         },
         {
-            "name": "4金zk",
+            "name": "4田ny",
             "id": "",
             "role": {},
             "reminders": [],
@@ -43,7 +43,7 @@
             "pronouns": ""
         },
         {
-            "name": "5袁zy",
+            "name": "5吕ch",
             "id": "",
             "role": {},
             "reminders": [],
@@ -52,7 +52,7 @@
             "pronouns": ""
         },
         {
-            "name": "6田ny",
+            "name": "6徐zw",
             "id": "",
             "role": {},
             "reminders": [],
@@ -61,7 +61,7 @@
             "pronouns": ""
         },
         {
-            "name": "7李wq",
+            "name": "7练wh",
             "id": "",
             "role": {},
             "reminders": [],
@@ -70,7 +70,16 @@
             "pronouns": ""
         },
         {
-            "name": "8张yd",
+            "name": "8金zk",
+            "id": "",
+            "role": {},
+            "reminders": [],
+            "isVoteless": false,
+            "isDead": false,
+            "pronouns": ""
+        },
+        {
+            "name": "9祝yh",
             "id": "",
             "role": {},
             "reminders": [],
