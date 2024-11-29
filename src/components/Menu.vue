@@ -124,6 +124,10 @@
           <template v-if="!session.sessionId">
             <li @click="hostSession">Host (Storyteller)<em>[H]</em></li>
             <li @click="joinSession">Join (Player)<em>[J]</em></li>
+            <li @click="toggleModal('voteHistory')"
+            >
+              Vote history<em>[V]</em>
+            </li>
           </template>
           <template v-else>
             <li v-if="session.ping">
@@ -181,7 +185,8 @@
           </li>
           <li v-if="!session.isSpectator" @click="toggleModal('fabled')">
             Add Fabled
-            <em><font-awesome-icon icon="dragon"/></em>
+            <!-- <em><font-awesome-icon icon="dragon"/></em> -->
+            <em>[F]</em>
           </li>
           <li @click="clearRoles" v-if="players.length">
             Remove all
@@ -202,9 +207,10 @@
           </li>
           <li @click="toggleModal('gameState')">
             Game State JSON
-            <em><font-awesome-icon icon="file-code"/></em>
+            <em>[P]</em>
+            <!-- <em><font-awesome-icon icon="file-code"/></em> -->
           </li>
-          <li>
+          <!-- <li>
             <a href="https://discord.gg/Gd7ybwWbFk" target="_blank">
               Join Discord
             </a>
@@ -213,7 +219,7 @@
                 <font-awesome-icon :icon="['fab', 'discord']" />
               </a>
             </em>
-          </li>
+          </li> -->
           <li>
             <a href="https://github.com/KikaXiaoYu/xiaoyu-townsquare-main" target="_blank">
               Source code

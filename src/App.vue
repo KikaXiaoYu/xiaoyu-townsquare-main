@@ -104,6 +104,12 @@ export default {
         case "n":
           this.$store.commit("toggleModal", "nightOrder");
           break;
+        case "f":
+          this.$store.commit("toggleModal", "fabled");
+          break;
+        case "p":
+          this.$store.commit("toggleModal", "gameState");
+          break;
         case "e":
           if (this.session.isSpectator) return;
           this.$store.commit("toggleModal", "edition");
