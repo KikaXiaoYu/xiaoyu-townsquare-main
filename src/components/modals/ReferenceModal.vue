@@ -14,7 +14,7 @@
           />
           <div class="title-container">
             <h3>
-              Character Reference
+              CR
               <font-awesome-icon icon="address-card" />
               {{ edition.name || "Custom Script" }}
             </h3>
@@ -336,10 +336,18 @@
   }
   .ustate {
     .name {
-      color: $state;
+      color: $ustate;
     }
     aside {
-      background: linear-gradient(-90deg, $state, transparent);
+      background: linear-gradient(-90deg, $ustate, transparent);
+    }
+  }
+  .uedition {
+    .name {
+      color: $uedition;
+    }
+    aside {
+      background: linear-gradient(-90deg, $uedition, transparent);
     }
   }
   .townsfolk {

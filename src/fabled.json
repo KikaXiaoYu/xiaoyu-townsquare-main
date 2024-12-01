@@ -174,5 +174,118 @@
         "remindersGlobal": [],
         "setup": false,
         "ability": "使用灯神的相克规则。所有玩家都会知道其内容。"
+    },
+    {
+        "id": "lycm_zma",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2600674341071_4c93e0a2.jpg",
+        "edition": "lycm",
+        "name": "剧目：铡美案",
+        "ability": "一名生角饰演陈世美。【陈世美：饰主演。每个夜晚*，你要选择一名存活的玩家：他死亡。如果你死亡，你的搭档变成陈世美】——且看包公怒斩渣男陈世美狗头。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 9,
+        "otherNightReminder": "一名生角饰演陈世美。【陈世美：饰主演。每个夜晚*，你要选择一名存活的玩家：他死亡。如果你死亡，你的搭档变成陈世美】",
+        "reminders": [
+            "陈世美",
+            "死亡"
+        ]
+    },
+    {
+        "id": "lycm_bwbj",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3674984341071_19e74b1e.jpg",
+        "edition": "lycm",
+        "name": "剧目：霸王别姬",
+        "ability": "一名旦角饰演虞美人，一名反派饰演楚霸王。【虞美人：饰主演。楚霸王知道你是虞美人】【楚霸王：饰反派。每个剧目限一次，在白天时，你可以重复公开选择玩家猜拳，直到你输了，输了的玩家都死亡。即使你已死亡。】——共品项羽与虞姬的末路情歌。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 9,
+        "otherNightReminder": "一名旦角饰演虞美人，一名反派饰演楚霸王。【虞美人：饰主演。楚霸王知道你是虞美人】【楚霸王：饰反派。每个剧目限一次，在白天时，你可以重复公开选择玩家猜拳，直到你输了，输了的玩家都死亡。即使你已死亡。】",
+        "reminders": [
+            "虞美人",
+            "楚霸王"
+        ]
+    },
+    {
+        "id": "lycm_qnyh",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_5443274341071_b24efb83.jpg",
+        "edition": "lycm",
+        "name": "剧目：倩女幽魂",
+        "ability": "一名旦角饰演聂小倩、他的搭档饰演宁采臣。【聂小倩：饰主演。每个夜晚*，你要选择一名存活的玩家：他死亡。】【宁采臣：饰反派。如果你已死亡，聂小倩每个夜晚都可以额外行动一次。】——围观聂小倩与宁采臣的人鬼虐恋。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 9,
+        "otherNightReminder": "一名旦角饰演聂小倩、他的搭档饰演宁采臣。【聂小倩：饰主演。每个夜晚*，你要选择一名存活的玩家：他死亡。】【宁采臣：饰反派。如果你已死亡，聂小倩每个夜晚都可以额外行动一次。】",
+        "reminders": [
+            "聂小倩",
+            "宁采臣",
+            "死亡"
+        ]
+    },
+    {
+        "id": "lycm_mdt",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_9450874341071_879a9f65.jpg",
+        "edition": "lycm",
+        "name": "剧目：牡丹亭",
+        "ability": "一个生角饰演柳梦梅、一名死亡玩家饰演杜丽娘。【柳梦梅：饰主演。你不知道你是柳梦梅、你的搭档不知道阵营发生了转变，杜丽娘会知道你是柳梦梅。】【杜丽娘：饰反派。每个夜晚*，你要选择一名存活的玩家：他死亡，即使你已死亡。】——见证杜丽娘与柳梦梅的惊美爱情。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 9,
+        "otherNightReminder": "一个生角饰演柳梦梅、一名死亡玩家饰演杜丽娘。【柳梦梅：饰主演。你不知道你是柳梦梅、你的搭档不知道阵营发生了转变，杜丽娘会知道你是柳梦梅。】【杜丽娘：饰反派。每个夜晚*，你要选择一名存活的玩家：他死亡，即使你已死亡。】",
+        "reminders": [
+            "杜丽娘",
+            "柳梦梅",
+            "死亡"
+        ]
+    },
+    {
+        "id": "lycm_zkjm",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6853494341071_6585e7bc.jpg",
+        "edition": "lycm",
+        "name": "剧目：钟馗嫁妹",
+        "ability": "一名净角饰演钟馗。【钟馗：饰主演。每个夜晚，你要选择一名存活的玩家（所有玩家都会得知你选了谁）：只要他存活，在白天结束时会有一名玩家死亡。】——亲历钟馗奉命拔剑镇压魑魅魍魉。",
+        "team": "fabled",
+        "firstNight": 12,
+        "firstNightReminder":"一名净角饰演钟馗。【钟馗：饰主演。每个夜晚，你要选择一名存活的玩家（所有玩家都会得知你选了谁）：只要他存活，在白天结束时会有一名玩家死亡。】",
+        "otherNight": 9,
+        "otherNightReminder":"一名净角饰演钟馗。【钟馗：饰主演。每个夜晚，你要选择一名存活的玩家（所有玩家都会得知你选了谁）：只要他存活，在白天结束时会有一名玩家死亡。】",
+        "reminders": [
+            "钟馗",
+            "鬼怪",
+            "死亡"
+        ]
+    },
+    {
+        "id": "lycm_bsz",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2649374341071_6f843ad0.jpg",
+        "edition": "lycm",
+        "name": "剧目：白蛇传",
+        "ability": "一名旦角饰演白娘子。每天提名开始前加入竞选环节，愿意竞选的玩家依次发言后所有玩家投票，得票最高的玩家饰演法海，直到下个黎明。【白娘子：饰主演。每个夜晚*，你要选择一名存活玩家：他死亡。】【法海：其他玩家不能使用自身能力选择你，只有你才能发起提名。】——回忆许仙与白素贞的人妖殊途。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 9,
+        "otherNightReminder":"一名净角饰演钟馗。【钟馗：饰主演。每个夜晚，你要选择一名存活的玩家（所有玩家都会得知你选了谁）：只要他存活，在白天结束时会有一名玩家死亡。】",
+        "reminders": [
+            "白娘子",
+            "法海",
+            "死亡"
+        ]
+    },
+    {
+        "id": "lycm_wsdh",
+        "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_1020954341071_e11acf3d.jpg",
+        "edition": "lycm",
+        "name": "剧目：武松打虎",
+        "ability": "一名生角饰演武松，一名善良玩家饰演虎。【武松：饰主演。每个夜晚，你要选择一名玩家：他醉酒。如果你选中了虎，改为他死亡。】【虎：每个夜晚*，你要选择一名存活的玩家：他死亡。如果你选中了武松，改为你死亡。】——目睹武松酒后暴打国家保护动物。",
+        "team": "fabled",
+        "firstNight": 12,
+        "firstNightReminder":"一名生角饰演武松，一名善良玩家饰演虎。【武松：饰主演。每个夜晚，你要选择一名玩家：他醉酒。如果你选中了虎，改为他死亡。】【虎：每个夜晚*，你要选择一名存活的玩家：他死亡。如果你选中了武松，改为你死亡。】",
+        "otherNight": 9,
+        "otherNightReminder":"一名生角饰演武松，一名善良玩家饰演虎。【武松：饰主演。每个夜晚，你要选择一名玩家：他醉酒。如果你选中了虎，改为他死亡。】【虎：每个夜晚*，你要选择一名存活的玩家：他死亡。如果你选中了武松，改为你死亡。】",
+        "reminders": [
+            "武松",
+            "虎",
+            "醉酒",
+            "死亡"
+        ]
     }
 ]
