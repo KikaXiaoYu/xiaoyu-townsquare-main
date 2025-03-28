@@ -5317,13 +5317,13 @@
         "edition": "lol",
         "team": "townsfolk",
         "firstNight": 42,
-        "firstNightReminder": "在首夜，你会得知场上所有村民的角色名称字符数之和。",
+        "firstNightReminder": "在首夜，你会统计场上所有村民的角色名称字符数之和。",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<em>在首夜</em>，你会得知场上所有村民的角色名称字符数之和。"
+        "ability": "<em>在首夜</em>，你会统计场上所有村民的角色名称字符数之和。"
     },
     {
         "id": "lol_pxwe",
