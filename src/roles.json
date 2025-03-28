@@ -5400,7 +5400,7 @@
         "ability": "<em>每局游戏限一次</em>，你可以在白天公开声明“我要梭哈”，然后点出场上所有玩家的当前真实角色，如果正确，你的阵营获胜。"
     },
     {
-        "id": "myg_tyt",
+        "id": "lol_tyt",
         "name": "天眼通",
         "edition": "lol",
         "team": "townsfolk",
