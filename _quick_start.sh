@@ -1,4 +1,4 @@
 cd D:/Entertainment/DeathBellTowering/Story_teller_xiaoyu/townsquare-main
-c
+npm run serve
 
 # localhost:8080
