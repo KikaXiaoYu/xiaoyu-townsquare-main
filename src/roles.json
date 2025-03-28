@@ -5295,5 +5295,229 @@
             "陈世美",
             "死亡"
         ]
+    },
+
+    {
+        "id": "lol_mxw",
+        "name": "麦晓雯",
+        "edition": "lol",
+        "team": "townsfolk",
+        "firstNight": 40,
+        "firstNightReminder": "在首夜，你会得知场上的外来者数量是奇数还是偶数",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "<em>在首夜</em>，你会得知场上的外来者数量是奇数还是偶数。"
+    },
+    {
+        "id": "lol_wc",
+        "name": "维诚",
+        "edition": "lol",
+        "team": "townsfolk",
+        "firstNight": 42,
+        "firstNightReminder": "在首夜，你会得知场上所有村民的角色名称字符数之和。",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "<em>在首夜</em>，你会得知场上所有村民的角色名称字符数之和。"
+    },
+    {
+        "id": "lol_pxwe",
+        "name": "派西维尔",
+        "edition": "lol",
+        "team": "townsfolk",
+        "firstNight": 44,
+        "firstNightReminder": "每个夜晚，你得知2名玩家，其中有且仅有1个是村民。",
+        "otherNight": 44,
+        "otherNightReminder": "每个夜晚，你得知2名玩家，其中有且仅有1个是村民。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "<em>每个夜晚</em>，你得知2名玩家，其中有且仅有1个是村民。"
+    },
+    {
+        "id": "lol_sg",
+        "name": "死歌",
+        "edition": "lol",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 48,
+        "otherNightReminder": "如果你在夜里被恶魔杀死，在当晚，你会得知所有已死亡玩家的角色。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "如果你在夜里被恶魔杀死，在当晚，你会得知所有已死亡玩家的角色。"
+    },
+    {
+        "id": "myg_jwc",
+        "name": "教务处",
+        "edition": "lol",
+        "team": "townsfolk",
+        "firstNight": 46,
+        "firstNightReminder": "在首夜，你要指定一个数字x，你要选择x位玩家。",
+        "otherNight": 34,
+        "otherNightReminder": "在首夜，你要指定一个数字x，你要选择x位玩家，在第x+1个夜晚，如果你存活，你会得知这些玩家各自的阵营。你收到的信息会同时被抄送至所有邪恶玩家的聊天框。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "<em>在首夜</em>，你要指定一个数字x，你要选择x位玩家，在第x+1个夜晚，如果你存活，你会得知这些玩家各自的阵营。你收到的信息会同时被抄送至所有邪恶玩家的聊天框。"
+    },
+    {
+        "id": "lol_sn",
+        "name": "神女",
+        "edition": "lol",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 38,
+        "otherNightReminder": "在当晚，x号玩家会获得上帝的提示，该提示对这名玩家的阵营有利。",
+        "reminders": [],
+        "remindersGlobal": [
+            "发动技能"
+        ],
+        "setup": false,
+        "ability": "<em>每个白天</em>，你可以私聊说书人选择1位玩家，在当晚，x号玩家会获得上帝的提示，该提示对这名玩家的阵营有利。不可以重复选择玩家。"
+    },
+    {
+        "id": "lol_dg",
+        "name": "赌怪",
+        "edition": "lol",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "<em>每局游戏限一次</em>，你可以在白天公开声明“我要梭哈”，然后点出场上所有玩家的当前真实角色，如果正确，你的阵营获胜。"
+    },
+    {
+        "id": "myg_tyt",
+        "name": "天眼通",
+        "edition": "lol",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 50,
+        "otherNightReminder": "在当晚，如果你存活，你要指定一个数字x，你会得知当晚第x个发动技能的角色。",
+        "reminders": [],
+        "remindersGlobal": [
+            "发动技能"
+        ],
+        "setup": false,
+        "ability": "<em>每个白天</em>，你可以公开声明你是天眼通，在当晚，如果你存活，你要指定一个数字x，你会得知当晚第x个发动技能的角色。"
+    },
+    
+    {
+        "id": "lol_lan",
+        "name": "恋爱脑",
+        "edition": "lol",
+        "team": "outsider",
+        "firstNight": 20,
+        "firstNightReminder": "首个夜晚，你要选择1位玩家，你加入他的阵营，并且你们被允许随时私聊。",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": ["加入邪恶", "情侣"],
+        "setup": false,
+        "ability": "【免疫不良状态】<em>首个夜晚</em>，你要选择1位玩家，你加入他的阵营，并且你们被允许随时私聊。如果你们两个是善良阵营，你们会同时死亡。"
+    },
+    {
+        "id": "lol_zysz",
+        "name": "正义双子",
+        "edition": "lol",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "ability": "你不知道自己是正义双子，你以为自己是个村民角色，并且该角色一定在场。你可能被视为邪恶。"
+    },
+    {
+        "id": "lol_ytzd",
+        "name": "樱桃炸弹",
+        "edition": "lol",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "如果你死亡，当晚与你邻近的存活玩家之一可能会陷入醉酒。"
+    },
+    {
+        "id": "lol_mdld",
+        "name": "莫德雷德",
+        "edition": "lol",
+        "team": "minion",
+        "firstNight": 10,
+        "firstNightReminder": "在首夜，你查看魔典，并且选择1位玩家，他被查验时是邪恶的恶魔。你可能被视为善良角色。",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "被视为恶魔",
+            "被视为外来者"
+        ],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "在<em>首夜</em>，你查看魔典，并且选择1位玩家，他被查验时是邪恶的恶魔。你可能被视为善良角色。"
+    },
+    {
+        "id": "lol_itso",
+        "name": "ITSO",
+        "edition": "lol",
+        "team": "minion",
+        "firstNight": 25,
+        "firstNightReminder": "每个夜晚，你可以选择1个剧本中的角色，如果该角色在场，你会得知他的号码牌，他当晚中毒，且收到说书人的信息由你来给出。",
+        "otherNight": 10,
+        "otherNightReminder": "每个夜晚，你可以选择1个剧本中的角色，如果该角色在场，你会得知他的号码牌，他当晚中毒，且收到说书人的信息由你来给出。",
+        "reminders": ["中毒"],
+        "remindersGlobal": [],
+        "setup": true,
+        "ability": "<em>每个夜晚</em>，你可以选择1个剧本中的角色，如果该角色在场，你会得知他的号码牌，他当晚中毒，且收到说书人的信息由你来给出。[外来者-1]"
+    },
+    {
+        "id": "lol_qj",
+        "name": "千珏",
+        "edition": "lol",
+        "team": "demon",
+        "firstNight": 30,
+        "firstNightReminder": "每个夜晚，你要选择1名玩家进行标记，他们当晚是中毒状态。",
+        "otherNight": 22,
+        "otherNightReminder": "每个夜晚，你要选择1名玩家进行标记，他们当晚是中毒状态。",
+        "reminders": [
+            "千珏印",
+            "中毒"
+        ],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "<em>每个夜晚</em>，你要选择1名玩家进行<em>标记</em>，他当晚是中毒状态，下一个白天，如果标记的玩家被处决，当晚你可以额外标记1次；如果标记的玩家均未被处决，当晚他们全部死亡。"
+    },
+    {
+        "id": "lol_ylsx",
+        "name": "羊灵生息",
+        "edition": "lol",
+        "team": "ustate",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "场上至少会有3位玩家存活，当达到该条件时，游戏进行至最后1个白天，如果这个白天没有处决恶魔，邪恶阵营获胜。"
     }
 ]

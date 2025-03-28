@@ -213,5 +213,15 @@
         "outsider": "旦角",
         "minion": "净角",
         "demon": "丑角"
+    },
+    {
+        "author": "小钰",
+        "name": "碗泉部诗人 (Beta Ver.1.1)",
+        "id": "lol",
+        "additional": [
+            {
+                "剧本介绍": ""
+            }
+        ]
     }
 ]
