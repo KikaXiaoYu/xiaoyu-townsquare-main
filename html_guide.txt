@@ -1,0 +1,7 @@
+<p>这是一个普通的段落，其中<span style="background-color: yellow;">这段文字有背景颜色</span>。</p>
+<p>这是另一个段落，其中<span style="color: red;">这段文字是红色的</span>。</p>
+<p>这是一个段落，其中<span style="font-weight: bold;">这段文字是粗体的</span>。</p>
+<p>这是一个段落，其中<span style="font-style: italic;">这段文字是斜体的</span>。</p>
+<p>这是一个段落，其中<span style="text-decoration: underline;">这段文字是下划线的</span>。</p>
+<p>这是一个段落，其中<span style="font-size: 20px;">这段文字的字体大小是20px</span>。</p>
+<p>这是一个段落，其中<span style="font-family: Arial;">这段文字的字体是Arial</span>。</p>

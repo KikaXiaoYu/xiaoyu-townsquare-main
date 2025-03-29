@@ -323,6 +323,7 @@
         font-size: 75%;
         display: block;
         color: black; // 设置 name 文字颜色为黑色
+        font-family: consolas, 华文黑体, 微软雅黑, 华康手札体W5P;
       }
       .player {
         color: black; // 设置 player 文字颜色为黑色
@@ -330,8 +331,9 @@
         font-size: 60%;
       }
       .ability {
-        font-size: 70%;
+        font-size: 65%;
         color: black; // 设置 ability 文字颜色为黑色
+        font-family: 微软雅黑, sans-serif;
       }
     }
   }

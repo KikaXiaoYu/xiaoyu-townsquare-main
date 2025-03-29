@@ -217,7 +217,17 @@
 
     {
         "id": "lol",
-        "name": "碗泉部诗人 (Beta Ver.1.1)",
+        "name": "碗泉部诗人(6-8) (Beta Ver.1.1)",
+        "author": "小钰",
+        "description": "",
+        "level": "新手",
+        "roles": [],
+        "isOfficial": false
+    },
+
+    {
+        "id": "myg",
+        "name": "梅依阁诗人(8-15) (Beta Ver.1.1)",
         "author": "小钰",
         "description": "",
         "level": "新手",
