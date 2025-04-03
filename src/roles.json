@@ -5594,6 +5594,102 @@
     "setup": false,
     "ability": "<em><u>每局游戏限一次</u></em>，你可以在白天公开声明“我要梭哈”，然后点出场上所有玩家的当前真实角色，如果正确，你的阵营获胜。"
 },
+{
+    "id": "myg_sms",
+    "name": "算命僧",
+    "edition": "myg",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+        "无能力"
+    ],
+    "setup": false,
+    "ability": "每个白天，你可以公开声称自己是算命僧，然后选择1位玩家为其算命，说书人会私聊告知你结果。"
+},
+{
+    "id": "myg_ld",
+    "name": "雷达",
+    "edition": "myg",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 62,
+    "otherNightReminder": "每个白天，你可以和说书人私聊，得知昨晚有多少位玩家与说书人进行过交流。",
+    "reminders": [],
+    "remindersGlobal": [
+        "无能力"
+    ],
+    "setup": false,
+    "ability": "每个白天，你可以和说书人私聊，得知昨晚有多少位玩家与说书人进行过交流。"
+},
+
+{
+    "id": "myg_yys",
+    "name": "阴阳师",
+    "edition": "myg",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 31,
+    "otherNightReminder": "每局游戏限一次，在夜晚，你可以变更为一位已死亡的玩家的角色，并重新获得其技能。如果你选择了非村民玩家，你会中毒。",
+    "reminders": ["中毒"],
+    "remindersGlobal": [
+        "无能力"
+    ],
+    "setup": false,
+    "ability": "每局游戏限一次，在夜晚，你可以变更为一位已死亡的玩家的角色，并重新获得其技能。如果你选择了非村民玩家，你会中毒。"
+},
+{
+    "id": "myg_ywj",
+    "name": "云玩家",
+    "edition": "myg",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [
+        "无能力"
+    ],
+    "setup": false,
+    "ability": "你的技能是原创的，你不知道你的技能是什么，但说书人会告知你发动技能的形式（例如选择玩家、在白天声明等）。每个白天，你可以私聊说书人选择1位玩家，如果这位玩家是善良的，说书人会告诉你1个关于你技能的提示，否则会给出误导性提示。"
+},
+{
+    "id": "myg_qjxz",
+    "name": "奇迹行者",
+    "edition": "myg",
+    "team": "townsfolk",
+    "firstNight": 48,
+    "firstNightReminder": "在首夜，你会得知3条陈述。每个夜晚，你要对3条陈述判定是否。",
+    "otherNight": 36,
+    "otherNightReminder": "每个夜晚，你要对3条陈述判定是否。",
+    "reminders": [],
+    "remindersGlobal": [
+        "已出山"
+    ],
+    "setup": false,
+    "ability": "【你免疫中毒和醉酒、无法被邪恶阵营的技能选中。当你在尚未完成任务时表现得像奇迹行者时，你可能会死亡】在首夜，你会得知3条陈述。每个夜晚，你要对3条陈述判定是否。如果某个夜晚全部判定正确，你会得知“奇迹行者可以不用刷野了”。"
+},
+{
+    "id": "myg_tx",
+    "name": "桃香",
+    "edition": "myg",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 52,
+    "otherNightReminder": "如果你在夜里被恶魔杀死，所有邪恶玩家醉酒至后天凌晨。",
+    "reminders": ["醉酒"],
+    "remindersGlobal": [
+    ],
+    "setup": false,
+    "ability": "如果你在夜里被恶魔杀死，所有邪恶玩家醉酒至后天凌晨。"
+},
 
 {
     "id": "myg_lan",
@@ -5624,6 +5720,34 @@
     "ability": "你不知道自己是正义双子，你以为自己是个村民角色，并且该角色可能在场。<em><u>当你死亡时，你以为的那个村民角色会醉酒。你可能被视为邪恶。</u></em>"
 },
 {
+    "id": "myg_zh",
+    "name": "甄嬛",
+    "edition": "myg",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "当你被恶魔杀死时，恶魔会代替你死亡，你成为新的邪恶恶魔。"
+},
+{
+    "id": "myg_lyl",
+    "name": "李云龙",
+    "edition": "myg",
+    "team": "outsider",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "每个白天，你可以公开声称自己是李云龙，并对一位玩家进行炮击，如果该玩家是善良阵营，那么他会死亡。"
+},
+{
     "id": "myg_mdld",
     "name": "莫德雷德",
     "edition": "myg",
@@ -5637,7 +5761,7 @@
     ],
     "remindersGlobal": [],
     "setup": false,
-    "ability": "当你存活时，恶魔会被视为善良角色。"
+    "ability": "当你存活时，恶魔会被视为善良角色，你会被视为恶魔。"
 },
 {
     "id": "myg_itso",
@@ -5652,6 +5776,48 @@
     "remindersGlobal": [],
     "setup": true,
     "ability": "<em><u>每个夜晚</u></em>，你可以选择1个剧本中的角色，如果该角色在场，你会得知他的号码牌，他当晚中毒，且收到说书人的信息由你来给出。【外来者-1】"
+},
+{
+    "id": "myg_abl",
+    "name": "奥伯伦",
+    "edition": "myg",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "remindersGlobal": [],
+    "setup": true,
+    "ability": "你不知道你的队友是谁，队友也不知道你。当你投票时，你的票会被偷偷记作3票。【外来者+1】"
+},
+{
+    "id": "myg_sslf",
+    "name": "蚀时狼妃",
+    "edition": "myg",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 12,
+    "otherNightReminder": "每局游戏限一次，在夜晚*，选择1名玩家，当晚以及下一个白天，善良玩家对他的技能效果全部改为对施加者自己释放。",
+    "reminders": ["技能逆转"],
+    "remindersGlobal": [],
+    "setup": true,
+    "ability": "每局游戏限一次，在夜晚*，选择1名玩家，当晚以及下一个白天，善良玩家对他的技能效果全部改为对施加者自己释放。"
+},
+{
+    "id": "myg_st",
+    "name": "砂糖",
+    "edition": "myg",
+    "team": "minion",
+    "firstNight": 27,
+    "firstNightReminder": "",
+    "otherNight": 12,
+    "otherNightReminder": "每个夜晚，你要选择1名玩家，如果下个白天他被处决，所有为他投票的善良玩家当晚是中毒状态。",
+    "reminders": ["技能逆转", "中毒"],
+    "remindersGlobal": [],
+    "setup": false,
+    "ability": "每个夜晚，你要选择1名玩家，如果下个白天他被处决，所有为他投票的善良玩家当晚是中毒状态。"
 },
 {
     "id": "myg_qj",
@@ -5669,20 +5835,6 @@
     "remindersGlobal": [],
     "setup": false,
     "ability": "<em><u>每个夜晚</u></em>，你要选择1名玩家进行<em><u>标记</u></em>，他当晚是中毒状态，下一个白天，如果标记的玩家被处决，当晚你可以额外标记1次；如果标记的玩家均未被处决，当晚他们全部死亡。"
-},
-{
-    "id": "myg_ylsx",
-    "name": "羊灵生息",
-    "edition": "myg",
-    "team": "ustate",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false,
-    "ability": "场上至少会有3位玩家存活，当达到该条件时，游戏进行至最后1个白天，如果这个白天没有处决恶魔，邪恶阵营获胜。"
 }
 
 
