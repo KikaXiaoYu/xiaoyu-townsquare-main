@@ -5,19 +5,9 @@ import socket from "./socket";
 import players from "./modules/players";
 import session from "./modules/session";
 import editionJSON from "../editions.json";
-// import rolesJSON from "../roles.json";
+import rolesJSON from "../roles.json";
 import fabledJSON from "../fabled.json";
 import jinxesJSON from "../hatred.json";
-
-// 1. 使用require.context获取所有JSON文件
-const rolesContext = require.context('../roles', false, /\.json$/);
-// 2. 合并所有JSON文件内容为一个数组
-const rolesJSON = rolesContext.keys().reduce((acc, fileName) => {
-  // 假设每个JSON文件导出的是数组（如 [{角色1}, {角色2}]）
-  const fileContent = rolesContext(fileName);
-  return [...acc, ...fileContent];
-}, []);
-// 之后你的代码完全不需要修改！
 
 Vue.use(Vuex);
 
