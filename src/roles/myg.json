@@ -371,6 +371,21 @@
         "ability": "千珏印记数量为x，初始x=1。<em><u>每个夜晚</u></em>，你可以选择x名玩家(至少1位)进行<em><u>标记</u></em>，下一个白天，如果标记的玩家被处决，或者无人被处决，千珏印记数量+1；如果标记的玩家均未被处决，当晚他们全部死亡。"
     },
     {
+        "id": "myg_azzlz",
+        "name": "傲之追猎者",
+        "edition": "myg",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 23,
+        "otherNightReminder": "",
+        "reminders": [
+        ],
+        "remindersGlobal": [],
+        "setup": true,
+        "ability": "<i><u>每个夜晚*</u></i>，你要选择1位玩家，他死亡。在你选择之前，你会得知1个场上存在角色，如果他死亡，你会获得1枚哈夫币并且得知下一个存在角色。当你获得x枚哈夫币时，邪恶阵营获胜。(说书人会在第1个白天开始时公开宣布x的具体值)"
+    },
+    {
         "id": "myg_ylsx",
         "name": "羊灵生息",
         "edition": "myg",
@@ -396,6 +411,6 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "每个黄昏，说书人会用一句诗来描述场上的局势。"
+        "ability": "每个黄昏，说书人可能会用一句诗来描述场上的局势。"
     }
 ]
