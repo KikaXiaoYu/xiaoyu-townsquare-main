@@ -278,8 +278,8 @@
         "name": "莫德雷德",
         "edition": "myg",
         "team": "minion",
-        "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNight": 15,
+        "firstNightReminder": "查看魔典。",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -288,7 +288,7 @@
         ],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "当你存活时，恶魔会被视为善良角色，你会被视为恶魔。【外来者-1】"
+        "ability": "首夜，你查看魔典。当你存活时，恶魔会被视为善良角色，你会被视为恶魔。【外来者-2】"
     },
     {
         "id": "myg_itso",
@@ -318,7 +318,7 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "你不知道你的队友是谁，队友也不知道你。当你投票时，你的票会被偷偷记作x票 (x=场上总玩家数量/2，向上取整)。【外来者+1】"
+        "ability": "你不知道你的队友是谁，队友也不知道你。当你投票时，你的票会被偷偷记作x票 (x=场上总玩家数量/2，向上取整)。【外来者+2】"
     },
     {
         "id": "myg_sslf",
