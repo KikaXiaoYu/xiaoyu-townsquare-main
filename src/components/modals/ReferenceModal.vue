@@ -320,7 +320,7 @@
       }
       .name {
         font-weight: bold;
-        font-size: 75%;
+        font-size:70%;
         display: block;
         color: black; // 设置 name 文字颜色为黑色
         font-family: consolas, 华文黑体, 微软雅黑, 华康手札体W5P;

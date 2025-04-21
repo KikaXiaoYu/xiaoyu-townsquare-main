@@ -1,0 +1,456 @@
+[
+    {
+        "id": "祖母",
+        "name": "祖母",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 40,
+        "firstNightReminder": "在你的首个夜晚，你会得知一名善良玩家和他的角色。",
+        "otherNight": 51,
+        "otherNightReminder": "如果祖母的孙子今晚被恶魔杀死：祖母就会死亡。",
+        "reminders": [
+            "祖母孙子"
+        ],
+        "setup": false,
+        "ability": "在你的首个夜晚，你会得知一名善良玩家和他的角色。如果恶魔杀死了他，你也会死亡。"
+    },
+    {
+        "id": "水手",
+        "name": "水手",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 11,
+        "firstNightReminder": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。",
+        "otherNight": 4,
+        "otherNightReminder": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。",
+        "reminders": [
+            "醉酒"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，你要选择一名存活的玩家：你或他之一会醉酒直到下个黄昏。你不会死亡。"
+    },
+    {
+        "id": "侍女",
+        "name": "侍女",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 51,
+        "firstNightReminder": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+        "otherNight": 70,
+        "otherNightReminder": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚，你要选择除你以外的两名存活的玩家：你会得知他们中有几人在当晚因其自身能力而被唤醒。"
+    },
+    {
+        "id": "驱魔师",
+        "name": "驱魔人",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 21,
+        "otherNightReminder": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。",
+        "reminders": [
+            "驱魔术"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你要选择一名玩家（与上个夜晚不同）：如果你选中了恶魔，他会得知你是驱魔人，但他当晚不会因其自身能力而被唤醒。"
+    },
+    {
+        "id": "旅店老板",
+        "name": "旅店老板",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 9,
+        "otherNightReminder": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。",
+        "reminders": [
+            "受保护",
+            "醉酒"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你要选择两名玩家：他们当晚不会死亡，但其中一人会醉酒到下个黄昏。"
+    },
+    {
+        "id": "赌徒",
+        "name": "赌徒",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 10,
+        "otherNightReminder": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。",
+        "reminders": [
+            "死亡"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你要选择一名玩家并猜测该玩家的角色：如果你猜错了，你会死亡。"
+    },
+    {
+        "id": "造谣者",
+        "name": "造谣者",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 38,
+        "otherNightReminder": "如果公开声明属实：选择一名今晚未受死亡保护的玩家。该玩家死亡。",
+        "reminders": [
+            "声明"
+        ],
+        "setup": false,
+        "ability": "每个白天，你可以公开发表一个声明。如果该声明正确，在当晚会有一名玩家死亡。"
+    },
+    {
+        "id": "侍臣",
+        "name": "侍臣",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 19,
+        "firstNightReminder": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，该角色之一从当晚开始醉酒三天三夜。",
+        "otherNight": 8,
+        "otherNightReminder": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，该角色之一从当晚开始醉酒三天三夜。",
+        "reminders": [
+            "醉酒D3",
+            "醉酒D2",
+            "醉酒D1",
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚时，你可以选择一个角色：如果该角色在场，该角色之一从当晚开始醉酒三天三夜。"
+    },
+    {
+        "id": "教授",
+        "name": "教授",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 43,
+        "otherNightReminder": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。",
+        "reminders": [
+            "复活",
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚时*，你可以选择一名死亡的玩家：如果他是镇民，你会将他起死回生。"
+    },
+    {
+        "id": "吟游诗人",
+        "name": "吟游诗人",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "全场醉酒"
+        ],
+        "setup": false,
+        "ability": "当一名爪牙死于处决时，除了你和旅行者以外的所有其他玩家醉酒直到明天黄昏。"
+    },
+    {
+        "id": "茶女郎",
+        "name": "茶艺师",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "不会死亡"
+        ],
+        "setup": false,
+        "ability": "如果与你邻近的两名存活的玩家是善良的，他们不会死亡。"
+    },
+    {
+        "id": "和平鸽",
+        "name": "和平主义者",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "被处决的善良玩家可能不会死亡。"
+    },
+    {
+        "id": "弄臣",
+        "name": "弄臣",
+        "edition": "bmr",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "当你首次将要死亡时，你不会死亡。"
+    },
+    {
+        "id": "修补匠",
+        "name": "修补匠",
+        "edition": "bmr",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 49,
+        "otherNightReminder": "你随时可能去世。",
+        "reminders": [
+            "死亡"
+        ],
+        "setup": false,
+        "ability": "你随时可能死亡。<i><在受到免于死亡的能力保护时，不能因自己的能力而死亡></i>"
+    },
+    {
+        "id": "月之子",
+        "name": "月之子",
+        "edition": "bmr",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 50,
+        "otherNightReminder": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。",
+        "reminders": [
+            "死亡"
+        ],
+        "setup": false,
+        "ability": "当你得知你死亡时，你要公开选择一名存活的玩家。如果他是善良的，在当晚他会死亡。"
+    },
+    {
+        "id": "打手",
+        "name": "莽夫",
+        "edition": "bmr",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "醉酒"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，首个使用其自身能力选择了你的玩家会醉酒直到下个黄昏。你会转变为他的阵营。"
+    },
+    {
+        "id": "疯子",
+        "name": "疯子",
+        "edition": "bmr",
+        "team": "outsider",
+        "firstNight": 8,
+        "firstNightReminder": "向疯子展示爪牙，展示3个身份可供伪装。如果需要使用恶魔技能，则同时向真正恶魔展示技能。",
+        "otherNight": 20,
+        "otherNightReminder": "允许疯子执行恶魔的行为。恶魔将会得知。",
+        "reminders": [
+            "击杀1",
+            "击杀2",
+            "击杀3"
+        ],
+        "setup": false,
+        "ability": "你以为你是一个恶魔，但其实你不是。恶魔知道你是疯子以及你在每个夜晚选择了哪些玩家。<br><i><疯子会在首个夜晚被唤醒来得知三个不在场的角色，以及与当前游戏数量符合的爪牙，但是这些信息可能是错误的。疯子每个夜晚都会被唤醒来发动攻击，就如同他是场上真正的恶魔，但是疯子的选择没有效果，因为他没有恶魔的能力。></i>"
+    },
+    {
+        "id": "教父",
+        "name": "教父",
+        "edition": "bmr",
+        "team": "minion",
+        "firstNight": 21,
+        "firstNightReminder": "显示游戏中每个外来者标记。",
+        "otherNight": 37,
+        "otherNightReminder": "如果今天有一名外来者死亡：教父指向一名玩家。该玩家死亡。",
+        "reminders": [
+            "今天死亡",
+            "死亡"
+        ],
+        "setup": true,
+        "ability": "在你的首个夜晚，你会得知有哪些外来者角色在场。如果有外来者在白天死亡，你会在当晚被唤醒并且你要选择一名玩家：他死亡。[-1或+1外来者]"
+    },
+    {
+        "id": "魔鬼拥护者",
+        "name": "魔鬼代言人",
+        "edition": "bmr",
+        "team": "minion",
+        "firstNight": 22,
+        "firstNightReminder": "每个夜晚，选择一名存活玩家（与前一夜不同）：如果这名玩家明天被处决，则该玩家不会因此死亡。",
+        "otherNight": 13,
+        "otherNightReminder": "每个夜晚，选择一名存活玩家（与前一夜不同）：如果这名玩家明天被处决，则该玩家不会因此死亡。",
+        "reminders": [
+            "幸存"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，你要选择一名存活的玩家（与上个夜晚不同）：如果明天白天他被处决，他不会死亡。"
+    },
+    {
+        "id": "刺客",
+        "name": "刺客",
+        "edition": "bmr",
+        "team": "minion",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 36,
+        "otherNightReminder": "每局游戏限一次，在夜晚（除首夜），选择一名玩家，无视任何不死效果，杀死该玩家。",
+        "reminders": [
+            "死亡",
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚时*，你可以选择一名玩家：他死亡，即使因为任何原因让他不会死亡。"
+    },
+    {
+        "id": "幕后主使",
+        "name": "主谋",
+        "edition": "bmr",
+        "team": "minion",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "如果恶魔因为死于处决而因此导致游戏结束时，再额外进行一个夜晚和一个白天。在那个白天如果有玩家被处决，他的阵营落败。"
+    },
+    {
+        "id": "丧尸",
+        "name": "僵怖",
+        "edition": "bmr",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 25,
+        "otherNightReminder": "每个夜晚（除首夜），如果白天时没有任何人死亡，则醒来选择一名玩家：那名玩家死亡。",
+        "reminders": [
+            "今天死亡",
+            "死亡"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，如果今天白天没有人死亡，你会被唤醒并要选择一名玩家：他死亡。当你首次死亡后，你仍存活，但会被当作死亡。<br><i><如果一个醉酒或中毒的僵怖死亡，善良阵营获胜。看似死亡的僵怖在绝大多数情况下都算作已死亡。该玩家在城镇广场的生命标记会翻面以标识死亡。下一次该玩家投票时，会失去投票标记。该玩家不能发起提名></i>"
+    },
+    {
+        "id": "布卡",
+        "name": "普卡",
+        "edition": "bmr",
+        "team": "demon",
+        "firstNight": 28,
+        "firstNightReminder": "每个夜晚，选择一名玩家：那名玩家中毒，上次你选择的玩家会死亡并解除中毒。",
+        "otherNight": 26,
+        "otherNightReminder": "每个夜晚，选择一名玩家：那名玩家中毒，上次你选择的玩家会死亡并解除中毒。",
+        "reminders": [
+            "中毒",
+            "死亡"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，你要选择一名玩家：他中毒。上个因你的能力中毒的玩家会死亡并恢复健康。<br><i><如果普卡在上一个夜晚选择玩家时是清醒的，但是当晚处于不良状态，该玩家不会死亡。但是当普卡恢复清醒，中毒效果会恢复，且会在随后的夜晚杀死该玩家。></i>"
+    },
+    {
+        "id": "暴食者",
+        "name": "沙巴洛斯",
+        "edition": "bmr",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 27,
+        "otherNightReminder": "每个夜晚（除首夜），选择两名玩家：这些玩家死亡，被你上一次选择的玩家之一可能因为你的反刍而复活。",
+        "reminders": [
+            "死亡",
+            "存活"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你要选择两名玩家：他们死亡。你上个夜晚选择过且当前死亡的玩家之一可能会被你反刍。<br><i><因反刍而复活的玩家重新获得自己的能力，即使是已经使用过的“每局游戏限一次”的能力也会重新获得。被复活的玩家可以是在存活状态下被沙巴洛斯攻击的玩家，也可以是在死亡状态下被沙巴洛斯攻击的玩家></i>"
+    },
+    {
+        "id": "恶之花",
+        "name": "珀(恶之花)",
+        "edition": "bmr",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 28,
+        "otherNightReminder": "每个夜晚（除首夜），选择一名玩家：杀死那名玩家。如果上一次未选择玩家，则当晚改为选择三名玩家。",
+        "reminders": [
+            "死亡",
+            "3个击杀"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你可以选择一名玩家：他死亡。如果你上次选择时没有选择任何玩家，当晚你要选择三名玩家：他们死亡。<br><i><当要求珀选择三名玩家时，他必须要选择。如果珀在上一个夜晚不选择任何人时处于醉酒或中毒，当晚珀仍然能够选择三名玩家。如果驱魔人选择了珀，珀不会行动，但是这并不算作珀“没有选择任何人”。></i>"
+    },
+    {
+        "id": "学徒",
+        "name": "学徒",
+        "edition": "bmr",
+        "team": "traveler",
+        "firstNight": 1,
+        "firstNightReminder": "在你的第一个夜晚，如果你属于善良阵营，获得一个村民身份的技能。如果你属于邪恶阵营，获得一个爪牙身份的技能。",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "学徒"
+        ],
+        "setup": false,
+        "ability": "在你的第一个夜晚，如果你属于善良阵营，获得一个村民身份的技能。如果你属于邪恶阵营，获得一个爪牙身份的技能。"
+    },
+    {
+        "id": "宿管",
+        "name": "宿管",
+        "edition": "bmr",
+        "team": "traveler",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个白天限三次，令两名玩家交换位置。玩家们不允许私聊。"
+    },
+    {
+        "id": "法官",
+        "name": "法官",
+        "edition": "bmr",
+        "team": "traveler",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "整局游戏限一次，在一次其他玩家发起的提名投票结束后，你可以强制执行处决或否决已经通过的投票。"
+    },
+    {
+        "id": "主教",
+        "name": "主教",
+        "edition": "bmr",
+        "team": "traveler",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "提名善良",
+            "提名邪恶"
+        ],
+        "setup": false,
+        "ability": "只有说书人可以发起提名。每天，都会有至少一名与你阵营不同的玩家被提名。"
+    },
+    {
+        "id": "巫毒师",
+        "name": "巫毒师",
+        "edition": "bmr",
+        "team": "traveler",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "只有你和死亡的玩家可以在提名中投票，这不会消耗投票标记。取消投票达半数才能处决的限制。"
+    }
+]
