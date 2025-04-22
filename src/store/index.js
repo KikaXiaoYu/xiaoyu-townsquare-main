@@ -26,7 +26,16 @@ const getRolesByEdition = (edition = editionJSON[0]) => {
   return new Map(
     rolesJSON
       .filter(r => r.edition === edition.id || edition.roles.includes(r.id))
-      .sort((a, b) => b.team.localeCompare(a.team))
+    //   .filter(r => r.edition === edition.id )
+    //   .sort((a, b) => b.team.localeCompare(a.team))
+      .sort((a, b) => {
+        // 按 team 排序
+        const teamCompare = b.team.localeCompare(a.team);
+        if (teamCompare !== 0) return teamCompare;
+
+        // 如果 team 相同，保留原始顺序
+        return 0;
+      })
       .map(role => [role.id, role])
   );
 };
@@ -56,7 +65,10 @@ const toggle = key => ({ grimoire }, val) => {
   }
 };
 
-const clean = id => id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
+// const clean = id => id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
+const clean = id => id.toLocaleLowerCase().replace(/[^a-z0-9_-]/g, "");
+// 只移除非字母、数字、下划线和短横线的字符
+
 
 // global data maps
 const editionJSONbyId = new Map(
@@ -69,16 +81,16 @@ const fabled = new Map(fabledJSON.map(role => [role.id, role]));
 let jinxes = {};
 try {
   // Note: can't fetch live list due to lack of CORS headers
-  // fetch("https://bloodontheclocktower.com/script/data/hatred.json")
-  //   .then(res => res.json())
-  //   .then(jinxesJSON => {
+//   fetch("https://bloodontheclocktower.com/script/data/hatred.json")
+//     .then(res => res.json())
+//     .then(jinxesJSON => {
   jinxes = new Map(
     jinxesJSON.map(({ id, hatred }) => [
       clean(id),
       new Map(hatred.map(({ id, reason }) => [clean(id), reason]))
     ])
   );
-  // });
+//   });
 } catch (e) {
   console.error("couldn't load jinxes", e);
 }

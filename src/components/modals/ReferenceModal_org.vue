@@ -115,6 +115,7 @@ export default {
           });
         }
       });
+
       return jinxed;
     },
     rolesGrouped: function() {

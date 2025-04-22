@@ -1,0 +1,441 @@
+[
+    {
+        "id": "snv_zbj",
+        "name": "钟表匠",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 41,
+        "firstNightReminder": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "在你的首个夜晚，你会得知恶魔与爪牙之间最近的距离。（邻座的玩家距离为1）"
+    },
+    {
+        "id": "snv_zms",
+        "name": "筑梦师",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 42,
+        "firstNightReminder": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+        "otherNight": 56,
+        "otherNightReminder": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚，你要选择除你及旅行者以外的一名玩家：你会得知一个善良角色和一个邪恶角色，该玩家是其中一个角色。"
+    },
+    {
+        "id": "snv_wsr",
+        "name": "舞蛇人",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 20,
+        "firstNightReminder": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
+        "otherNight": 11,
+        "otherNightReminder": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。",
+        "reminders": [
+            "中毒"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，你要选择一名存活的玩家：如果你选中了恶魔，你和他交换角色和阵营，然后他中毒。"
+    },
+    {
+        "id": "snv_sxj",
+        "name": "数学家",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 52,
+        "firstNightReminder": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。",
+        "otherNight": 71,
+        "otherNightReminder": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。",
+        "reminders": [
+            "Abnormal"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，你会得知有多少名玩家的能力因为其他角色的能力而未正常生效。（从上个黎明到你被唤醒时）"
+    },
+    {
+        "id": "snv_mhn",
+        "name": "卖花女",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 57,
+        "otherNightReminder": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。",
+        "reminders": [
+            "恶魔投票",
+            "恶魔没有投票"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你会得知在今天白天时是否有恶魔投过票。"
+    },
+    {
+        "id": "snv_czggy",
+        "name": "城镇公告员",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 58,
+        "otherNightReminder": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。",
+        "reminders": [
+            "爪牙提名",
+            "爪牙没有提名"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你会得知在今天白天时是否有爪牙发起过提名。"
+    },
+    {
+        "id": "snv_syz",
+        "name": "神谕者",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 59,
+        "otherNightReminder": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚*，你会得知有多少名死亡的玩家是邪恶的。"
+    },
+    {
+        "id": "snv_bxz",
+        "name": "博学者",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 100,
+        "firstNightReminder": "注意准备给博学者的信息。",
+        "otherNight": 100,
+        "otherNightReminder": "注意准备给博学者的信息。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个白天，你可以私下询问说书人以得知两条信息：一个是正确的，一个是错误的。"
+    },
+    {
+        "id": "snv_ncf",
+        "name": "女裁缝",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 43,
+        "firstNightReminder": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+        "otherNight": 60,
+        "otherNightReminder": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。",
+        "reminders": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚时，你可以选择除你以外的两名玩家：你会得知他们是否为同一阵营。"
+    },
+    {
+        "id": "snv_zxj",
+        "name": "哲学家",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 2,
+        "firstNightReminder": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+        "otherNight": 2,
+        "otherNightReminder": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。",
+        "reminders": [
+            "醉酒",
+            "是哲学家"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚时，你可以选择一个善良角色：你获得该角色的能力。如果这个角色在场，他醉酒。<br><i><发动技能并不会改变哲学家的角色。></i>"
+    },
+    {
+        "id": "snv_ysj",
+        "name": "艺术家",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在白天时，你可以私下询问说书人一个是非问题，你会得知该问题的答案。"
+    },
+    {
+        "id": "snv_zsyr",
+        "name": "杂耍艺人",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 61,
+        "otherNightReminder": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。",
+        "reminders": [
+            "正确"
+        ],
+        "setup": false,
+        "ability": "在你的首个白天，你可以公开猜测任意玩家的角色最多五次。在当晚，你会得知猜测正确的角色数量。<br><i><如果杂耍艺人在醉酒或中毒时做出了猜测，但当晚他的能力触发时却清醒且健康，那么说书人仍然会给他真实的信息。></i>"
+    },
+    {
+        "id": "snv_xz",
+        "name": "贤者",
+        "edition": "snv",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 42,
+        "otherNightReminder": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。",
+        "reminders": [],
+        "setup": false,
+        "ability": "如果恶魔杀死了你，在当晚你会被唤醒并得知两名玩家，其中一名是杀死你的那个恶魔。"
+    },
+    {
+        "id": "snv_bzr",
+        "name": "畸形秀演员",
+        "edition": "snv",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "如果你'疯狂'地证明自己是外来者，你可能被处决。<br><i><'疯狂'是一个术语，意思是'你正在尝试说服他人相信某件事情'。说服的形式包含口头暗示自己的角色，也包含在自己的角色被质疑时的保持沉默。畸形秀演员是否'疯狂'由说书人来决定。如果说书人认为他正在以任何方式证明自己是一名外来者，说书人就可以处决他，即使在提名阶段之外，甚至是在晚上都可以处决他。></i>"
+    },
+    {
+        "id": "snv_xsr",
+        "name": "心上人",
+        "edition": "snv",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 41,
+        "otherNightReminder": "当你死亡时，会有一名玩家开始醉酒。",
+        "reminders": [
+            "醉酒"
+        ],
+        "setup": false,
+        "ability": "当你死亡时，会有一名玩家开始醉酒。"
+    },
+    {
+        "id": "snv_lfs",
+        "name": "理发师",
+        "edition": "snv",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 40,
+        "otherNightReminder": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。",
+        "reminders": [
+            "理发师夜晚"
+        ],
+        "setup": false,
+        "ability": "如果你死亡，在当晚恶魔可以选择两名玩家（不能选择其他恶魔）交换角色。"
+    },
+    {
+        "id": "snv_dg",
+        "name": "呆瓜",
+        "edition": "snv",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "当你得知你死亡时，你要公开选择一名存活的玩家：如果他是邪恶的，你的阵营落败。"
+    },
+    {
+        "id": "snv_jxsz",
+        "name": "镜像双子",
+        "edition": "snv",
+        "team": "minion",
+        "firstNight": 23,
+        "firstNightReminder": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "双子"
+        ],
+        "setup": false,
+        "ability": "你与一名对立阵营的玩家互相知道对方是什么角色。如果其中善良玩家被处决，邪恶阵营获胜。如果你们都存活，善良阵营无法获胜。<br><i><如果一名善良玩家变成了镜像双子，他仍然是善良玩家，此时一名邪恶玩家成为他的对立双子。如果两个双子都是相同阵营，则由说书人为镜像双子重新选择一名玩家成为对立双子。></i>"
+    },
+    {
+        "id": "snv_nw",
+        "name": "女巫",
+        "edition": "snv",
+        "team": "minion",
+        "firstNight": 24,
+        "firstNightReminder": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+        "otherNight": 14,
+        "otherNightReminder": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。",
+        "reminders": [
+            "诅咒"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，你要选择一名玩家：如果他明天白天发起提名，他死亡。如果只有三名存活的玩家，你失去此能力。"
+    },
+    {
+        "id": "snv_xns",
+        "name": "洗脑师",
+        "edition": "snv",
+        "team": "minion",
+        "firstNight": 25,
+        "firstNightReminder": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要'疯狂'地证明自己是这个角色，不然他可能被处决。",
+        "otherNight": 15,
+        "otherNightReminder": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要'疯狂'地证明自己是这个角色，不然他可能被处决。",
+        "reminders": [
+            "洗脑"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，你要选择一名玩家和一个善良角色。他明天白天和夜晚需要'疯狂'地证明自己是这个角色，不然他可能被处决。<br><i><被选择的玩家明天必须试图说服其他玩家相信他是这个角色，否则就会死亡。简短的暗示不足以避免死亡。玩家必须付出努力说服其他玩家。></i>"
+    },
+    {
+        "id": "snv_mlwp",
+        "name": "麻脸巫婆",
+        "edition": "snv",
+        "team": "minion",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 16,
+        "otherNightReminder": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚*，你要选择一名玩家和一个角色，如果该角色不在场，他变成该角色。如果因此创造了一个恶魔，当晚的死亡由说书人决定。<br><i><说书人造成的死亡视为麻脸巫婆造成，因此不会触发贤者等角色的能力。说书人只能改变恶魔造成的死亡，由非恶魔玩家造成的死亡无法阻止。></i>"
+    },
+    {
+        "id": "snv_smyh",
+        "name": "蚀梦游魂",
+        "edition": "snv",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 29,
+        "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。",
+        "reminders": [
+            "死亡",
+            "已经使用"
+        ],
+        "setup": true,
+        "ability": "每个夜晚*，你要选择一名【存活】玩家：他死亡。被该能力杀死的外来者改为变成邪恶的方古且你代替他死亡，但每局游戏仅能成功转化一次。[+1外来者]"
+    },
+    {
+        "id": "snv_slfs",
+        "name": "死灵法师",
+        "edition": "snv",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 32,
+        "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。",
+        "reminders": [
+            "死亡",
+            "有能力",
+            "中毒"
+        ],
+        "setup": true,
+        "ability": "每个夜晚*，你要选择一名【存活】玩家：他死亡。被你杀死的爪牙保留他的能力，且与他邻近的两名镇民之一中毒。[-1外来者]"
+    },
+    {
+        "id": "snv_fz",
+        "name": "腐肢",
+        "edition": "snv",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 30,
+        "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。与你邻近的两名镇民中毒。",
+        "reminders": [
+            "死亡",
+            "中毒"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你要选择一名【存活】玩家：他死亡。与你邻近的两名镇民中毒。<br><i><如果一名被诺-达鲺影响的镇民变成了一个非镇民角色，或者诺-达鲺变成了另一个角色，或者如果一个新的玩家变成了诺-达鲺，都会让与诺-达鲺现在邻近的镇民中毒，而之前邻近但现在不邻近的镇民恢复健康。></i>"
+    },
+    {
+        "id": "snv_hlfb",
+        "name": "混乱风暴",
+        "edition": "snv",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 31,
+        "otherNightReminder": "每个夜晚*，你要选择一名玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。",
+        "reminders": [
+            "死亡"
+        ],
+        "setup": false,
+        "ability": "每个夜晚*，你要选择一名【存活】玩家：他死亡。镇民玩家的能力都会产生错误信息。如果白天没人被处决，邪恶阵营获胜。<br><i><即使镇民醉酒或中毒，信息也一定是错误的。></i>"
+    },
+    {
+        "id": "snv_kfs",
+        "name": "咖啡师",
+        "edition": "snv",
+        "team": "traveler",
+        "firstNight": 1,
+        "firstNightReminder": "选择一名玩家，唤醒他们并告诉他们咖啡师的哪种能力正在影响他们并相应地作用于他们（清醒/健康/真实信息或激活他们的能力两次）。",
+        "otherNight": 1,
+        "otherNightReminder": "选择一名玩家，唤醒他们并告诉他们咖啡师的哪种能力正在影响他们并相应地作用于他们（清醒/健康/真实信息或激活他们的能力两次）。",
+        "reminders": [
+            "清醒和健康",
+            "技能释放两次"
+        ],
+        "setup": false,
+        "ability": "每个夜晚，选择一名玩家与一项效果，持续到下个黄昏：1.必定获取正确信息 2.技能生效两次。他知道你选择了什么。"
+    },
+    {
+        "id": "snv_wn",
+        "name": "舞女",
+        "edition": "snv",
+        "team": "traveler",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "每个夜晚（除首夜），选择一名存活玩家，如果他同意，你得知他的身份，但是你们可能一同死亡。",
+        "reminders": [
+            "死亡"
+        ],
+        "setup": false,
+        "ability": "每个夜晚（除首夜），选择一名存活玩家，如果他同意，你得知他的身份，但是你们可能一同死亡。"
+    },
+    {
+        "id": "snv_gzs",
+        "name": "刽子手",
+        "edition": "snv",
+        "team": "traveler",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个白天，在第一次处决后，你可以再次发起提名。"
+    },
+    {
+        "id": "snv_xgz",
+        "name": "寻骨者",
+        "edition": "snv",
+        "team": "traveler",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "整局游戏限一次，夜晚（除首夜），选择一名死亡的玩家，他恢复他的技能直到下一个黄昏。",
+        "reminders": [
+            "无能力",
+            "有能力"
+        ],
+        "setup": false,
+        "ability": "整局游戏限一次，夜晚（除首夜），选择一名死亡的玩家，他恢复他的技能直到下一个黄昏。"
+    },
+    {
+        "id": "snv_gk",
+        "name": "怪咖",
+        "edition": "snv",
+        "team": "traveler",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "如果你在白天表现得很搞笑，你在当天不能被流放。"
+    }
+]

@@ -1,40 +1,51 @@
 [
+
   {
-    "id": "侍女",
+    "id": "bmr_sn",
     "hatred": [
       {
-        "id": "数学家",
+        "id": "snv_sxj",
         "reason": "The Chambermaid learns if the Mathematician wakes tonight or not, even though the Chambermaid wakes first."
       }
     ]
   },
   {
-    "id": "管家",
+    "id": "tb_gj",
     "hatred": [
       {
-        "id": "食人族",
+        "id": "ava_srz",
         "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this."
       }
     ]
   },
   {
-    "id": "疯子",
+    "id": "bmr_fz",
     "hatred": [
       {
-        "id": "数学家",
+        "id": "snv_sxj",
         "reason": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Demon attacked."
       }
     ]
   },
+
   {
-    "id": "pit hag",
+    "id": "snv_mlwp",
+    "hatred": [
+      {
+        "id": "ybkh_lnsn",
+        "reason": "如果熬药巫婆创造了一个落难少女，说书人来决定哪位玩家成为了落难少女。"
+      }
+    ]
+  },
+  {
+    "id": "snv_mlwp",
     "hatred": [
       {
         "id": "Heretic",
         "reason": "A Pit-Hag can not create a Heretic. "
       },
       {
-        "id": "sologirl",
+        "id": "ybkh_lnsn",
         "reason": "如果熬药巫婆创造了一个落难少女，说书人来决定哪位玩家成为了落难少女。"
       },
       {
@@ -162,7 +173,7 @@
         "reason": "If the Poppy Grower is in play, the Spy does not see the Grimoire until the Poppy Grower dies."
       },
       {
-        "id": "sologirl",
+        "id": "ybkh_lnsn",
         "reason": "Only 1 jinxed character can be in play. "
       },
       {
@@ -187,7 +198,7 @@
         "reason": "The Alchemist can not have the Widow ability."
       },
       {
-        "id": "sologirl",
+        "id": "ybkh_lnsn",
         "reason": "Only 1 jinxed character can be in play."
       },
       {
@@ -234,7 +245,7 @@
         "reason": "If the Marionette thinks that they are the Balloonist, +1 Outsider was added."
       },
       {
-        "id": "sologirl",
+        "id": "ybkh_lnsn",
         "reason": "The Marionette does not learn that a Damsel is in play."
       },
       {
@@ -347,7 +358,7 @@
         "reason": "Riot registers as a Minion to the Town Crier."
       },
       {
-        "id": "sologirl",
+        "id": "ybkh_lnsn",
         "reason": "Riot registers as a Minion to the Damsel."
       },
       {

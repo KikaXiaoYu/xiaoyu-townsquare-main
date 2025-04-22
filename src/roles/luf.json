@@ -1,0 +1,52 @@
+[
+    {
+        "id": "luf_yf",
+        "name": "渔夫",
+        "edition": "luf",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在白天时，你可以让说书人给你一些能帮助你的阵营获胜的建议。"
+    },
+    {
+        "id": "luf_gbl",
+        "name": "哥布林",
+        "edition": "luf",
+        "team": "minion",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "声称哥布林"
+        ],
+        "setup": false,
+        "ability": "如果你在被提名后公开声明自己是哥布林且在那个白天被处决，你的阵营获胜。"
+    },
+    {
+        "id": "luf_lwt",
+        "name": "利维坦",
+        "edition": "luf",
+        "team": "demon",
+        "firstNight": 54,
+        "firstNightReminder": "修改利维坦的胜利日数。",
+        "otherNight": 73,
+        "otherNightReminder": "修改利维坦的胜利日数。",
+        "reminders": [
+            "Day 1",
+            "Day 2",
+            "Day 3",
+            "Day 4",
+            "Day 5",
+            "善良阵营玩家被处决"
+        ],
+        "setup": false,
+        "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。在第五个白天结束时，邪恶阵营获胜。所有玩家都知道利维坦在场。"
+    }
+]

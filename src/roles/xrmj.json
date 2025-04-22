@@ -1,0 +1,414 @@
+[
+    {
+        "id": "xrmj_yb",
+        "name": "一筒",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 12,
+        "firstNightReminder": "每局游戏限一次，选择1名玩家（除自己），如果他是善良玩家，那么他不会死亡、醉酒、中毒。",
+        "otherNight": 12,
+        "otherNightReminder": "每局游戏限一次，选择1名玩家（除自己），如果他是善良玩家，那么他不会死亡、醉酒、中毒。",
+        "reminders": [
+            "绝对防御"
+        ],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“绝对防御”：每局游戏限一次，选择1名玩家（除自己），如果他是善良玩家，那么他不会死亡、醉酒、中毒。【该玩家获得的绝对防御永久不会失效，除非此技能被抹去】"
+    },
+    {
+        "id": "xrmj_jb",
+        "name": "九筒",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 13,
+        "otherNightReminder": "每个夜晚（除首夜），你可以选择1名玩家（不能与昨夜相同）进行保护，使其当晚不会死亡。",
+        "reminders": [
+            "阵列保护"
+        ],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“阵列保护”：每个夜晚（除首夜），你可以选择2名玩家（不能与昨夜相同）进行保护，使其当晚不会死亡。"
+    },
+    {
+        "id": "xrmj_yj",
+        "name": "幺鸡",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 1,
+        "firstNightReminder": "在爪牙眼中你是多出来的1个恶魔，在恶魔眼中你是多出来的1个爪牙。同时邪恶阵营忘记了互相的具体角色，只知道是哪些号码牌。",
+        "otherNight": 41,
+        "otherNightReminder": "你死亡后，当晚邪恶阵营互相得知具体角色。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“可我只是一只鸡”：在爪牙眼中你是多出来的1个恶魔，在恶魔眼中你是多出来的1个爪牙。同时邪恶阵营忘记了互相的具体角色，只知道是哪些号码牌。你死亡后，当晚邪恶阵营互相得知具体角色。【不受醉酒和中毒的影响】"
+    },
+    {
+        "id": "xrmj_jt",
+        "name": "九条",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 15,
+        "otherNightReminder": "每个夜晚（除首夜）你可以选择1位玩家。如果他是爪牙，他永久失去他的技能。【你不会知道你是否选中】",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“无限剑制”：每个夜晚（除首夜）和每个白天，你都可以私聊说书人选择1位玩家，如果他是爪牙，他醉酒。【你不会知道你是否选中】"
+    },
+    {
+        "id": "xrmj_yw",
+        "name": "一万",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "每个夜晚（除首夜），你可以选择1位玩家（不能与昨夜相同），如果该玩家是恶魔，当晚他不发动技能，但恶魔会得知你是一万。【你无法得知你是否选择到了邪恶阵营】",
+        "reminders": [
+            "被压制"
+        ],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“一破，卧龙出山！”：每个夜晚（除首夜），你可以选择1位玩家（不能与昨夜相同），如果该玩家是恶魔，当晚他不发动技能，但恶魔会得知你是一万。【你无法得知你是否选择到了邪恶阵营】"
+    },
+    {
+        "id": "xrmj_jw",
+        "name": "九万",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 44,
+        "otherNightReminder": "你在夜间死亡后，你可以选择2位玩家（必须是你眼中已死的），他们之中的善良玩家会被复活，但不拥有技能。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“有钱能使鬼推磨”：你在夜间死亡后，你可以选择2位玩家（必须是你眼中已死的），他们之中的善良玩家会被复活，但不拥有技能。"
+    },
+    {
+        "id": "xrmj_df",
+        "name": "东风",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 31,
+        "firstNightReminder": "每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有村民。",
+        "otherNight": 51,
+        "otherNightReminder": "每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有村民。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“上家包好的”：每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有村民。"
+    },
+    {
+        "id": "xrmj_nf",
+        "name": "南风",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 32,
+        "firstNightReminder": "每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有外来者。",
+        "otherNight": 52,
+        "otherNightReminder": "每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有外来者。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“上家抗推位”：每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有外来者。"
+    },
+    {
+        "id": "xrmj_xf",
+        "name": "西风",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 33,
+        "firstNightReminder": "每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有爪牙。",
+        "otherNight": 53,
+        "otherNightReminder": "每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有爪牙。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“上家包坏的”：每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有爪牙。"
+    },
+    {
+        "id": "xrmj_bf",
+        "name": "北风",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 34,
+        "firstNightReminder": "每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有恶魔。",
+        "otherNight": 54,
+        "otherNightReminder": "每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有恶魔。",
+        "reminders": [
+            "被北风视为恶魔"
+        ],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“上家直接打飞”：每个夜晚，你会得知顺时针方向最近的2位存活玩家是否有恶魔。"
+    },
+    {
+        "id": "xrmj_hz",
+        "name": "红中",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 35,
+        "firstNightReminder": "在首夜，你得知1个号码。设这个号码的玩家为A，恶魔为B，某个爪牙为C，设A和B的距离为d1，A和C的距离为d2，那么d1和d2相差不超过1。",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“垂直平分线”：在首夜，你得知1个号码。设这个号码的玩家为A，恶魔为B，某个爪牙为C，设A和B的距离为d1，A和C的距离为d2，那么d1和d2相差不超过1。通俗而言，这个号码牌在恶魔和某个爪牙连线的垂直平分线上。"
+    },
+    {
+        "id": "xrmj_fc",
+        "name": "发财",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 14,
+        "otherNightReminder": "每个夜晚（除首夜），选择1名玩家并猜测他的角色（不能猜测自己和已经猜测过的），如果猜测正确，则获得1金币，如果猜错则损失1金币。当金币值为负时，你死亡。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“当年陈刀仔能用二十块赢到三千七百万！”：1.每个夜晚（除首夜），选择1名玩家并猜测他的角色（不能猜测自己和已经猜测过的），如果猜测正确，则获得1金币，如果猜错则损失1金币。当金币值为负时，你死亡。【你自己不知道金币有多少】2.当金币数达到3时，善良阵营获胜。"
+    },
+    {
+        "id": "xrmj_bb",
+        "name": "白板",
+        "edition": "xrmj",
+        "team": "townsfolk",
+        "firstNight": 11,
+        "firstNightReminder": "每个夜晚，你可以选择1个善良阵营的角色（不能与之前的重复），获得该角色能力直到第二天黄昏，该角色的玩家醉酒直到第二天黄昏。",
+        "otherNight": 11,
+        "otherNightReminder": "每个夜晚，你可以选择1个善良阵营的角色（不能与之前的重复），获得该角色能力直到第二天黄昏，该角色的玩家醉酒直到第二天黄昏。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "“千人千面”：每个夜晚，你可以选择1个善良阵营的角色（不能与之前的重复），获得该角色能力直到第二天黄昏，该角色的玩家醉酒直到第二天黄昏。【你的角色不发生改变，只是获得技能，你获得的技能的发动顺序也仍是白板的发动顺序】"
+    },
+    {
+        "id": "xrmj_cm",
+        "name": "春梅",
+        "edition": "xrmj",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "醉酒"
+        ],
+        "setup": true,
+        "ability": "如果你是对你的阵营失败负最大责任的人，你转变阵营并获胜，即使你已死亡。"
+    },
+    {
+        "id": "xrmj_xl",
+        "name": "夏兰",
+        "edition": "xrmj",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "等死"
+        ],
+        "setup": false,
+        "ability": "当第1名善良玩家被处决时，你可能会一同死亡。"
+    },
+    {
+        "id": "xrmj_qz",
+        "name": "秋竹",
+        "edition": "xrmj",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 42,
+        "otherNightReminder": "如果你在夜晚被杀死，你会被当场复活，转而加入邪恶阵营，并得知恶魔的号码牌和具体角色。",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "如果你在夜晚被杀死，你会被当场复活，转而加入邪恶阵营，并得知恶魔的号码牌和具体角色。【如果幺鸡技能有效，那么你会得知2个恶魔】"
+    },
+    {
+        "id": "xrmj_dj",
+        "name": "冬菊",
+        "edition": "xrmj",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 43,
+        "otherNightReminder": "当你死亡时，场上会有2位玩家陷入醉酒。",
+        "reminders": [],
+        "remindersGlobal": [
+            "醉酒"
+        ],
+        "setup": false,
+        "ability": "当你死亡时，场上会有2位玩家陷入醉酒。"
+    },
+    {
+        "id": "xrmj_gsh",
+        "name": "杠上花",
+        "edition": "xrmj",
+        "team": "minion",
+        "firstNight": 21,
+        "firstNightReminder": "你知道场上存在的外来者角色有哪些。",
+        "otherNight": 21,
+        "otherNightReminder": "如果白天场上有外来者死亡，你可以在当晚选择1位玩家并杀死他。",
+        "reminders": [],
+        "remindersGlobal": [
+            "可开刀"
+        ],
+        "setup": true,
+        "ability": "你知道场上存在的外来者角色有哪些。如果白天场上有外来者死亡，你可以在当晚选择1位玩家并杀死他。【杠上花在场时，外来者增加1位】"
+    },
+    {
+        "id": "xrmj_sqd",
+        "name": "双七对",
+        "edition": "xrmj",
+        "team": "minion",
+        "firstNight": 22,
+        "firstNightReminder": "每局游戏限1次，在同一个夜晚，你可以分别要求2位玩家明天做出某种行为（必须是规则内合理的），如果他们不按照该要求做，或者主动试图暴露是双七对的技能影响了他的行为，则会被处决。",
+        "otherNight": 22,
+        "otherNightReminder": "每局游戏限1次，在同一个夜晚，你可以分别要求2位玩家明天做出某种行为（必须是规则内合理的），如果他们不按照该要求做，或者主动试图暴露是双七对的技能影响了他的行为，则会被处决。",
+        "reminders": [
+            "无能力"
+        ],
+        "remindersGlobal": [
+            "中毒"
+        ],
+        "setup": false,
+        "ability": "每局游戏限1次，在同一个夜晚，你可以分别要求2位玩家明天做出某种行为（必须是规则内合理的），如果他们不按照该要求做，或者主动试图暴露是双七对的技能影响了他的行为，则会被处决。"
+    },
+    {
+        "id": "xrmj_pph",
+        "name": "碰碰胡",
+        "edition": "xrmj",
+        "team": "minion",
+        "firstNight": 22,
+        "firstNightReminder": "场上会有2个村民拿到同样的角色。你们3个人都会互相得知3个人的号码牌，并且得知这个角色。",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "ability": "1.场上会有2个村民拿到同样的角色。你们3个人都会互相得知3个人的号码牌，并且得知这个角色。2.如果场上游戏玩家大于等于9位，且你没有死亡，善良阵营无法获胜。【碰碰胡在场时，外来者减少1位】"
+    },
+    {
+        "id": "xrmj_qys",
+        "name": "清一色",
+        "edition": "xrmj",
+        "team": "minion",
+        "firstNight": 23,
+        "firstNightReminder": "每局游戏限一次，夜晚，你可以将1位玩家的角色变成其他任意角色，但他以为自己还是原来的角色，其实他的技能已经被抹去，会呈现出失效或信息错误。",
+        "otherNight": 23,
+        "otherNightReminder": "每局游戏限一次，夜晚，你可以将1位玩家的角色变成其他任意角色，但他以为自己还是原来的角色，其实他的技能已经被抹去，会呈现出失效或信息错误。",
+        "reminders": [
+            "无能力"
+        ],
+        "remindersGlobal": [
+            "中毒"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，夜晚，你可以将1位玩家的角色变成其他任意角色，但他以为自己还是原来的角色，其实他的技能已经被抹去，会呈现出失效或信息错误。【如果被变成了邪恶角色，则被其他技能查验时也会被视为邪恶阵营，但他仍然是善良玩家】"
+    },
+    {
+        "id": "xrmj_myzt",
+        "name": "命运之骰",
+        "edition": "xrmj",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 31,
+        "otherNightReminder": "1.每个夜晚（除首夜），你可以选择1位玩家并杀死他。2.每局游戏限一次，在夜晚（除首夜），你可以秘密地使2位玩家受到的所有技能效果永久调换。",
+        "reminders": [],
+        "remindersGlobal": [
+            "调换"
+        ],
+        "setup": false,
+        "ability": "1.每个夜晚（除首夜），你可以选择1位玩家并杀死他。2.每局游戏限一次，在夜晚（除首夜），你可以秘密地使2位玩家受到的所有技能效果永久调换。"
+    },
+    {
+        "id": "xrmj_ljcm",
+        "name": "鎏金筹码",
+        "edition": "xrmj",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 32,
+        "otherNightReminder": "1.每个夜晚（除首夜），你可以选择1位玩家并杀死他。2.每局游戏限一次，夜晚（除首夜），你用金钱收买1位玩家，他加入邪恶阵营，知道恶魔的号码牌和角色，并成为一个爪牙角色且获得技能。【你和他都会得知这一信息】",
+        "reminders": [],
+        "remindersGlobal": [
+            "收买"
+        ],
+        "setup": false,
+        "ability": "1.每个夜晚（除首夜），你可以选择1位玩家并杀死他。2.每局游戏限一次，在夜晚（除首夜），你用金钱收买1位玩家，他加入邪恶阵营，知道恶魔的号码牌和角色，并成为一个爪牙角色且获得技能。【你和他都会得知这一信息】"
+    },
+    {
+        "id": "xrmj_smzj",
+        "name": "神秘庄家",
+        "edition": "xrmj",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 33,
+        "otherNightReminder": "1.每个夜晚（除首夜），你可以选择3位玩家（包括死亡玩家）和你一起打麻将。这4位玩家秘密选择胡或者不胡，如果选择胡的玩家人数为0或2或4，则选择不胡的玩家死亡，反之选择胡的玩家死亡。2.如果神秘庄家因此死亡，那么这4个人中随机1位玩家成为或复活成为新的神秘庄家并加入邪恶阵营。",
+        "reminders": [],
+        "remindersGlobal": [
+            "胡",
+            "不胡"
+        ],
+        "setup": true,
+        "ability": "1.每个夜晚（除首夜），你可以选择3位玩家（包括死亡玩家）和你一起打麻将。这4位玩家秘密选择胡或者不胡，如果选择胡的玩家人数为0或2或4，则选择不胡的玩家死亡，反之选择胡的玩家死亡。2.如果爪牙因此死亡，爪牙保留他的能力。3.如果神秘庄家因此死亡，那么这4个人中随机1位玩家成为或复活成为新的神秘庄家并加入邪恶阵营。4.【神秘庄家在场时，外来者减少1位】【场上游戏玩家人数少于9时，场上必定不存在神秘庄家】"
+    },
+    {
+        "id": "xrmj_cqds",
+        "name": "出千大师",
+        "edition": "xrmj",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 34,
+        "otherNightReminder": "1.每个夜晚（除首夜），你可以选择1位玩家并杀死他。2.每局游戏限一次，在夜晚（除首夜），查看魔典，并配合说书人共同决定当晚所有玩家的技能发动结果（场上所有其他玩家当晚陷入半醉不醉状态，技能可以发动或失效，信息可对可错，白天恢复正常）。【出千大师在夜晚第一个选择是否发动该技能】",
+        "reminders": [],
+        "remindersGlobal": [
+            "醉酒",
+            "中毒",
+            "全场出千"
+        ],
+        "setup": true,
+        "ability": "1.每个夜晚（除首夜），你可以选择1位玩家并杀死他。2.每局游戏限一次，在夜晚（除首夜），查看魔典，并配合说书人共同决定当晚所有玩家的技能发动结果（场上所有其他玩家当晚陷入半醉不醉状态，技能可以发动或失效，信息可对可错，白天恢复正常）。3.【出千大师在场时，外来者增加1位】"
+    },
+    {
+        "id": "xrmj_emfjn",
+        "name": "*恶魔副技能",
+        "edition": "xrmj",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "使用恶魔的副技能。",
+        "reminders": [],
+        "remindersGlobal": [
+            "醉酒",
+            "中毒"
+        ],
+        "setup": true,
+        "ability": "【仅供行动顺序参考，非实际恶魔】行动顺序中的恶魔副技能指的是命运之骰、鎏金筹码、出千大师的2技能。"
+    },
+    {
+        "author": "小钰",
+        "name": "筱钰不眠于雪花纷飞之夜 (Ver.1.2)",
+        "id": "_meta",
+        "additional": [
+            {
+                "剧本介绍": ""
+            }
+        ]
+    }
+]

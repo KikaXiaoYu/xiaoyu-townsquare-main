@@ -113,8 +113,10 @@
        */
       jinxed: function() {
         const jinxed = [];
+        console.log(this.jinxes); // 打印 jinxes 数据
         this.roles.forEach(role => {
-          if (this.jinxes.get(role.id)) {
+            console.log(this.jinxes.get(role.id)); // 打印 jinxes 数据
+            if (this.jinxes.get(role.id)) {
             this.jinxes.get(role.id).forEach((reason, second) => {
               if (this.roles.get(second)) {
                 jinxed.push({
@@ -125,6 +127,8 @@
             });
           }
         });
+      console.log(this.jinxes); // 打印 jinxes 数据
+
         return jinxed;
       },
       rolesGrouped: function() {

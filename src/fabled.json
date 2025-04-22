@@ -287,5 +287,71 @@
             "醉酒",
             "死亡"
         ]
+    },
+
+    {
+        "id": "zhz_gg",
+        "image": "https://www.helloimg.com/i/2024/12/31/67741008f0b74.png",
+        "edition": "zhz",
+        "name": "公公",
+        "ability": "第一个白天说书人和所有玩家必须用夹子音说话。不使用夹子音说的玩家可能会被视为邪恶阵营、爪牙角色或恶魔角色。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "被视为邪恶"
+        ]
+    },
+    {
+        "id": "zhz_tslj",
+        "image": "https://www.helloimg.com/i/2024/12/31/67741008f17bc.png",
+        "edition": "zhz",
+        "name": "太上老君",
+        "ability": "每局游戏限一次，在夜晚时*，会有一名死亡的玩家复活并变成新的角色。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "复活"
+        ]
+    },
+    {
+        "id": "zhz_fz",
+        "image": "https://www.helloimg.com/i/2024/12/31/6774100908d73.png",
+        "edition": "zhz",
+        "name": "方丈",
+        "ability": "宣布一名新手玩家被保护。对这名新手玩家的死亡负最大责任的人，会遭遇一些不好的事情。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "保护"
+        ]
+    },
+    {
+        "id": "zhz_yw",
+        "image": "https://www.helloimg.com/i/2024/12/31/677410091eb22.png",
+        "edition": "zhz",
+        "name": "阎王",
+        "ability": "每局游戏限一次，在夜晚时*，会有一名玩家变成与自身不同的角色，新角色可能会获得错误信息。如果该玩家“疯狂”地证明自己的角色发生变化，会遭遇一些不好的事情。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "角色改变"
+        ]
+    },
+    {
+        "id": "zhz_jx",
+        "image": "https://www.helloimg.com/i/2024/12/31/67741008e8c1e.png",
+        "edition": "zhz",
+        "name": "酒仙",
+        "ability": "会有一名玩家始终醉酒。",
+        "team": "fabled",
+        "firstNight": 0,
+        "otherNight": 0,
+        "reminders": [
+            "醉酒"
+        ]
     }
 ]

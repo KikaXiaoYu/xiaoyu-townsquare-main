@@ -1,0 +1,419 @@
+[
+    {
+        "id": "xiaoyu_rxlr",
+        "name": "热心路人",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "可能被处决"
+        ],
+        "setup": false,
+        "ability": "如果有1位真实善良玩家被处决，你可能会代替他被处决。（真实阵营：直接根据获胜条件判定阵营）"
+    },
+    {
+        "id": "xiaoyu_cbsn",
+        "name": "纯白少年",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "纯白免疫"
+        ],
+        "setup": false,
+        "ability": "恶魔和爪牙的技能会因为涉及你而失去效果，同时你免疫任何醉酒和中毒效果。"
+    },
+    {
+        "id": "xiaoyu_zcwwq",
+        "name": "汪汪犬",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 54,
+        "otherNightReminder": "每个夜晚（除首夜），你选择3位玩家狠狠地咬他们，如果他们不全是村民，你死亡。",
+        "reminders": [],
+        "remindersGlobal": [
+            "视为恶魔"
+        ],
+        "setup": false,
+        "ability": "每个夜晚（除首夜），你选择3位玩家狠狠地咬他们，如果他们不全是村民，你死亡。"
+    },
+    {
+        "id": "xiaoyu_hzs",
+        "name": "火葬师",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 55,
+        "otherNightReminder": "每个夜晚（除首夜），得知所有已死亡的玩家中有几位是属于真实邪恶阵营的。",
+        "reminders": [],
+        "remindersGlobal": [
+            "真正邪恶"
+        ],
+        "setup": false,
+        "ability": "每个夜晚（除首夜），得知所有已死亡的玩家中有几位是属于真实邪恶阵营的。"
+    },
+    {
+        "id": "xiaoyu_wblb",
+        "name": "网吧老板",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 43,
+        "firstNightReminder": "每个夜晚，你会得知距离你最近的存活真实邪恶玩家在你的左侧还是右侧，如果距离相等，结果由说书人决定。",
+        "otherNight": 56,
+        "otherNightReminder": "每个夜晚，你会得知距离你最近的存活真实邪恶玩家在你的左侧还是右侧，如果距离相等，结果由说书人决定。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚，你会得知距离你最近的存活邪恶玩家在你的左侧还是右侧，如果距离相等，结果由说书人决定。"
+    },
+    {
+        "id": "xiaoyu_ldwxy",
+        "name": "路灯维修员",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 41,
+        "firstNightReminder": "每个夜晚，选择1位玩家，你得知他是否受到醉酒或中毒的影响，并且使该玩家取消醉酒和中毒状态。",
+        "otherNight": 51,
+        "otherNightReminder": "每个夜晚，选择1位玩家，你得知他是否受到醉酒或中毒的影响，并且使该玩家取消醉酒和中毒状态。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚，选择1位玩家，你得知他是否受到醉酒或中毒的影响，并且使该玩家取消醉酒和中毒状态。"
+    },
+    {
+        "id": "xiaoyu_xdqdf",
+        "name": "雪地清道夫",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 44,
+        "firstNightReminder": "每个夜晚，你会得知最近的的左右存活玩家中有几位是村民，有几位是外来者。",
+        "otherNight": 57,
+        "otherNightReminder": "每个夜晚，你会得知最近的的左右存活玩家中有几位是村民，有几位是外来者。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚，你会得知最近的的左右存活玩家中有几位是村民，有几位是外来者。"
+    },
+    {
+        "id": "xiaoyu_mtnf",
+        "name": "麦田农夫",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 45,
+        "firstNightReminder": "每个夜晚，你会得知1种角色类型有几名玩家，直到场上所有角色类型你都得知过一次。",
+        "otherNight": 58,
+        "otherNightReminder": "每个夜晚，你会得知1种角色类型有几名玩家，直到场上所有角色类型你都得知过一次。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚，你会得知1种角色类型有几名玩家，直到场上所有角色类型你都得知过一次。"
+    },
+    {
+        "id": "xiaoyu_xkswz",
+        "name": "星空守望者",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 46,
+        "firstNightReminder": "每个夜晚，你选择3位玩家，你要选择得知其一：其中有几位玩家在夜晚因其自身能力被唤醒；其中有几位玩家的能力因其他玩家的能力未正常生效。",
+        "otherNight": 59,
+        "otherNightReminder": "每个夜晚，你选择3位玩家，你要选择得知其一：其中有几位玩家在夜晚因其自身能力被唤醒；其中有几位玩家的能力因其他玩家的能力未正常生效。",
+        "reminders": [],
+        "setup": false,
+        "ability": "每个夜晚，你选择3位玩家，你会得知其中有几位玩家在夜晚发动了主动性技能。"
+    },
+    {
+        "id": "xiaoyu_yyys",
+        "name": "驻村医生",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 52,
+        "otherNightReminder": "每局游戏限一次，在夜晚（除首夜），你会得知有哪些玩家当晚死亡，你可以选择救助其中1位玩家，并使其解除醉酒和中毒效果。",
+        "reminders": [],
+        "remindersGlobal": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚（除首夜），你会得知有哪些玩家当晚死亡，你可以选择救助其中1位玩家，并使其解除醉酒和中毒效果。"
+    },
+    {
+        "id": "xiaoyu_mgxj",
+        "name": "玫瑰小姐",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 11,
+        "otherNightReminder": "每局游戏限一次，在夜晚（除首夜），你可以选择1位玩家送他一朵玫瑰，如果你选择了1位真实邪恶玩家，当晚所有真实邪恶玩家醉酒。",
+        "reminders": [],
+        "remindersGlobal": [
+            "无能力",
+            "邪恶不行动"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚（除首夜），你可以选择1位玩家送他一朵玫瑰，如果你选择了1位真实邪恶玩家，当晚所有真实邪恶玩家醉酒。"
+    },
+    {
+        "id": "xiaoyu_xxxz",
+        "name": "小学校长",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 42,
+        "firstNightReminder": "每局游戏限一次，在夜晚，选择3位玩家，你得知他们属于几个阵营。",
+        "otherNight": 53,
+        "otherNightReminder": "每局游戏限一次，在夜晚，选择3位玩家，你得知他们属于几个阵营。",
+        "reminders": [],
+        "remindersGlobal": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚，选择3位玩家，你得知他们属于几个阵营。"
+    },
+    {
+        "id": "xiaoyu_dmxj",
+        "name": "大梦想家",
+        "edition": "xiaoyu",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "每局游戏限一次，白天私聊说书人说一个你想要实现的梦想，等待说书人确认后，你需要公开说出你的梦想。公开说出之后，如果说书人不想实现你的梦想，你会被立即处决；反之，你的梦想会被实现。"
+    },
+    {
+        "id": "xiaoyu_dy",
+        "name": "导游",
+        "edition": "xiaoyu",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "中毒"
+        ],
+        "setup": false,
+        "ability": "如果你在白天被处决，左右两侧最邻近的存活村民均会陷入中毒。"
+    },
+    {
+        "id": "xiaoyu_jjsj",
+        "name": "酒驾司机",
+        "edition": "xiaoyu",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 42,
+        "otherNightReminder": "如果你在夜晚死亡，1位善良玩家可能会一同死亡。",
+        "reminders": [],
+        "remindersGlobal": [
+            "醉酒"
+        ],
+        "setup": true,
+        "ability": "你不知道自己是酒驾司机，你以为你是1个村民角色。如果你在夜晚死亡，1位善良玩家可能会一同死亡。（如果你被取消醉酒状态，你会得知自己喝醉了）"
+    },
+    {
+        "id": "xiaoyu_qxhn",
+        "name": "牵线红娘",
+        "edition": "xiaoyu",
+        "team": "outsider",
+        "firstNight": 1,
+        "firstNightReminder": "在其他玩家身份被发放前，你选择2位玩家进行牵线（他们互相被告知，且被允许无限制私聊），你的胜负条件与他们一致，但你并不知道他们的具体角色和阵营。如果他们属于不同阵营，你们仨自动结成第三方阵营。【如果产生了第三方阵营，该阵营中一定不存在真实恶魔，阵营中的爪牙不知道邪恶阵营的信息，邪恶阵营也不知道该爪牙的信息】",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "牵线情侣"
+        ],
+        "setup": true,
+        "ability": "在其他玩家身份被发放前，你选择2位玩家进行牵线（他们互相被告知，且被允许无限制私聊），你的胜负条件与他们一致，但你并不知道他们的具体角色和阵营。如果他们属于不同阵营，你们仨自动结成第三方阵营。【如果产生了第三方阵营，该阵营中一定不存在真实恶魔，阵营中的爪牙技能正常生效。】"
+    },
+    {
+        "id": "xiaoyu_js",
+        "name": "奸商",
+        "edition": "xiaoyu",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 41,
+        "otherNightReminder": "如果你试图证明自己是外来者，你可能会被处决。如果你在夜晚死亡，你会立即复活并加入邪恶阵营，所有真实邪恶阵营此时都会获得恶魔所得知的3个不在场的角色信息，你得知恶魔的号码牌。",
+        "reminders": [],
+        "remindersGlobal": [
+            "加入邪恶"
+        ],
+        "setup": false,
+        "ability": "如果你试图证明自己是外来者，你可能会被处决。如果你在夜晚死亡，你会立即复活并加入邪恶阵营，所有真实邪恶阵营此时都会获得恶魔所得知的3个不在场的角色信息，你得知恶魔的号码牌。"
+    },
+    {
+        "id": "xiaoyu_gxh",
+        "name": "关系户",
+        "edition": "xiaoyu",
+        "team": "minion",
+        "firstNight": 22,
+        "firstNightReminder": "你知道你是邪恶的关系户，但你会得知1个不在场的善良角色，并且你可能会被注册为该善良角色（其他人的技能会将你视为该角色）。",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "注册为善良",
+            "无能力"
+        ],
+        "setup": true,
+        "ability": "（被动）你知道你是邪恶的关系户，但你会得知1个不在场的善良角色，并且你可能会被注册为该善良角色（其他人的技能会将你视为该角色）。【关系户在场时，外来者增加1位或减少1位】"
+    },
+    {
+        "id": "xiaoyu_msg",
+        "name": "面试官",
+        "edition": "xiaoyu",
+        "team": "minion",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 21,
+        "otherNightReminder": "每局游戏限一次，在夜晚（除首夜），你可以选择1位白天发起过提名的玩家，该玩家会加入邪恶阵营，得知恶魔的号码牌，失去原有角色的技能。",
+        "reminders": [],
+        "remindersGlobal": [
+            "加入邪恶",
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚（除首夜），你可以选择1位白天发起过提名的玩家，该玩家会加入邪恶阵营，得知恶魔的号码牌，失去原有角色的技能。"
+    },
+    {
+        "id": "xiaoyu_qwjz",
+        "name": "权威记者",
+        "edition": "xiaoyu",
+        "team": "minion",
+        "firstNight": 23,
+        "firstNightReminder": "每局游戏限一次，在夜晚，你可以进行一项不那么离谱的声明，该声明的内容可能会被实现或者只被实现一部分（你会得知最后敲定的内容）。所有玩家在下一个白天都会得知权威记者进行了一项声明，并且得知一个与该声明相关的关键词。",
+        "otherNight": 23,
+        "otherNightReminder": "每局游戏限一次，在夜晚，你可以进行一项不那么离谱的声明，该声明的内容可能会被实现或者只被实现一部分（你会得知最后敲定的内容）。所有玩家在下一个白天都会得知权威记者进行了一项声明，并且得知一个与该声明相关的关键词。",
+        "reminders": [],
+        "remindersGlobal": [
+            "进行声明",
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚，你可以进行一项不那么离谱的声明，该声明的内容可能会被实现或者只被实现一部分（你会得知最后敲定的内容）。所有玩家在下一个白天都会得知权威记者进行了一项声明，并且得知一个与该声明相关的关键词。"
+    },
+    {
+        "id": "xiaoyu_qlz",
+        "name": "欺凌者",
+        "edition": "xiaoyu",
+        "team": "minion",
+        "firstNight": 21,
+        "firstNightReminder": "每局游戏限一次，在夜晚，你可以选择2位玩家，并分别指定2件不那么离谱的游戏内事项，如果明天他们没有尽力这么做，或者有人发现是欺凌者的技能影响了他们的行为，但他们没能尽力去改变观点，第1个出现该情况的玩家会被处决。",
+        "otherNight": 22,
+        "otherNightReminder": "每局游戏限一次，在夜晚，你可以选择2位玩家，并分别指定2件不那么离谱的游戏内事项，如果明天他们没有尽力这么做，或者有人发现是欺凌者的技能影响了他们的行为，但他们没能尽力去改变观点，第1个出现该情况的玩家会被处决。",
+        "reminders": [],
+        "remindersGlobal": [
+            "受欺凌",
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "每局游戏限一次，在夜晚，你可以选择2位玩家，并分别指定2件不那么离谱的游戏内事项，如果明天他们没有尽力这么做，或者有人发现是欺凌者的技能影响了他们的行为，但他们没能尽力去改变观点，第1个出现该情况的玩家会被处决。（该效果一直持续到夜晚，如果夜晚有被欺凌的玩家违反规定，会直接占用下一个白天的处决名额）"
+    },
+    {
+        "id": "xiaoyu_xkzj",
+        "name": "产业砖家",
+        "edition": "xiaoyu",
+        "team": "demon",
+        "firstNight": 31,
+        "firstNightReminder": "2.每个夜晚，你可以向说书人提供一个关键词，你会得到一条与该关键词相关的信息",
+        "otherNight": 31,
+        "otherNightReminder": "1.每个夜晚（除首夜），你可以选择1位存活玩家并杀死他。2.每个夜晚，你可以向说书人提供一个关键词，你会得到一条与该关键词相关的信息。",
+        "reminders": [],
+        "remindersGlobal": [
+            "无能力"
+        ],
+        "setup": false,
+        "ability": "1.每个夜晚（除首夜），你可以选择1位存活玩家并杀死他。2.（被动）每个夜晚，你可以向说书人提供一个关键词，你会得到一条与该关键词相关的信息。"
+    },
+    {
+        "id": "xiaoyu_wlscs",
+        "name": "亡灵长老",
+        "edition": "xiaoyu",
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 33,
+        "otherNightReminder": "1.每个夜晚（除首夜），你可以选择1位存活玩家并杀死他。2.被你杀死的第1个爪牙保留并刷新他的能力，且解除醉酒和中毒效果。3.每局游戏限一次，你可以让你当晚杀死的玩家邻近的村民之一陷入中毒。",
+        "reminders": [],
+        "remindersGlobal": [
+            "无能力"
+        ],
+        "setup": true,
+        "ability": "1.每个夜晚（除首夜），你可以选择1位存活玩家并杀死他。2.被你杀死的第1个爪牙保留并重置他的能力，且解除醉酒和中毒效果。3.每局游戏限一次，你可以让你当晚杀死的玩家邻近的村民之一陷入中毒。4.【亡灵长老在场时，外来者减少1位】"
+    },
+    {
+        "id": "xiaoyu_hxfd",
+        "name": "污水排放者",
+        "edition": "xiaoyu",
+        "team": "demon",
+        "firstNight": 32,
+        "firstNightReminder": "2.（被动）首个夜晚，你要选择一个方向（左、右），你该方向最临近的存活村民会陷入中毒。每个夜晚（除首夜），上一晚因你中毒的那名玩家该方向最邻近的存活村民会陷入中毒，那名玩家恢复清醒。",
+        "otherNight": 32,
+        "otherNightReminder": "1.每个夜晚（除首夜），你可以选择1位存活玩家并杀死他。2.每个夜晚（除首夜），上一晚因你中毒的那名玩家该方向最邻近的存活村民会陷入中毒，那名玩家恢复清醒。",
+        "reminders": [],
+        "remindersGlobal": [
+            "中毒"
+        ],
+        "setup": false,
+        "ability": "1.每个夜晚（除首夜），你可以选择1位存活玩家并杀死他。2.（被动）首个夜晚，你要选择一个方向（左、右），你该方向最临近的存活村民会陷入中毒。每个夜晚（除首夜），上一晚因你中毒的那名玩家该方向最邻近的存活村民会陷入中毒，那名玩家恢复清醒。"
+    },
+    {
+        "id": "xiaoyu_jwc",
+        "name": "教务处",
+        "edition": "xiaoyu",
+        "team": "demon",
+        "firstNight": 33,
+        "firstNightReminder": "场上有1或2位善良玩家会被注册为邪恶的爪牙或恶魔（其他人的技能会将他视为该邪恶角色）。",
+        "otherNight": 34,
+        "otherNightReminder": "每个夜晚（除首夜），你可以选择1位玩家并杀死他。",
+        "reminders": [],
+        "remindersGlobal": [
+            "注册为爪牙",
+            "注册为恶魔"
+        ],
+        "setup": false,
+        "ability": "1.每个夜晚（除首夜），你可以选择1位存活玩家并杀死他。2.（被动）场上有1或2位善良玩家会被注册为邪恶的爪牙或恶魔（其他人的技能会将他视为该邪恶角色）。"
+    },
+    {
+        "id": "xiaoyu_xhfw",
+        "name": "筱钰不眠于雪花纷飞之夜",
+        "edition": "xiaoyu",
+        "team": "ustate",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "“深夜，筱钰在房中睡下，却被村口不住的犬吠声惊醒。泥泞的土路上，计程车呼啸而过，路灯忽明忽暗。最近，这村里来了不少人……筱钰起身推开大门，雪花漫天纷飞，远方火光渐起……”— 每个白天，说书人可能会给出一些提示或者干扰性提示。"
+    },
+    {
+        "id": "xiaoyu_dsfzy",
+        "name": "牵线红娘 & 第三方阵营",
+        "edition": "xiaoyu",
+        "team": "ustate",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [
+            "第三方阵营"
+        ],
+        "setup": true,
+        "ability": "牵线红娘可能会产生第三方阵营。1.善良阵营获胜条件：所有恶魔死亡，所有第三方阵营玩家全部死亡。2.邪恶阵营获胜条件：场上仅存活2位玩家，且所有第三方阵营玩家都已死亡。3.第三方阵营获胜条件：第五个白天结束时，场上有第三方玩家存活。"
+    }
+]
