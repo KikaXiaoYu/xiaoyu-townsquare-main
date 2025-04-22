@@ -178,7 +178,7 @@
         "level": "新手",
         "roles": [],
         "isOfficial": false,
-        "isShow": true
+        "isShow": false
     },
     {
         "id": "xiaoyu",
@@ -188,22 +188,36 @@
         "level": "新手",
         "roles": [],
         "isOfficial": false,
-        "isShow": true
+        "isShow": false
     },
     {
         "id": "lol",
-        "name": "碗泉部诗人(6-8) (正在维护) (Beta Ver.1.1)",
+        "name": "碗泉部诗人 (小板|欢乐|小钰原创) (Beta Ver.1.2)",
         "author": "小钰",
         "description": "",
         "level": "新手",
-        "roles": [],
+        "roles": [
+            "myg_nl",
+            "myg_mxw",
+            "myg_pxwe",
+            "myg_sg",
+            "myg_jwc",
+            "myg_sn",
+            "myg_dg",
+            "myg_lan",
+            "myg_zysz",
+            "myg_sslf",
+            "myg_itso",
+            "myg_qj",
+            "myg_ylsx"
+        ],
         "isOfficial": false,
         "isShow": true
 
     },
     {
         "id": "myg",
-        "name": "梅依阁诗人(8-15) (正在维护) (Beta Ver.1.1)",
+        "name": "梅依阁诗人 (欢乐|小钰原创) (Beta Ver.1.2)",
         "author": "小钰",
         "description": "",
         "level": "新手",

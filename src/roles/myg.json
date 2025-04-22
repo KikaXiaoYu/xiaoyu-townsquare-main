@@ -1,6 +1,6 @@
 [
     {
-        "id": "myg_wc",
+        "id": "myg_nl",
         "name": "奶龙",
         "edition": "myg",
         "team": "townsfolk",
@@ -11,7 +11,7 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>在首夜</u></i>，你会得知场上外来者数量是奇数还是偶数。"
+        "ability": "在你的首个夜晚，你会得知场上外来者数量是奇数还是偶数。"
     },
     {
         "id": "myg_pxwe",
@@ -25,7 +25,7 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>在首夜</u></i>，你会得知2位玩家，其中有且仅有1位是村民。"
+        "ability": "在你的首个夜晚，你会得知2位玩家，其中有且仅有1位是村民。"
     },
     {
         "id": "myg_mxw",
@@ -39,22 +39,21 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>每个夜晚</u></i>，你会得知距离你最近的存活邪恶玩家在你的左侧还是右侧，如果无法判断，则结果随机。"
+        "ability": "每个夜晚，你会得知距离你最近的存活邪恶玩家在你的左侧还是右侧，如果无法判断，则结果随机。"
     },
-    
     {
-        "id": "myg_dmxj",
-        "name": "大梦想家",
+        "id": "myg_phd",
+        "name": "研究生",
         "edition": "myg",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 32,
-        "otherNightReminder": "每个夜晚*，说书人会给提供2个愿望，你可以使其中1个成真。",
+        "otherNightReminder": "每局游戏限一次，在夜晚，你可以选择2位玩家，他们两位的技能会被融合成一个全新的技能，供你使用。",
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>首个夜晚*</u></i>，说书人会给提供2个愿望，你可以使其中1个成真。"
+        "ability": "每局游戏限一次，在夜晚*，你可以选择2位玩家，他们两位的技能会被融合成一个全新的技能，供你使用。"
     },
     {
         "id": "myg_jwc",
@@ -68,7 +67,7 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>在首夜</u></i>，你要指定一个数字x，你要选择x位玩家，在第x+1个夜晚，如果你存活，你会得知这些玩家各自的阵营。你收到的信息会同时被抄送至所有邪恶玩家的聊天框。"
+        "ability": "在你的首个夜晚，你要指定一个数字x，你要选择x位玩家，在第x+1个夜晚，如果你存活，你会得知这些玩家各自的阵营。你收到的信息会同时被抄送至所有邪恶玩家的聊天框。"
     },
     {
         "id": "myg_sn",
@@ -84,7 +83,7 @@
         ],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>每个白天</u></i>，你可以私聊说书人选择1位玩家，在当晚，如果这位玩家存活，这位玩家会获得上帝的提示，该提示对这名玩家的阵营有利。不可以重复选择玩家。"
+        "ability": "每个白天，你可以私聊说书人选择1位玩家，在当晚，如果这位玩家存活，这位玩家会获得上帝的提示，该提示对这名玩家的阵营有利。不可以重复选择玩家。"
     },
     {
         "id": "myg_sg",
@@ -98,12 +97,12 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "如果你<i><u>在夜里被恶魔杀死</u></i>，在当晚，你会得知所有已死亡玩家的角色。"
+        "ability": "如果你在夜里被恶魔杀死，在当晚，你会得知所有已死亡玩家的角色。"
     },
     {
         "id": "myg_tx",
-        "name": "酒仙",
-        "edition": "myg",
+        "name": "桃香",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -114,11 +113,27 @@
         ],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "如果你<i><u>在夜里被恶魔杀死</u></i>，所有邪恶玩家醉酒至后天黎明。"
+        "ability": "如果你在夜里被恶魔杀死，所有邪恶玩家醉酒至后天黎明。"
+    },
+    {
+        "id": "myg_ht",
+        "name": "华佗转世",
+        "edition": "myg",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 52,
+        "otherNightReminder": "每个夜晚*，你要选择1位玩家并猜测他的阵营，如果你猜对了，你可以得知他的不良状态，否则你当晚醉酒。",
+        "reminders": [
+            "醉酒"
+        ],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "每个夜晚*，你要选择1位玩家并猜测他的阵营，如果你猜对了，你可以得知他的不良状态，否则你当晚醉酒。<i><不良状态包括中毒、醉酒、认知覆盖、死亡。></i>"
     },
     {
         "id": "myg_sms",
-        "name": "算命僧",
+        "name": "算命先生",
         "edition": "myg",
         "team": "townsfolk",
         "firstNight": 0,
@@ -128,21 +143,21 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>每个白天</u></i>，你可以公开声称自己是算命僧，然后选择1位玩家或者说书人为其算命，说书人会私聊告知你结果(可能是任何形式的结果)。"
+        "ability": "每个白天，你可以公开声称自己是算命先生，然后选择1位玩家或者说书人为其算命，说书人会私聊告知你结果(可能是任何形式的结果)。"
     },
     {
-        "id": "myg_ld",
+        "id": "myg_zz",
         "name": "智子",
         "edition": "myg",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
+        "otherNight": 100,
         "otherNightReminder": "每个白天，你可以和说书人私聊，得知昨晚有多少位玩家与说书人进行过交流。",
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>每个白天</u></i>，你可以和说书人私聊，得知昨晚有多少位玩家与说书人进行过交流。"
+        "ability": "每个白天，你可以和说书人私聊，得知昨晚有多少位玩家与说书人进行过交流，并且得知发消息条数最多的一位玩家。<i><如果并列最多，则随机给出一位玩家。></i>"
     },
     {
         "id": "myg_yys",
@@ -159,7 +174,7 @@
         ],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>每局游戏限一次</u></i>，<i><u>在夜晚*</u></i>，你可以变更为一位已死亡的玩家的角色，并重新获得其技能。如果你选择了非村民玩家，你会醉酒。"
+        "ability": "每局游戏限一次，在夜晚*，你可以变更为一位已死亡的玩家的角色，并重新获得其技能。如果你选择了非村民玩家，你会醉酒。<i><你需要自行猜测你获得的技能。></i>"
     },
     {
         "id": "myg_dg",
@@ -175,7 +190,7 @@
         ],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>每局游戏限一次</u></i>，你可以在白天公开声明'<i>我要梭哈</i>'，然后点出场上所有玩家的当前<u>真实角色</u>，如果正确，你的阵营获胜。"
+        "ability": "每局游戏限一次，你可以在白天公开声明'我要梭哈'，然后选择若干位玩家，如果所有邪恶阵营都被选择，那么无事发生，否则你会死亡。"
     },
     {
         "id": "myg_ywj",
@@ -193,12 +208,12 @@
         ],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "你的技能是原创的，你不知道你的技能是什么，但说书人会告知你发动技能的形式（例如选择玩家、在白天声明等）。<i><u>每个白天</u></i>，你可以私聊说书人猜测你的技能，你会得知4种可能结果：无关/有关/接近/完美。"
+        "ability": "你的技能是原创的，你不知道你的技能是什么，但说书人会告知你发动技能的形式（例如选择玩家、在白天声明等）。每个白天，你可以私聊说书人猜测你的技能，你会得知4种可能结果：无关/有关/接近/完美。"
     },
     {
         "id": "myg_qjxz",
         "name": "奇迹行者",
-        "edition": "myg",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 48,
         "firstNightReminder": "在首夜，你会得知3条陈述。每个夜晚，你要对3条陈述判定是否。",
@@ -227,7 +242,7 @@
             "情侣"
         ],
         "setup": false,
-        "ability": "【免疫不良状态】<em><u>首个夜晚</u></em>，你要选择1位玩家，你加入他的阵营，并且你们被<u>允许随时私聊<u>。<em><u>如果你们两个是善良阵营，你们会同时死亡。</u></em>"
+        "ability": "在你的首个夜晚，你要选择1位玩家，你加入他的阵营，并且你们被允许随时私聊。如果你们两个是善良阵营，你们会同时死亡。你免疫不良状态。"
     },
     {
         "id": "myg_zysz",
@@ -258,7 +273,7 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "当你<i><u>在夜里被恶魔杀死</u></i>时，恶魔会代替你死亡，你成为新的邪恶恶魔，并且继承其印记或哈夫币的数量。"
+        "ability": "当你在夜里被恶魔杀死时，恶魔会代替你死亡，你成为新的邪恶恶魔，并且继承其印记或哈夫币的数量。"
     },
     {
         "id": "myg_lyl",
@@ -272,7 +287,7 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>每个白天</u></i>，你可以公开声称自己是李云龙，并对一位玩家进行炮击，如果该玩家是善良阵营，那么他会死亡。"
+        "ability": "每个白天，你可以公开声称自己是李云龙，并对一位玩家进行炮击，如果该玩家是善良阵营，那么他会死亡。"
     },
     {
         "id": "myg_mdld",
@@ -280,7 +295,7 @@
         "edition": "myg",
         "team": "minion",
         "firstNight": 15,
-        "firstNightReminder": "查看魔典。",
+        "firstNightReminder": "获得恶魔信息。",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -289,23 +304,23 @@
         ],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "首夜，你查看魔典。当你存活时，恶魔会被视为善良角色，你会被视为恶魔。【外来者-2】"
+        "ability": "你和恶魔一起拿到不在场的三个角色。当你存活时，恶魔会被视为善良角色，你会被视为恶魔。[-2 外来者]"
     },
     {
         "id": "myg_itso",
-        "name": "ITSO",
+        "name": "黑客",
         "edition": "myg",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 10,
-        "otherNightReminder": "每个夜晚*，你可以选择1个剧本中的角色，如果该角色在场，他当晚中毒，且当晚收到的说书人的信息有可能是瞎给的。",
+        "otherNightReminder": "每个夜晚*，你可以选择1个剧本中的角色，如果该角色在场，他当晚中毒，且当晚收到的所有说书人的信息都可能错误。",
         "reminders": [
             "中毒"
         ],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "<em><u>每个夜晚*</u></em>，你可以选择1个剧本中的角色，如果该角色在场，他当晚中毒，且当晚收到的说书人的信息有可能是瞎给的。【外来者-1】"
+        "ability": "每个夜晚*，你可以选择1个剧本中的角色，如果该角色在场，他当晚中毒，且当晚收到的所有说书人的信息都可能错误。[-1 外来者]"
     },
     {
         "id": "myg_abl",
@@ -314,12 +329,12 @@
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
+        "otherNight": 13,
         "otherNightReminder": "",
         "reminders": [],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "你不知道你的队友是谁，队友也不知道你。当你投票时，你的票会被偷偷记作x票 (x=场上总玩家数量/2，向上取整)。【外来者+2】"
+        "ability": "你不知道你的队友是谁，队友也不知道你。每局游戏限一次，在夜晚，你可以发动技能，下一个白天，被提名玩家中票数最少的玩家被处决。<i><如果并列最少，则随机处决。></i>[+2 外来者]"
     },
     {
         "id": "myg_sslf",
@@ -335,11 +350,11 @@
         ],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "<i><u>每局游戏限一次</u></i>，<i><u>在夜晚*</u></i>，选择1名玩家，当晚以及下一个白天，善良玩家对他的技能效果全部改为对施加者自己释放。【外来者+1】"
+        "ability": "每局游戏限一次，在夜晚*，选择1名玩家，当晚以及下一个白天，善良玩家对他的技能效果全部改为对施加者自己释放，他对其他玩家释放的技能全部改为对他自己释放。[+1 外来者]"
     },
     {
         "id": "myg_st",
-        "name": "砂糖",
+        "name": "松坂砂糖",
         "edition": "myg",
         "team": "minion",
         "firstNight": 27,
@@ -352,7 +367,7 @@
         ],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "<i><u>每个夜晚</u></i>，你要选择1名玩家，他当晚及下个白天会被视为邪恶，如果下个白天他被提名，所有为他投票的善良玩家当晚中毒。"
+        "ability": "每个夜晚，你要选择1名玩家，他当晚及下个白天会被视为邪恶，如果下个白天他被提名，所有为他投票的善良玩家当晚中毒。"
     },
     {
         "id": "myg_qj",
@@ -369,7 +384,7 @@
         ],
         "remindersGlobal": [],
         "setup": false,
-        "ability": "千珏印记数量为x，初始x=1。<em><u>每个夜晚</u></em>，你可以选择x名玩家(至少1位)进行<em><u>标记</u></em>，下一个白天，如果标记的玩家被处决，或者无人被处决，千珏印记数量+1；如果标记的玩家均未被处决，当晚他们全部死亡。"
+        "ability": "千珏印记数量为x，初始x=1。每个夜晚，你可以选择x名玩家(至少1位)进行<b>标记</b>，下一个白天，如果标记的玩家被处决，或者无人被处决，千珏印记数量+1；如果标记的玩家均未被处决，当晚他们全部死亡。"
     },
     {
         "id": "myg_azzlz",
@@ -384,7 +399,7 @@
         ],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "<i><u>每个夜晚*</u></i>，你要选择1位玩家，他死亡。在你选择之前，你会得知1个场上存在角色，如果他死亡，你会获得1枚哈夫币并且得知下一个存在角色。当你获得x枚哈夫币时，邪恶阵营获胜。(说书人会在第1个白天开始时公开宣布x的具体值)"
+        "ability": "每个夜晚*，你要选择1位玩家，他死亡。在你选择之前，你会得知1个场上存在角色，如果他死亡，你会获得1枚<b>哈夫币</b>并且得知下一个存在角色。当你获得x枚哈夫币时，邪恶阵营获胜。(说书人会在第1个白天开始时公开宣布x的具体值)"
     },
     {
         "id": "myg_ylsx",
@@ -412,6 +427,6 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "每个黄昏，说书人可能会用一句诗来描述场上的局势。"
+        "ability": "在第一个白天开始时，说书人会宣布恶魔的角色。<br>每个黄昏，说书人会宣布一位MVP，这位MVP是上个夜晚和白天玩得最像人类的玩家。"
     }
 ]

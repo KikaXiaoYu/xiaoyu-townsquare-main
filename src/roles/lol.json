@@ -2,7 +2,7 @@
     {
         "id": "lol_wc",
         "name": "维诚",
-        "edition": "lol",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 42,
         "firstNightReminder": "在首夜，你会得知场上所有善良玩家的角色名称字符数之和。",
@@ -16,7 +16,7 @@
     {
         "id": "lol_mxw",
         "name": "麦晓雯",
-        "edition": "lol",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 40,
         "firstNightReminder": "每个夜晚，你会得知距离你最近的邪恶玩家在你的左侧还是右侧，如果无法判断，则结果随机。",
@@ -30,7 +30,7 @@
     {
         "id": "lol_pxwe",
         "name": "派西维尔",
-        "edition": "lol",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 44,
         "firstNightReminder": "每个夜晚，你得知2名玩家，其中有且仅有1个是村民。",
@@ -44,7 +44,7 @@
     {
         "id": "lol_sg",
         "name": "死歌",
-        "edition": "lol",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -58,7 +58,7 @@
     {
         "id": "lol_jwc",
         "name": "教务处",
-        "edition": "lol",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 46,
         "firstNightReminder": "在首夜，你要指定一个数字x，你要选择x位玩家。",
@@ -72,7 +72,7 @@
     {
         "id": "lol_sn",
         "name": "神女",
-        "edition": "lol",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -88,7 +88,7 @@
     {
         "id": "lol_dg",
         "name": "赌怪",
-        "edition": "lol",
+        "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -104,7 +104,7 @@
     {
         "id": "lol_lan",
         "name": "恋爱脑",
-        "edition": "lol",
+        "edition": "",
         "team": "outsider",
         "firstNight": 20,
         "firstNightReminder": "首个夜晚，你要选择1位玩家，你加入他的阵营，并且你们被允许随时私聊。",
@@ -121,7 +121,7 @@
     {
         "id": "lol_zysz",
         "name": "正义双子",
-        "edition": "lol",
+        "edition": "",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -138,7 +138,7 @@
     {
         "id": "lol_mdld",
         "name": "莫德雷德",
-        "edition": "lol",
+        "edition": "",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "。",
@@ -155,7 +155,7 @@
     {
         "id": "lol_itso",
         "name": "ITSO",
-        "edition": "lol",
+        "edition": "",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -171,7 +171,7 @@
     {
         "id": "lol_qj",
         "name": "千珏",
-        "edition": "lol",
+        "edition": "",
         "team": "demon",
         "firstNight": 30,
         "firstNightReminder": "每个夜晚，你要选择1名玩家进行标记，他们当晚是中毒状态。",
@@ -188,7 +188,7 @@
     {
         "id": "lol_ylsx",
         "name": "羊灵生息",
-        "edition": "lol",
+        "edition": "",
         "team": "ustate",
         "firstNight": 0,
         "firstNightReminder": "",
