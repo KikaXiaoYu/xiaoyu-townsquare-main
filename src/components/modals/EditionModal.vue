@@ -3,8 +3,9 @@
       <div class="scrollable-content" v-if="!isCustom">
         <h3>Select an edition:</h3>
         <ul class="editions">
+          <!-- 仅显示 isShow 为 true 的版本 -->
           <li
-            v-for="edition in editions"
+            v-for="edition in visibleEditions"
             class="edition"
             :class="['edition-' + edition.id]"
             :style="{
@@ -121,7 +122,13 @@
         ]
       };
     },
-    computed: mapState(["modals"]),
+    computed: {
+      ...mapState(["modals"]),
+      // 过滤出 isShow 为 true 的版本
+      visibleEditions() {
+        return this.editions.filter(edition => edition.isShow !== false);
+      }
+    },
     methods: {
       openUpload() {
         this.$refs.upload.click();
@@ -243,4 +250,3 @@
     }
   }
   </style>
-  

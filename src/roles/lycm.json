@@ -53,8 +53,8 @@
         "sch_team": "生角",
         "firstNight": 11,
         "otherNight": 7,
-        "firstNightReminder": "让戏曲大家选择角色列表上的一个善良角色，如果他获得该能力，标记“获得能力”，否则让他入睡。",
-        "otherNightReminder": "让戏曲大家选择角色列表上的一个善良角色，如果他获得该能力，标记“获得能力”，否则让他入睡。",
+        "firstNightReminder": "让戏曲大家选择角色列表上的一个善良角色，如果他获得该能力，标记'获得能力'，否则让他入睡。",
+        "otherNightReminder": "让戏曲大家选择角色列表上的一个善良角色，如果他获得该能力，标记'获得能力'，否则让他入睡。",
         "reminders": [
             "获得能力"
         ]
@@ -89,8 +89,8 @@
         "sch_team": "生角",
         "firstNight": 26,
         "otherNight": 16,
-        "firstNightReminder": "让郎中指向除他以外的一名玩家，标记“上次选择”。",
-        "otherNightReminder": "让郎中指向除他以外的一名玩家，如果该玩家与“上次选择”的玩家角色类型相同，点头表示“是”，否则摇头表示“否”。移除“上次选择”，并标记该玩家“上次选择”。",
+        "firstNightReminder": "让郎中指向除他以外的一名玩家，标记'上次选择'。",
+        "otherNightReminder": "让郎中指向除他以外的一名玩家，如果该玩家与'上次选择'的玩家角色类型相同，点头表示'是'，否则摇头表示'否'。移除'上次选择'，并标记该玩家'上次选择'。",
         "reminders": [
             "上次选择"
         ]
@@ -100,7 +100,7 @@
         "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6794039077861_432a1345.jpg",
         "edition": "lycm",
         "name": "负心汉",
-        "ability": "如果你是善良的，你随时可以与另一名玩家组成搭档，且失去原来的搭档。如果有玩家“疯狂”地证明你是负心汉，你可能被处决。",
+        "ability": "如果你是善良的，你随时可以与另一名玩家组成搭档，且失去原来的搭档。如果有玩家'疯狂'地证明你是负心汉，你可能被处决。",
         "team": "townsfolk",
         "sch_team": "生角",
         "firstNight": 0,
@@ -133,7 +133,7 @@
         "firstNight": 0,
         "otherNight": 3,
         "firstNightReminder": "",
-        "otherNightReminder": "如果天子死亡，标记“驾崩”，让天子选择一名存活玩家，如果该玩家不是主演，向天子展示“你是”提示卡和那名玩家的角色标记，拇指向上代表他的阵营变为善良。交换他们的角色标记。唤醒新的天子，展示“你是”提示卡和天子角色标记，拇指向下代表他的阵营变为邪恶。",
+        "otherNightReminder": "如果天子死亡，标记'驾崩'，让天子选择一名存活玩家，如果该玩家不是主演，向天子展示'你是'提示卡和那名玩家的角色标记，拇指向上代表他的阵营变为善良。交换他们的角色标记。唤醒新的天子，展示'你是'提示卡和天子角色标记，拇指向下代表他的阵营变为邪恶。",
         "reminders": [
             "驾崩"
         ],
@@ -192,7 +192,7 @@
         "firstNight": 0,
         "otherNight": 8,
         "firstNightReminder": "",
-        "otherNightReminder": "让郡主指向一名存活玩家，如果该玩家是邪恶玩家或丑角，标记郡主“所托非人”，郡主死亡；否则当晚主演的负面能力对郡主无效。",
+        "otherNightReminder": "让郡主指向一名存活玩家，如果该玩家是邪恶玩家或丑角，标记郡主'所托非人'，郡主死亡；否则当晚主演的负面能力对郡主无效。",
         "reminders": [
             "所托非人"
         ]
@@ -202,7 +202,7 @@
         "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_274129077861_a77141d6.jpg",
         "edition": "lycm",
         "name": "妃子",
-        "ability": "如果你在被提名后公开声明“绝艳惊人出汉宫，红颜命薄古今同”，可能会有一名参与投票的玩家代替你被处决。",
+        "ability": "如果你在被提名后公开声明'绝艳惊人出汉宫，红颜命薄古今同'，可能会有一名参与投票的玩家代替你被处决。",
         "team": "outsider",
         "sch_team": "旦角",
         "firstNight": 0,
@@ -216,7 +216,7 @@
         "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_2842279077861_b3c2ddb4.jpg",
         "edition": "lycm",
         "name": "含冤女",
-        "ability": "如果你死于处决，说书人会宣布“血溅白练，六月飞雪，大旱三年”，随后，对你的死亡负最大责任的玩家需要以哭腔发言直到下个黄昏，否则他可能被处决。",
+        "ability": "如果你死于处决，说书人会宣布'血溅白练，六月飞雪，大旱三年'，随后，对你的死亡负最大责任的玩家需要以哭腔发言直到下个黄昏，否则他可能被处决。",
         "team": "outsider",
         "sch_team": "旦角",
         "firstNight": 0,
@@ -236,7 +236,7 @@
         "firstNight": 0,
         "otherNight": 11,
         "firstNightReminder": "",
-        "otherNightReminder": "如果痴情女的搭档在夜晚死亡，标记痴情女“殉情”。",
+        "otherNightReminder": "如果痴情女的搭档在夜晚死亡，标记痴情女'殉情'。",
         "reminders": [
             "殉情"
         ]
@@ -260,13 +260,13 @@
         "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_3983859077861_20532f15.jpg",
         "edition": "lycm",
         "name": "千金(!)",
-        "ability": "饰反派。每个夜晚，你要选择一名玩家：该玩家中毒且发言只能是“小生/小女子身体不适，改日再聊”直到下个黄昏，否则他可能被处决。每局游戏限一次，你可以改为选择说书人。",
+        "ability": "饰反派。每个夜晚，你要选择一名玩家：该玩家中毒且发言只能是'小生/小女子身体不适，改日再聊'直到下个黄昏，否则他可能被处决。每局游戏限一次，你可以改为选择说书人。",
         "team": "outsider",
         "sch_team": "旦角",
         "firstNight": 9,
         "otherNight": 5,
-        "firstNightReminder": "让千金选择一名玩家，标记该玩家“娇弱”。唤醒该玩家，向他展示“该角色能力对你生效”提示卡和千金角色标记。如果千金选择说书人，标记“限一次”。",
-        "otherNightReminder": "让千金选择一名玩家，标记该玩家“娇弱”。唤醒该玩家，向他展示“该角色能力对你生效”提示卡和千金角色标记。如果千金选择说书人，标记“限一次”。",
+        "firstNightReminder": "让千金选择一名玩家，标记该玩家'娇弱'。唤醒该玩家，向他展示'该角色能力对你生效'提示卡和千金角色标记。如果千金选择说书人，标记'限一次'。",
+        "otherNightReminder": "让千金选择一名玩家，标记该玩家'娇弱'。唤醒该玩家，向他展示'该角色能力对你生效'提示卡和千金角色标记。如果千金选择说书人，标记'限一次'。",
         "reminders": [
             "娇弱",
             "限一次"
@@ -282,8 +282,8 @@
         "sch_team": "净角",
         "firstNight": 29,
         "otherNight": 19,
-        "firstNightReminder": "告知青天大老爷一条关于主演的信息，如果是正确信息，标记“对”，否则标记“错”。",
-        "otherNightReminder": "告知青天大老爷一条关于主演的信息，如果上个夜晚告知了正确消息，今晚必须告知错误消息，移除“对”标记并标记“错”。否则，今晚必须告知正确消息，移除“错”标记并标记“对”。",
+        "firstNightReminder": "告知青天大老爷一条关于主演的信息，如果是正确信息，标记'对'，否则标记'错'。",
+        "otherNightReminder": "告知青天大老爷一条关于主演的信息，如果上个夜晚告知了正确消息，今晚必须告知错误消息，移除'对'标记并标记'错'。否则，今晚必须告知正确消息，移除'错'标记并标记'对'。",
         "reminders": [
             "对",
             "错"
@@ -294,7 +294,7 @@
         "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_6800539077861_be0ff793.jpg",
         "edition": "lycm",
         "name": "将军",
-        "ability": "所有玩家都知道你是将军。其他玩家不能使用自身能力选择你。每个白天，你可以公开声明“取尔项上人头”，然后选择除你以外的一名玩家和你猜拳：输了的玩家死亡。",
+        "ability": "所有玩家都知道你是将军。其他玩家不能使用自身能力选择你。每个白天，你可以公开声明'取尔项上人头'，然后选择除你以外的一名玩家和你猜拳：输了的玩家死亡。",
         "team": "minion",
         "sch_team": "净角",
         "firstNight": 50,
@@ -307,7 +307,7 @@
         "image": "https://oss.gstonegames.com/data_file/clocktower/role_icon/custom/d_683989077861_09502834.jpg",
         "edition": "lycm",
         "name": "侠客",
-        "ability": "如果没有人“疯狂”地证明你是侠客，在你的第三个黎明，说书人会宣布“十年磨一剑，一朝试锋芒”，随后的每个白天，你可以公开选择一名玩家：他死亡。",
+        "ability": "如果没有人'疯狂'地证明你是侠客，在你的第三个黎明，说书人会宣布'十年磨一剑，一朝试锋芒'，随后的每个白天，你可以公开选择一名玩家：他死亡。",
         "team": "minion",
         "sch_team": "净角",
         "firstNight": 0,
