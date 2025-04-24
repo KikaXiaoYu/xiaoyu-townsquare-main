@@ -292,7 +292,7 @@
         "edition": "myg",
         "team": "minion",
         "firstNight": 31,
-        "firstNightReminder": "在你的首个夜晚，得知场上有哪些外来者角色。",
+        "firstNightReminder": "在你的首个夜晚，得知场上有哪些外来者角色。所有初始邪恶玩家会得知场上外来者的数量。",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
