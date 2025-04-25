@@ -192,7 +192,7 @@
     },
     {
         "id": "lol",
-        "name": "碗泉部诗人 (小板|欢乐|小钰原创) (Beta Ver.1.5)",
+        "name": "碗泉部诗人 (小板|欢乐|小钰原创) (Beta Ver.2.7)",
         "author": "小钰",
         "description": "",
         "level": "新手",
@@ -204,9 +204,9 @@
             "myg_wbqzj",
             "myg_cgsn",
             "myg_dg",
-            "myg_lan",
+            "myg_gdr",
             "myg_zysz",
-            "myg_sslf",
+            "myg_yhnp",
             "myg_hk",
             "myg_qj",
             "myg_ylsx"
@@ -217,7 +217,7 @@
     },
     {
         "id": "myg",
-        "name": "梅依阁诗人 (欢乐|小钰原创) (Beta Ver.2.1)",
+        "name": "梅依阁诗人 (欢乐|小钰原创) (Beta Ver.2.7)",
         "author": "小钰",
         "description": "",
         "level": "新手",
